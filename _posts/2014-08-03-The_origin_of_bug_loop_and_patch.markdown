@@ -1,8 +1,10 @@
 ---
+published: true
 layout: post
-title: The origin of bug, loop and patch
+title: "The origin of bug, loop and patch"
+tags:
 ---
-Bug, loop and patch - these words have been part of programmer lingo for decades. On my recent trip to the US east coast I stumbled across their origin: 
+Bug, loop and patch - these words have been part of programmer lingo for decades. On my recent trip to the US east coast I stumbled across their origin:
 
 The [Harvard Mark I](http://en.wikipedia.org/wiki/Harvard_Mark_I) aka the IBM Automatic Sequence Controlled Calculator!
 
