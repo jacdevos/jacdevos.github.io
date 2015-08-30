@@ -5,7 +5,7 @@ gems:
   - jemoji
 
 # Site settings
-title: "Blog of Jacques de Vos"
+title: "Jacques de Vos"
 description: > # this means to ignore newlines until "email:"
    Experiments and experiences in software.
 
