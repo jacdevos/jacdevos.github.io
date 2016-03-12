@@ -39,6 +39,7 @@ Anyway here goes:
 ### People, Teams and Enviroments
 * Drive (Daniel Pink)
 * The 5 disfunctions of a team
+* [Peopleware](http://www.amazon.com/dp/0932633439/)
 
 ### Being a professional developer
 * The Pragmatic Programmer
