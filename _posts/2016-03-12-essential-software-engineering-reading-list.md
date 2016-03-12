@@ -46,7 +46,9 @@ Anyway here goes:
 * Code Complete 2
 * Craftsmanship
 
-*Books I have to read again, because I realise their significance now, but can't remember the content:
+*Books I have to read again, because I didn't realise their significance when I read it, and therefore can't remember the content.
+**Books that are still on my must-read, adding it here more for myself.
+
 
 
 
