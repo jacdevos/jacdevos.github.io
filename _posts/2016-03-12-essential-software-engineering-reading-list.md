@@ -13,42 +13,40 @@ Here is a **list of classics** that have informed my thinking on software engine
 
 Anyway here goes:
 
-Process
+### Approach and principles:
 * The Agile Manifesto
+* Lean Software Development: An Agile Toolkit
 * The Principles of Product Development flow
 * The New New Product Development game
-* Lean Software Development: An Agile Toolkit
 * Extreme Programming Explained: Embrace Change
 * Extreme Programming, a Reflection (blog post)
 * The Mytical Man Month
 * XP
 * Scrum
 * Lean, Scrum and XP from the Trenches
+* The Art of Unix Programming, Cathederal and the Bazaar
 
-Building the right thing
+### Building the right thing
 * User Story Mapping - 
 * Lean Startup - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
 
-Building the thing right
+### Building the thing right
 * Refactoring - Code is design and design should be evole
 * Continous delivery
 * DDD
 * TDD
 
-People, Teams and Enviroments
+### People, Teams and Enviroments
 * Drive (Daniel Pink)
 * The 5 disfunctions of a team
 
-Being a professional developer
+### Being a professional developer
 * The Pragmatic Programmer
 * Clean Code
 * Code Complete 2
 * Craftsmanship
 
-Other
-Cathederal and the bazaar and The Art of Unix Programming
-
-Books I have to read again, because I realise their significance now, but can't remember the content:
+*Books I have to read again, because I realise their significance now, but can't remember the content:
 
 
 
