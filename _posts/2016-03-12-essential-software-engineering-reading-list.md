@@ -39,7 +39,7 @@ Anyway here goes:
 ### People, Teams and Enviroments
 * Drive (Daniel Pink)
 * The 5 disfunctions of a team
-* [Peopleware](http://www.amazon.com/dp/0932633439/)
+* [Peopleware](http://www.amazon.com/dp/0932633439/) **
 
 ### Being a professional developer
 * The Pragmatic Programmer
@@ -47,7 +47,8 @@ Anyway here goes:
 * Code Complete 2
 * Craftsmanship
 
-*Books I have to read again, because I didn't realise their significance when I read it, and therefore can't remember the content.
+*Books I have to read again, because I didn't realise their significance when I read it, and therefore didn't absorb the content.
+
 **Books that are still on my must-read, adding it here more for myself.
 
 
