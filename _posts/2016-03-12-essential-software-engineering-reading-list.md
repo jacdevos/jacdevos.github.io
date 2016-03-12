@@ -4,7 +4,7 @@ published: false
 
 ## Essential Software Engineering Reading
 
-Here is a **list of classics** that have informed my thinking on software engineering. This list does not include my list of (great) programming books , but speaks more to understanding and managing software development on a higher level - as I believe most software dev succeeds/fails before a line of code was written.
+Here is a **list of classic articles and books** that have informed my thinking on software engineering. This list does not include my list of (great) programming books , but speaks more to understanding and managing software development on a higher level - as I believe most software dev succeeds/fails before a line of code was written.
 
 #### A note on learning:
 *Almost all I know and believe about software comes from experiences and observations in delivering software, but that does not discount the value in these tomes. I typically learn a fundamental principle by first observing a phenomena in various environments, and then, when I come accross a great study or article which clearly expresses and justifies the principle I get that AHA! moment where deep understanding is formed. E.g. seeing estimation inaccuracy occur 100s of times, and then reading Don Reinersen's description of variability in product developments gave me a big AHA!.*
