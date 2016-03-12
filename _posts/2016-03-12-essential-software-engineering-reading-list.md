@@ -15,7 +15,7 @@ Here goes:
 
 ### Approach and principles:
 * [The Mytical Man Month, Brooks, F. P.(1975)](http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) *
-* [No Silver Bullet, Brooks, F. P.(1975)](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
+* [No Silver Bullet, Brooks, F. P.(1986)](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
 * [The Agile Manifesto](http://www.agilemanifesto.org/)
 * Extreme Programming Explained: Embrace Change
 * Extreme Programming, a Reflection (blog post)
