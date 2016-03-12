@@ -32,7 +32,7 @@ Anyway here goes:
 
 ### Building the thing right
 * Refactoring - Code is design and design should be evole
-* Continous delivery
+* Continous Delivery
 * DDD
 * TDD
 
