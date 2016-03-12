@@ -45,7 +45,7 @@ Anyway here goes:
 * The Pragmatic Programmer
 * Clean Code
 * Code Complete 2
-* Craftsmanship
+* Craftsmanship **
 
 *Books I have to read again, because I didn't realise their significance when I read it, and therefore didn't absorb the content.
 
