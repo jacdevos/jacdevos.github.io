@@ -30,8 +30,8 @@ Here goes:
 * Lean Startup - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
 
 ### Building the thing right
-* Refactoring - Code is design and design should be evole
 * Continous Delivery
+* Refactoring - Code is design and design should be evole
 * DDD
 * TDD
 * Parnas
