@@ -27,6 +27,11 @@ Here goes:
 * Silver bullet
 * Waterfall
 
+### People, Teams and Enviroments
+* Drive (Daniel Pink)
+* The 5 disfunctions of a team
+* [Peopleware](http://www.amazon.com/dp/0932633439/) **
+
 ### Building the right thing
 * User Story Mapping - 
 * Lean Startup - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
@@ -36,11 +41,6 @@ Here goes:
 * Continous Delivery
 * DDD
 * TDD
-
-### People, Teams and Enviroments
-* Drive (Daniel Pink)
-* The 5 disfunctions of a team
-* [Peopleware](http://www.amazon.com/dp/0932633439/) **
 
 ### Being a professional developer
 * The Pragmatic Programmer
