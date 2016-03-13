@@ -2,10 +2,6 @@
 published: true
 ---
 
-
-
-
-
 ## Essential Software Engineering Reading
 
 Here is a **list of classic articles and books** that have informed my thinking on software engineering. This list does not include my list of (great) programming or management books, but speaks more to understanding and managing software development on a higher level - as I believe most software endeavors succeed/fail before a line of code was written.
