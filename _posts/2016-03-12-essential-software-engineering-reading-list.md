@@ -4,6 +4,7 @@ published: false
 
 
 
+
 ## Essential Software Engineering Reading
 
 Here is a **list of classic articles and books** that have informed my thinking on software engineering. This list does not include my list of (great) programming or management books, but speaks more to understanding and managing software development on a higher level - as I believe most software dev succeeds/fails before a line of code was written.
@@ -29,14 +30,15 @@ Here goes:
 ### Building the right thing
 * [User Story Mapping, Patton (2014)](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 * [The Lean Startup, Ries (2011)](http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898) - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
+* [Specification by Example, Adzic (2011)](http://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084)
 
 ### Building the thing right
 * [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evole
 * [Continous Integration, Fowler (2006)](http://www.martinfowler.com/articles/continuousIntegration.html) 
 * [Continuous Delivery, Humble (2010)](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
 * [Clean Code, Martin (2008)](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-* DDD
-* TDD
+* [Domain-Driven Design, Evans (2003)](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) **
+* [Test Driven Development: By Example, Beck (2002)](http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530) *
 * Parnas
 
 ### Being a professional developer
