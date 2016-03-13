@@ -34,13 +34,14 @@ Here goes:
 * Continous Delivery
 * DDD
 * TDD
+* Parnas
 
 ### Being a professional developer
-* [The Art of Unix Programming, Raymond(2003)](http://www.catb.org/esr/writings/taoup/html/) Cathederal and the Bazaar
 * The Pragmatic Programmer
 * Clean Code
 * Code Complete 2
 * Craftsmanship **
+* [The Art of Unix Programming, Raymond(2003)](http://www.catb.org/esr/writings/taoup/html/)
 
 ### People, teams, systems and environment (still have a lot of reading to do here!)
 * [Drive: The Surprising Truth About What Motivates Us, Pink (2011)](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
@@ -53,4 +54,4 @@ Here goes:
 
 *Books I have to read again, because I didn't realise their significance when I read it, and therefore didn't absorb the content.
 
-**Books that are still on my must-read, adding it here more for myself.
+**Books I have only skimmed that are still on my must-read.
