@@ -24,10 +24,12 @@ Here goes:
 * [Lean Software Development: An Agile Toolkit, Poppendiecks (2003)](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
 * [The Principles of Product Development Flow (2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
 
-### People, Teams and Enviroments
+### People, teams, systems and environment (still have a lot of TODOs here!)
 * Drive (Daniel Pink)
 * The 5 disfunctions of a team
-* [Peopleware](http://www.amazon.com/dp/0932633439/) **
+* [Out of the Crisis, Deming (1982)]()
+* [Peopleware, DeMarco&Lister (1987)](http://www.amazon.com/dp/0932633439/) **
+* [An Introduction to General Systems Thinking, Weinberg (1975)](http://www.amazon.com/gp/product/0932633498/) **
 
 ### Building the right thing
 * User Story Mapping - 
