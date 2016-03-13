@@ -17,7 +17,7 @@ Here is a **list of classic articles and books** that have informed my thinking 
 Here goes:
 
 ### Approach and principles:
-* [Managing the Development of Large Software Systems, Royce (1970)](https://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf) The paper that introduced the waterfall clearly gave a warning about its riks and recommended rudementary ways to introduce feedback
+* [Managing the Development of Large Software Systems, Royce (1970)](https://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf) The paper that introduced the waterfall already gave a warning about its risk and recommended (rudementary) ways to introduce feedback
 * [The Mytical Man Month, Brooks (1975)](http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) *
 * [No Silver Bullet, Brooks (1986)](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
 * [The New New Product Development Game, Takeuchi&Nonaka (1986)](https://hbr.org/1986/01/the-new-new-product-development-game)
