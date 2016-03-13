@@ -27,8 +27,8 @@ Here goes:
 * [The Principles of Product Development Flow (2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
 
 ### Building the right thing
-* User Story Mapping - 
-* Lean Startup - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
+* [User Story Mapping, Patton (2014)](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
+* [The Lean Startup, Ries (2011)](http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898) - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
 
 ### Building the thing right
 * Continous Delivery
