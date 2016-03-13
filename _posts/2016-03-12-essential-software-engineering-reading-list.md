@@ -3,6 +3,7 @@ published: false
 ---
 
 
+
 ## Essential Software Engineering Reading
 
 Here is a **list of classic articles and books** that have informed my thinking on software engineering. This list does not include my list of (great) programming or management books, but speaks more to understanding and managing software development on a higher level - as I believe most software dev succeeds/fails before a line of code was written.
@@ -41,7 +42,7 @@ Here goes:
 * Clean Code
 * Code Complete 2
 * Craftsmanship **
-* [The Art of Unix Programming, Raymond(2003)](http://www.catb.org/esr/writings/taoup/html/)
+* [The Art of Unix Programming, Raymond (2003)](http://www.catb.org/esr/writings/taoup/html/)
 
 ### People, teams, systems and environment (still have a lot of reading to do here!)
 * [Drive: The Surprising Truth About What Motivates Us, Pink (2011)](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
