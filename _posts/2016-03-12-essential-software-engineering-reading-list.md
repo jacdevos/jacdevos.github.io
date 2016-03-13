@@ -34,13 +34,13 @@ Here goes:
 * [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evole
 * [Continous Integration, Fowler (2006)](http://www.martinfowler.com/articles/continuousIntegration.html) 
 * [Continuous Delivery, Humble (2010)](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
+* [Clean Code, Martin (2008)](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 * DDD
 * TDD
 * Parnas
 
 ### Being a professional developer
 * The Pragmatic Programmer
-* Clean Code
 * Code Complete 2
 * Craftsmanship **
 * [The Art of Unix Programming, Raymond (2003)](http://www.catb.org/esr/writings/taoup/html/)
