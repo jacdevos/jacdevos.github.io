@@ -2,6 +2,7 @@
 published: false
 ---
 
+
 ## Essential Software Engineering Reading
 
 Here is a **list of classic articles and books** that have informed my thinking on software engineering. This list does not include my list of (great) programming or management books, but speaks more to understanding and managing software development on a higher level - as I believe most software dev succeeds/fails before a line of code was written.
@@ -24,15 +25,6 @@ Here goes:
 * [Lean Software Development: An Agile Toolkit, Poppendiecks (2003)](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
 * [The Principles of Product Development Flow (2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
 
-### People, teams, systems and environment (still have a lot of reading to do here!)
-* [Drive: The Surprising Truth About What Motivates Us, Pink (2011)](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
-* [The Five Dysfunctions of a Team: A Leadership Fable, Lencioni (2002)](http://www.amazon.com/The-Five-Dysfunctions-Team-Leadership/dp/0787960756)
-* [Peopleware, DeMarco&Lister (1987)](http://www.amazon.com/dp/0932633439/) **
-* [Leading Self-Directed Work Teams, Fisher (1993)](http://www.amazon.com/Leading-Self-Directed-Teams-Kimball-Fisher/dp/0071349243)
-* [Out of the Crisis, Deming (1982)](http://www.amazon.com/Out-Crisis-W-Edwards-Deming/dp/0262541157) **
-* [An Introduction to General Systems Thinking, Weinberg (1975)](http://www.amazon.com/gp/product/0932633498/) **
-* [Biomatrix: A Systems Approach to Organisational and Societal Change, Dostal (2005)](http://www.amazon.com/Biomatrix-Systems-Approach-Organisational-Societal/dp/0620342358) *
-
 ### Building the right thing
 * User Story Mapping - 
 * Lean Startup - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
@@ -49,6 +41,15 @@ Here goes:
 * Clean Code
 * Code Complete 2
 * Craftsmanship **
+
+### People, teams, systems and environment (still have a lot of reading to do here!)
+* [Drive: The Surprising Truth About What Motivates Us, Pink (2011)](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
+* [The Five Dysfunctions of a Team: A Leadership Fable, Lencioni (2002)](http://www.amazon.com/The-Five-Dysfunctions-Team-Leadership/dp/0787960756)
+* [Peopleware, DeMarco&Lister (1987)](http://www.amazon.com/dp/0932633439/) **
+* [Leading Self-Directed Work Teams, Fisher (1993)](http://www.amazon.com/Leading-Self-Directed-Teams-Kimball-Fisher/dp/0071349243)
+* [Out of the Crisis, Deming (1982)](http://www.amazon.com/Out-Crisis-W-Edwards-Deming/dp/0262541157) **
+* [An Introduction to General Systems Thinking, Weinberg (1975)](http://www.amazon.com/gp/product/0932633498/) **
+* [Biomatrix: A Systems Approach to Organisational and Societal Change, Dostal (2005)](http://www.amazon.com/Biomatrix-Systems-Approach-Organisational-Societal/dp/0620342358) *
 
 *Books I have to read again, because I didn't realise their significance when I read it, and therefore didn't absorb the content.
 
