@@ -5,27 +5,28 @@ published: false
 
 
 
+
 ## Essential Software Engineering Reading
 
-Here is a **list of classic articles and books** that have informed my thinking on software engineering. This list does not include my list of (great) programming or management books, but speaks more to understanding and managing software development on a higher level - as I believe most software dev succeeds/fails before a line of code was written.
+Here is a **list of classic articles and books** that have informed my thinking on software engineering. This list does not include my list of (great) programming or management books, but speaks more to understanding and managing software development on a higher level - as I believe most software endeavors succeed/fail before a line of code was written.
 
 #### A note on learning:
-*Almost all I know and believe about software comes from experiences and observations in delivering software, but that does not discount the value in these tomes. I typically learn a fundamental principle by first observing a phenomena in various environments, and then, when I come accross a great study or article which clearly expresses and justifies the principle I get that AHA! moment where deep understanding is formed. E.g. seeing estimation inaccuracy occur 100s of times, and then reading Don Reinersen's description of variability in product developments gave me a big AHA!.*
+*Almost all I know and believe about software comes from experiences and observations in delivering software, but that does not discount the value in these tomes. I typically learn a fundamental principle by first observing a phenomenon in various environments, and then, when I come across a great study or article which clearly expresses and justifies the principle I get that "AHA!" moment where deep understanding is formed. E.g. seeing estimation inaccuracy occur 100s of times, and then reading Don Reinertsen's description of variability in product developments gave me a big "AHA!".*
 
 *Too be honest, so much in software engineering isn't obvious or intuitive and I initially miss the messages in books that were not pre-empted by my experiences (XP being a prime example).*
 
 Here goes:
 
 ### Approach and principles:
-* [Managing the Development of Large Software Systems, Royce (1970)](https://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf) The paper that introduced the waterfall already gave a warning about its risk and recommended (rudementary) ways to introduce feedback
-* [The Mytical Man Month, Brooks (1975)](http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) *
+* [Managing the Development of Large Software Systems, Royce (1970)](https://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf) The paper that introduced the waterfall already gave a warning about its risk and showed (rudimentary) ways to introduce feedback
+* [The Mythical Man Month, Brooks (1975)](http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) *
 * [No Silver Bullet, Brooks (1986)](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
 * [The New New Product Development Game, Takeuchi&Nonaka (1986)](https://hbr.org/1986/01/the-new-new-product-development-game)
 * [Extreme Programming Explained: Embrace Change, Kent Beck (1999)](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) *
 * [The Agile Manifesto (2001)](http://www.agilemanifesto.org/)
 * [Agile Software Development with Scrum, Schwaber&Beedle (2002)](http://www.amazon.com/Agile-Software-Development-Scrum-Series/dp/0130676349) *
 * [Lean Software Development: An Agile Toolkit, Poppendiecks (2003)](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
-* [The Principles of Product Development Flow (2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
+* [The Principles of Product Development Flow, Reinertsen (2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
 
 ### Building the right thing
 * [User Story Mapping, Patton (2014)](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
@@ -33,7 +34,7 @@ Here goes:
 * [Specification by Example, Adzic (2011)](http://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084)
 
 ### Building the thing right
-* [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evole
+* [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evolve
 * [Continous Integration, Fowler (2006)](http://www.martinfowler.com/articles/continuousIntegration.html) 
 * [Continuous Delivery, Humble (2010)](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
 * [Clean Code, Martin (2008)](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
