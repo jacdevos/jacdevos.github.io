@@ -42,10 +42,10 @@ Here goes:
 * Parnas
 
 ### Being a professional developer
-* The Pragmatic Programmer
-* Code Complete 2
-* Craftsmanship **
+* [Code Complete, McConnell (1993)](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
+* [The Pragmatic Programmer, Hunt&Thomas (1999)](http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
 * [The Art of Unix Programming, Raymond (2003)](http://www.catb.org/esr/writings/taoup/html/)
+* [The Software Craftsman, Mancuso (2014)](http://www.amazon.com/The-Software-Craftsman-Professionalism-Pragmatism/dp/0134052501) **
 
 ### People, teams, systems and environment (still have a lot of reading to do here!)
 * [Drive: The Surprising Truth About What Motivates Us, Pink (2011)](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
