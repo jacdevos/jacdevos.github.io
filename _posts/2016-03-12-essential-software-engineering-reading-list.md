@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 
@@ -55,7 +55,7 @@ Here goes:
 * [Leading Self-Directed Work Teams, Fisher (1993)](http://www.amazon.com/Leading-Self-Directed-Teams-Kimball-Fisher/dp/0071349243)
 * [Out of the Crisis, Deming (1982)](http://www.amazon.com/Out-Crisis-W-Edwards-Deming/dp/0262541157) **
 * [An Introduction to General Systems Thinking, Weinberg (1975)](http://www.amazon.com/gp/product/0932633498/) **
-* [Biomatrix: A Systems Approach to Organisational and Societal Change, Dostal (2005)](http://www.amazon.com/Biomatrix-Systems-Approach-Organisational-Societal/dp/0620342358) *
+* [Biomatrix: A Systems Approach to Organisational and Societal Change, Dostal (2005)](http://www.amazon.com/Biomatrix-Systems-Approach-Organisational-Societal/dp/0620342358) 
 
 *Books I have to read again, because I didn't realise their significance when I read it, and therefore didn't absorb the content.
 
