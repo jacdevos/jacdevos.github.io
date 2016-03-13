@@ -1,8 +1,8 @@
 ---
 published: true
+layout: post
+title: Essential software engineering reading list
 ---
-
-
 
 Here is a **list of classic articles and books** that have informed my thinking on software engineering. 
 
