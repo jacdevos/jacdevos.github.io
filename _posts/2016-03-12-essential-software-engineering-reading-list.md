@@ -31,8 +31,9 @@ Here goes:
 * [The Lean Startup, Ries (2011)](http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898) - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
 
 ### Building the thing right
-* Continous Delivery
-* Refactoring - Code is design and design should be evole
+* [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evole
+* [Continous Integration, Fowler (2006)](http://www.martinfowler.com/articles/continuousIntegration.html) 
+* [Continuous Delivery, Humble (2010)](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
 * DDD
 * TDD
 * Parnas
