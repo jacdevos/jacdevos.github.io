@@ -16,11 +16,12 @@ Here goes:
 ### Approach and principles:
 * [The Mytical Man Month, Brooks, F. P.(1975)](http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) *
 * [No Silver Bullet, Brooks, F. P.(1986)](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
-* [The New New Product Development Game(1986)](https://hbr.org/1986/01/the-new-new-product-development-game)* [The Agile Manifesto](http://www.agilemanifesto.org/)
+* [The New New Product Development Game(1986)](https://hbr.org/1986/01/the-new-new-product-development-game)
+* [Extreme Programming Explained: Embrace Change, Kent Beck (1999)](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658)
+* [The Agile Manifesto (2001)](http://www.agilemanifesto.org/)
 * Extreme Programming Explained: Embrace Change
 * Extreme Programming, a Reflection (blog post)
-* [Lean Software Development: An Agile Toolkit](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
-
+* [Lean Software Development: An Agile Toolkit, Poppendiecks (2003)](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
 * [The Principles of Product Development Flow(2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
 * XP
 * Scrum
