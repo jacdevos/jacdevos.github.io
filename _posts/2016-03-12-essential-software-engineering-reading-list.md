@@ -24,12 +24,14 @@ Here goes:
 * [Lean Software Development: An Agile Toolkit, Poppendiecks (2003)](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
 * [The Principles of Product Development Flow (2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
 
-### People, teams, systems and environment (still have a lot of TODOs here!)
-* Drive (Daniel Pink)
-* The 5 disfunctions of a team
-* [Out of the Crisis, Deming (1982)]()
+### People, teams, systems and environment (still have a lot of reading to do here!)
+* [Drive: The Surprising Truth About What Motivates Us, Pink (2011)](http://www.amazon.com/Drive-Surprising-Truth-About-Motivates/dp/1594484805)
+* [The Five Dysfunctions of a Team: A Leadership Fable, Lencioni (2002)](http://www.amazon.com/The-Five-Dysfunctions-Team-Leadership/dp/0787960756)
 * [Peopleware, DeMarco&Lister (1987)](http://www.amazon.com/dp/0932633439/) **
+* [Leading Self-Directed Work Teams, Fisher (1993)](http://www.amazon.com/Leading-Self-Directed-Teams-Kimball-Fisher/dp/0071349243)
+* [Out of the Crisis, Deming (1982)](http://www.amazon.com/Out-Crisis-W-Edwards-Deming/dp/0262541157) **
 * [An Introduction to General Systems Thinking, Weinberg (1975)](http://www.amazon.com/gp/product/0932633498/) **
+* [Biomatrix: A Systems Approach to Organisational and Societal Change, Dostal (2005)](http://www.amazon.com/Biomatrix-Systems-Approach-Organisational-Societal/dp/0620342358) *
 
 ### Building the right thing
 * User Story Mapping - 
