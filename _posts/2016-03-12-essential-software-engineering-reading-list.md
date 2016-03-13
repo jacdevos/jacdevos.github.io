@@ -14,18 +14,15 @@ Here is a **list of classic articles and books** that have informed my thinking 
 Here goes:
 
 ### Approach and principles:
-* [The Mytical Man Month, Brooks, F. P.(1975)](http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) *
-* [No Silver Bullet, Brooks, F. P.(1986)](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
-* [The New New Product Development Game, Takeuchi&Nonaka(1986)](https://hbr.org/1986/01/the-new-new-product-development-game)
+* [Managing the Development of Large Software Systems, Royce (1970) - "Waterfall"](https://www.cs.umd.edu/class/spring2003/cmsc838p/Process/waterfall.pdf)
+* [The Mytical Man Month, Brooks (1975)](http://www.amazon.com/The-Mythical-Man-Month-Engineering-Anniversary/dp/0201835959) *
+* [No Silver Bullet, Brooks (1986)](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
+* [The New New Product Development Game, Takeuchi&Nonaka (1986)](https://hbr.org/1986/01/the-new-new-product-development-game)
 * [Extreme Programming Explained: Embrace Change, Kent Beck (1999)](http://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658) *
 * [The Agile Manifesto (2001)](http://www.agilemanifesto.org/)
 * [Agile Software Development with Scrum, Schwaber&Beedle (2002)](http://www.amazon.com/Agile-Software-Development-Scrum-Series/dp/0130676349) *
 * [Lean Software Development: An Agile Toolkit, Poppendiecks (2003)](http://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783)
-* [The Principles of Product Development Flow(2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
-* Lean, Scrum and XP from the Trenches
-* The Art of Unix Programming, Cathederal and the Bazaar
-* Silver bullet
-* Waterfall
+* [The Principles of Product Development Flow (2009)](http://www.amazon.com/The-Principles-Product-Development-Flow/dp/1935401009)
 
 ### People, Teams and Enviroments
 * Drive (Daniel Pink)
@@ -43,6 +40,7 @@ Here goes:
 * TDD
 
 ### Being a professional developer
+* [The Art of Unix Programming, Raymond(2003)](http://www.catb.org/esr/writings/taoup/html/) Cathederal and the Bazaar
 * The Pragmatic Programmer
 * Clean Code
 * Code Complete 2
@@ -51,8 +49,3 @@ Here goes:
 *Books I have to read again, because I didn't realise their significance when I read it, and therefore didn't absorb the content.
 
 **Books that are still on my must-read, adding it here more for myself.
-
-
-
-
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
