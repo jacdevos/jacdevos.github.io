@@ -30,6 +30,7 @@ Here goes:
 * [User Story Mapping, Patton (2014)](http://www.amazon.com/User-Story-Mapping-Discover-Product/dp/1491904909)
 * [The Lean Startup, Ries (2011)](http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898) - to find out if we are building the right things often needs more than just detailed analysis, we need to experiment, but do it fast so that we don't run out of time/money.
 * [Specification by Example, Adzic (2011)](http://www.amazon.com/Specification-Example-Successful-Deliver-Software/dp/1617290084)
+* I need more on Interaction and User Experience design! **
 
 ### Building the thing right
 * [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evolve
