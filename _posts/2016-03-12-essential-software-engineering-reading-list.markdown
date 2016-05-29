@@ -33,14 +33,14 @@ Here goes:
 * I need more on Interaction and User Experience design! **
 
 ### Building the thing right
+* [Decomposing Systems into Modules, D.L. Parnas (1972)](https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf)
 * [What is Software Design?, Reeves (1992)](http://www.developerdotstar.com/mag/articles/reeves_design.html)
 * [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evolve
-* [Continous Integration, Fowler (2006)](http://www.martinfowler.com/articles/continuousIntegration.html) 
-* [Continuous Delivery, Humble (2010)](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
-* [Clean Code, Martin (2008)](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-* [Domain-Driven Design, Evans (2003)](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) **
 * [Test Driven Development: By Example, Beck (2002)](http://www.amazon.com/Test-Driven-Development-By-Example/dp/0321146530) *
-* Parnas
+* [Domain-Driven Design, Evans (2003)](http://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215) **
+* [Continous Integration, Fowler (2006)](http://www.martinfowler.com/articles/continuousIntegration.html) 
+* [Clean Code, Martin (2008)](http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+* [Continuous Delivery, Humble (2010)](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
 
 ### Being a professional developer
 * [Code Complete, McConnell (1993)](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
