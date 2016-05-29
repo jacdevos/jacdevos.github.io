@@ -33,6 +33,7 @@ Here goes:
 * I need more on Interaction and User Experience design! **
 
 ### Building the thing right
+• [What is Software Design?, Reeves (1992)](http://www.developerdotstar.com/mag/articles/reeves_design.html)
 * [Refactoring, Fowler&Beck&Brant&Opdyke&Roberts (1999)](http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672) - Code is design and design should be evolve
 * [Continous Integration, Fowler (2006)](http://www.martinfowler.com/articles/continuousIntegration.html) 
 * [Continuous Delivery, Humble (2010)](http://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
