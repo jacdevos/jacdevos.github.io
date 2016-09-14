@@ -14,5 +14,4 @@ The problems addressed include:
 -   Congestion: Slow, unpredictable delivery even though we are very busy
 -   Firefighting: We know what we should do, but we don’t have time to improve
 
-
 {% include software-engineering-with-equations.html %}
