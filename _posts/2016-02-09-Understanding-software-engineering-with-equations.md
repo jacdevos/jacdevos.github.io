@@ -15,3 +15,5 @@ The problems addressed include:
   * Code-Degeneration: Code changes become more difficult over time
   * Congestion: Slow, unpredictable delivery even though we are very busy
   * Firefighting: We know what we should do, but we don’t have time to improve 
+
+{% include software-engineering-with-equations.html %}
