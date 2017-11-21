@@ -3,9 +3,9 @@ published: true
 layout: post
 title: 'Software best practice is dead'
 ---
-{% include 2017-11-21-software-best-practice-is-dead.html %}
-
 Treating your mature enterprise product carelessly will get your business into deep trouble, but gold plating a new product, before you are sure that you are building the right thing, can bring your venture to a premature end.
+
+{% include 2017-11-21-software-best-practice-is-dead.html %}
 
 I gave this talk at ASAS 2017, SDN Netherlands 2017 and Agile Africa 2017.
 
