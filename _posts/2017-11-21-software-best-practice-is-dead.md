@@ -14,4 +14,4 @@ In this talk I will take you through new ideas on the topic and important differ
 
 This talk is for any software professional who cares about business value.
 
-{% include hybrid-vs-native-mobile-development.html %}
+{% include 2017-11-21-software-best-practice-is-dead.html %}
