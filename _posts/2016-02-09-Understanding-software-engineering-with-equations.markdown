@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: Understanding software engineering with equations (DeveloperUG 2016 Talk)
+title: Understanding software engineering with equations (Codemotion Berlin 2017 Talk)
 ---
 
 In order to escape the common traps of software development, teams and managers need to understand the consequences of their decisions - they need to understand the dynamics of software engineering. This is not an easy task and we need solid help. We need maths!
