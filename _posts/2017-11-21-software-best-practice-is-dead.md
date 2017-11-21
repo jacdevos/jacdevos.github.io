@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 Treating your mature enterprise product carelessly will get your business into deep trouble, but gold plating a new product, before you are sure that you are building the right thing, is extremely wasteful.
 
