@@ -2,7 +2,7 @@
 published: true
 layout: post
 ---
-## Software best practice is dead (ASAS, SDN Netherlands, Agile Africa 2017)
+# Software best practice is dead (ASAS, SDN Netherlands, Agile Africa 2017)
 
 Treating your mature enterprise product carelessly will get your business into deep trouble, but gold plating a new product, before you are sure that you are building the right thing, can bring your venture to a premature end.
 
