@@ -10,4 +10,4 @@ It began with a brief overview of the LLM breakthrough, highlighting the transfo
 
 The session then offered software engineers a practical mental model: thinking of LLMs as a new type of processor, analogous in some ways to a CPU.
 
-{% include 2017-11-21-software-best-practice-is-dead.html %}
+{% include llmgenaiasnewprocessor.html %}
