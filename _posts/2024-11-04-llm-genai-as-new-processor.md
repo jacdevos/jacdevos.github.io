@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: LLM/GenAI as a New Processor (Presented at Code Collective Conf, Nov 2024)
+title: LLMs as the new processor (Presented at Code Collective Conf, Nov 2024)
 ---
 
 This talk introduced LLMs and GenAI to software developers as a new kind of processor with remarkable capabilities, framed within the history of computing.
