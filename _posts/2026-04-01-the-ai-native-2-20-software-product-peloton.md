@@ -18,7 +18,7 @@ The shape below is stitched together from **first principles and from what I hav
 
 I mean this as an **open discussion**, not a manifesto: the field is moving quickly, and I am super keen to learn more from others thoughts and experiences.
 
-Replace the Squad, the current idealised 5-7 person cross-functional team, with a Peloton:
+So here it is: instead of "Spotify Squad" structure, the current idealised 5-7 person cross-functional team, with a Peloton:
 
 **Ideal structure & roles:**
 
