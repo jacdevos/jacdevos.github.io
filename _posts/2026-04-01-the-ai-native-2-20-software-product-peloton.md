@@ -6,6 +6,8 @@ title: The AI-Native 2/20 Software Product Peloton
 
 **TL;DR** a 20 person software product team structure (aka Peloton), composed of about 7 2-person-crews, with about 5 supporting specialists and a product manager could remove new bottlenecks due to new LLM efficiencies.
 
+![Peloton: crews, specialists, and product manager](/assets/article_images/2026-04-01-the-ai-native-2-20-software-product-peloton/peloton-structure.png)
+
 LLMs has significantly expanded what individual software product developers can achieve.
 
 How does this massive change affect software product org structures? This seems to be an open, jarring question.
