@@ -4,7 +4,7 @@ layout: post
 title: The AI-Native 2/20 Software Product Peloton
 ---
 
-**TL;DR** a **thought experiment for larger software product orgs**: a ~20 person team structure (aka Peloton)—about 7 **2-person-crews**, ~5 supporting specialists, and a product manager—**might** ease new bottlenecks from LLM efficiency. Not aimed at small teams; not a blueprint.
+**TL;DR** **a thought experiment for larger software product orgs  (not a prescription):** a ~20 person team structure (aka Peloton)—about 7 **2-person-crews**, ~5 supporting specialists, and a product manager—**might** ease new bottlenecks from LLM efficiency. 
 
 ![Peloton: 2-person-crews, specialists, and product manager](/assets/article_images/2026-04-01-the-ai-native-2-20-software-product-peloton/peloton-structure.png)
 
@@ -15,6 +15,8 @@ How does this massive change affect software product org structures? This seems 
 Below is my stab at an idealised structure to answer this—but **only as a thought experiment** for larger software product orgs, not as something you should “roll out” from a blog post.
 
 The shape below is stitched together from **first principles and from what I have seen coaching and advising** over the years. It is not a case study of one “proven” model. Treat it as a **sketch to argue with**: stress-test the ideas, steal a piece, or discard the lot.
+
+I mean this as an **open discussion**, not a manifesto: the field is moving quickly, and I am super keen to learn more from others thoughts and experiences.
 
 Replace the Squad, the current idealised 5-7 person cross-functional team, with a Peloton:
 
@@ -83,3 +85,5 @@ In this article I avoid several common views (which I don’t share):
 * **Job loss predictions:** To me, the impact of capability expansion on employment is unclear; historically, infrastructure improvements increased demand rather than simply reducing labour \- but who knows this time? Rather not speculate\! But there seems to be a consensus: doing good product development now requires a broad skill set, and I worry about junior product engineers being left behind unless we deliberately make room for them in how we organise (hence the junior in each crew). “Skill up and you’ll be fine” seems to be the best advice atm.
 * **Teams of agents:** I believe LLMs are best treated as engineering components, context, structured prompts, and guardrails, LLM in a loop with tools, rather than anthropomorphised actors. We are the engineers that have to utilise these amazing new processors.
 * **Removal of software engineering discipline:** can a slop monolith give the best UX and also speed going forward? In my experience, no: working with LLMs increases the importance of understanding software engineering principles and practices \- we need those things more than ever. E.g. XP practices like TDD and CI that allow us to work in small, safe steps, to gain speed and quality.
+
+I am still learning on this topic; if you are running experiments with team shape in the LLM era—at a larger scale, or a deliberately different one—I would genuinely like to hear about it.
