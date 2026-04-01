@@ -4,9 +4,9 @@ layout: post
 title: The AI-Native 2/20 Software Product Peloton
 ---
 
-**TL;DR** a 20 person software product team structure (aka Peloton), composed of about 7 2-person-crews, with about 5 supporting specialists and a product manager could remove new bottlenecks due to new LLM efficiencies.
+**TL;DR** a 20 person software product team structure (aka Peloton), composed of about 7 **2-person-crews**, with about 5 supporting specialists and a product manager could remove new bottlenecks due to new LLM efficiencies.
 
-![Peloton: crews, specialists, and product manager](/assets/article_images/2026-04-01-the-ai-native-2-20-software-product-peloton/peloton-structure.png)
+![Peloton: 2-person-crews, specialists, and product manager](/assets/article_images/2026-04-01-the-ai-native-2-20-software-product-peloton/peloton-structure.png)
 
 LLMs has significantly expanded what individual software product developers can achieve.
 
@@ -18,7 +18,7 @@ Replace the Squad, the current idealised 5-7 person cross-functional team, with 
 
 **Ideal structure & roles:**
 
-* **Pelaton** is a \+-20 person end-to-end product development team (large\!) composed of 5-7 2-person-crews and 5-7 specialists.
+* **Pelaton** is a \+-20 person end-to-end product development team (large\!) composed of 5-7 **2-person-crews** and 5-7 specialists.
 * **Crews**: Each crew is an autonomous product development pair, with a senior generalist, full process engineer and a junior product developer. Alternatively any pair that covers all the generalist skills necessary to develop a feature: product, domain, UX, code, engineering, QA, infrastructure. In some cases a crew of 3 could work.
 * **Support: specialists:** Supported by 5-7 shared specialists. Product, domain, UX/UI, guardrail+QA engineering, software, harness engineering.
 * **Support: product manager**: oversees overall priorities and cohesiveness of product components and backlogs. Not involved in every detail.
