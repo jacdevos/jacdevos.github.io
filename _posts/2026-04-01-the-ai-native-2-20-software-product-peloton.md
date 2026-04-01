@@ -12,17 +12,17 @@ LLMs have significantly expanded what individual software product developers can
 
 How does this massive change affect software product org structures? This seems to be an open, jarring question.
 
-Below is my stab at an idealised structure to answer this—but **only as a thought experiment** for larger software product orgs, not as something you should “roll out” from a blog post.
+Below is my stab at a **reference** structure to answer this—but **only as a thought experiment** for larger software product orgs, not as something you should “roll out” from a blog post.
 
 The shape below is stitched together from **first principles and from what I have seen coaching and advising** over the years. It is not a case study of one “proven” model. Treat it as a **sketch to argue with**: stress-test the ideas, steal a piece, or discard the lot.
 
 I mean this as an **open discussion**: the field is moving quickly, and I am super keen to learn more from others’ thoughts and experiences.
 
-So here it is: instead of only the Spotify-style squad—the usual idealised 5–7 person cross-functional team—consider a Peloton-shaped unit.
+So here it is: instead of only the Spotify-style squad—the usual **canonical** 5–7 person cross-functional team—consider a Peloton-shaped unit.
 
-So here it is: instead of "Spotify Squad" structure, the current guide of 5-7 person cross-functional team, with a different rough guide to product team structure:
+**Treat this as an idea, not a rigid org chart.** The part worth considering is the *pattern*: pair-sized ownership, pull specialists when you need depth, a shared harness, and guardrails—more than any exact headcount. The **numbers** below (±20 people, ~7 crews, ~5 specialists) are **illustrative**: one plausible balance of coverage and flow. You might run smaller, combine roles, or split a Peloton across product lines without “breaking” the model—as long as you do not reintroduce the old bottlenecks by accident.
 
-**Ideal structure & roles:**
+**Guiding structure & roles:**
 
 * **Peloton** is a \+-20 person end-to-end product development team (large\!) composed of 5-7 **2-person-crews** and 5-7 specialists.
 * **Crews**: Each crew is an autonomous product development pair: typically a senior generalist and a junior developer, who together own the full process from idea to delivery. Alternatively any pair that covers all the generalist skills necessary to develop a feature: product, domain, UX, code, engineering, QA, infrastructure. In some cases a crew of 3 could work.
@@ -31,7 +31,7 @@ So here it is: instead of "Spotify Squad" structure, the current guide of 5-7 pe
 
 **Process:**
 
-* The Crew **owns delivery from idea into users’ hands** (in production). We understand that this requires harness maturity, so practically staging with external checks could be implemented as a crutch, but not the ideal.
+* The Crew **owns delivery from idea into users’ hands** (in production). We understand that this requires harness maturity, so practically staging with external checks could be implemented as a crutch, but not the **end goal**.
 * The Crew **pulls in specialist help** as needed: e.g. when making a small change, maybe run a proposed implementation past the UX expert. Maybe a software/harness expert to improve flow. Maybe guardrail+QA engineer to workshop guardrails for the new work.
 * Each Crew has its **own prioritised backlog** of work which it works from daily, and its own standups. No shared daily standup with other crews.
 * The Crew **pulls work** from the product manager's overall roadmap into its backlog when it plans. With bigger, non-obvious changes crew workshops solutions with the product manager, UX to come up with overall design.
@@ -48,9 +48,9 @@ One downside of the above model is the **vast amount of skills a generalist Crew
 
 ## **Context**
 
-In the Agile world, the well established idea of cross-functional software product teams became the idealised structure to optimise product development value, eloquently described in Hendrik Kniberg’s *Spotify Engineering Culture* videos. In coaching work I have helped organisations move toward that kind of model; the Peloton sketch earlier in this post is a separate, speculative step for the LLM era—not a claim that I run it end-to-end in my own small team.
+In the Agile world, the well established idea of cross-functional software product teams became the **canonical** structure to optimise product development value, eloquently described in Hendrik Kniberg’s *Spotify Engineering Culture* videos. In coaching work I have helped organisations move toward that kind of model; the Peloton sketch earlier in this post is a separate, speculative step for the LLM era—not a claim that I run it end-to-end in my own small team.
 
-However, in the era of LLM-assisted development, this idealised structure is being challenged. Everyone recognises the need to get very skilled at working with LLMs and learn how to get the benefits. Also, everyone seems to have experiences of 1 person team / "lone wolf" being extremely productive, there is consensus on this. But structuring your company as 1000, 1 person teams would surely be chaotic? Imo you need effective team/communication structures in a larger org, in the LLM era, just as much as the Roman army did 2k years ago.
+However, in the era of LLM-assisted development, that **canonical** squad model is being challenged. Everyone recognises the need to get very skilled at working with LLMs and learn how to get the benefits. Also, everyone seems to have experiences of 1 person team / "lone wolf" being extremely productive, there is consensus on this. But structuring your company as 1000, 1 person teams would surely be chaotic? Imo you need effective team/communication structures in a larger org, in the LLM era, just as much as the Roman army did 2k years ago.
 
 Historically, similar transitions have followed a consistent trajectory: Extreme Programming introduced pairing and tight feedback loops, and CI/CD gradually became an industry standard. The direction has been consistent: faster feedback loops, reduced handoffs, increased ownership, and stronger engineering discipline. LLMs represent the next step change: capable developers can now operate across implementation, design exploration, testing, documentation, analysis, and refactoring. This does not remove the need for teams or software engineering practices but changes the shape of the smallest effective delivery unit. Traditional cross-functional teams aimed to reduce dependencies between specialised roles, but when individuals can operate broadly across the stack, those structures may become unnecessarily constraining. At scale, the question is what shape preserves flow while enabling scale, quality, and learning—this article offers one possible answer, not the answer.
 
