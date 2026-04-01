@@ -4,7 +4,7 @@ layout: post
 title: The AI-Native 2/20 Software Product Peloton
 ---
 
-**TL;DR** **a thought experiment for larger software product orgs  (not a prescription):** a ~20 person team structure (aka Peloton)—about 7 **2-person-crews**, ~5 supporting specialists, and a product manager—**might** ease new bottlenecks from LLM efficiency. 
+**TL;DR** **a thought experiment / guide for larger software product orgs (not a prescription):** a ~20 person team structure (aka Peloton)—about 7 **2-person-crews**, ~5 supporting specialists, and a product manager—**might** ease new bottlenecks from LLM efficiency. **Counts are illustrative**, not fixed slots. 
 
 ![Peloton: 2-person-crews, specialists, and product manager](/assets/article_images/2026-04-01-the-ai-native-2-20-software-product-peloton/peloton-structure.png)
 
@@ -16,9 +16,11 @@ Below is my stab at an idealised structure to answer this—but **only as a thou
 
 The shape below is stitched together from **first principles and from what I have seen coaching and advising** over the years. It is not a case study of one “proven” model. Treat it as a **sketch to argue with**: stress-test the ideas, steal a piece, or discard the lot.
 
-I mean this as an **open discussion**, not a manifesto: the field is moving quickly, and I am super keen to learn more from others thoughts and experiences.
+I mean this as an **open discussion**: the field is moving quickly, and I am super keen to learn more from others’ thoughts and experiences.
 
-So here it is: instead of "Spotify Squad" structure, the current idealised 5-7 person cross-functional team, with a Peloton:
+So here it is: instead of only the Spotify-style squad—the usual idealised 5–7 person cross-functional team—consider a Peloton-shaped unit.
+
+So here it is: instead of "Spotify Squad" structure, the current guide of 5-7 person cross-functional team, with a different rough guide to product team structure:
 
 **Ideal structure & roles:**
 
