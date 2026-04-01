@@ -4,7 +4,7 @@ layout: post
 title: The AI-Native 2/20 Software Product Peloton
 ---
 
-**TL;DR**
+**TL;DR** a 20 person software product team structure (aka Peloton), composed of about 7 2-person-crews, with about 5 supporting specialists and a product manager could remove new bottlenecks due to new LLM effeciencies.
 
 LLMs has significantly expanded what individual software product developers can achieve.
 
