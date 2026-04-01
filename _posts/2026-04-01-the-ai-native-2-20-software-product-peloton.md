@@ -50,7 +50,9 @@ Historically, similar transitions have followed a consistent trajectory: Extreme
 
 ## **The Core Unit: Product Development Pair**
 
-The fundamental new delivery unit is the **Crew: A Product Development Pair**, typically a senior generalist and a junior developer. Alternatively any pair that covers all the generalist skills necessary to develop a feature: product, domain, UX, code, engineering, QA, infrastructure.
+The fundamental new delivery unit is the **Crew: A Product Development Pair**, typically a senior generalist and a junior developer. 
+
+It doesn't have to be senior/junior, any pair that covers all the generalist skills necessary to develop a feature: product, domain, UX, code, engineering, QA, infrastructure would work. The reason I'm pushing the junior here as a kind of apprentice, to solve the continuity for the company and large skills requirements to be effective - and grow the next generation of builders. Think of a blacksmith with an apprentice. It's more for the long term benefits.
 
 The pair owns delivery end-to-end, collaborates closely, and uses AI tools to expand capability.
 
