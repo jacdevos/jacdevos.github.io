@@ -4,7 +4,7 @@ layout: post
 title: The AI-Native 2/20 Software Product Peloton
 ---
 
-**TL;DR** a 20 person software product team structure (aka Peloton), composed of about 7 **2-person-crews**, with about 5 supporting specialists and a product manager could remove new bottlenecks due to new LLM efficiencies.
+**TL;DR** a **thought experiment for larger software product orgs**: a ~20 person team structure (aka Peloton)—about 7 **2-person-crews**, ~5 supporting specialists, and a product manager—**might** ease new bottlenecks from LLM efficiency. Not aimed at small teams; not a blueprint.
 
 ![Peloton: 2-person-crews, specialists, and product manager](/assets/article_images/2026-04-01-the-ai-native-2-20-software-product-peloton/peloton-structure.png)
 
@@ -12,7 +12,9 @@ LLMs have significantly expanded what individual software product developers can
 
 How does this massive change affect software product org structures? This seems to be an open, jarring question.
 
-Below is my stab at an idealised structure to answer this.
+Below is my stab at an idealised structure to answer this—but **only as a thought experiment** for larger software product orgs, not as something you should “roll out” from a blog post.
+
+The shape below is stitched together from **first principles and from what I have seen coaching and advising** over the years. It is not a case study of one “proven” model. Treat it as a **sketch to argue with**: stress-test the ideas, steal a piece, or discard the lot.
 
 Replace the Squad, the current idealised 5-7 person cross-functional team, with a Peloton:
 
@@ -36,17 +38,17 @@ Replace the Squad, the current idealised 5-7 person cross-functional team, with 
 * Specialist “Chapters” that operate across Pelotons, to help crews and specialists in a specific specialty and defining cross-Peloton learning and governance is valuable as ever.
 * Product Managers can report into a central structure to prioritise business goals.
 
-This structure above attempts to combine what worked before with first principles: we need a team structure that optimises both flow of value generated, given the new reality that a single person can do lots more, but any handover, consensus, gates reliant on other people would be the bottleneck. Also, one person can’t be the perfect generalist, and needs help. Organisations (and society) also need to think about continuity, knowledge sharing and mentoring the next gen (hence the junior).
+In this thought experiment, the structure attempts to combine what worked before with first principles: a team shape that optimises flow of value given that a single person can do lots more, while handovers, consensus, and gates that depend on other people still act as bottlenecks. Also, one person can’t be the perfect generalist, and needs help. Organisations (and society) also need to think about continuity, knowledge sharing and mentoring the next gen (hence the junior).
 
 One downside of the above model is the **vast amount of skills a generalist Crew member is required to have** \- but I’m wondering: isn’t this the reality of the skills growth challenge we are faced with in order to get the full flow benefits of LLMs?
 
 ## **Context**
 
-In the Agile world, the well established idea of cross-functional software product teams became the idealised structure to optimise product development value, eloquently described in Hendrik Kniberg’s *Spotify Engineering Culture* videos. Through my coaching work, I have helped many organisations transition to this model with strong results.
+In the Agile world, the well established idea of cross-functional software product teams became the idealised structure to optimise product development value, eloquently described in Hendrik Kniberg’s *Spotify Engineering Culture* videos. In coaching work I have helped organisations move toward that kind of model; the Peloton sketch earlier in this post is a separate, speculative step for the LLM era—not a claim that I run it end-to-end in my own small team.
 
 However, in the era of LLM-assisted development, this idealised structure is being challenged. Everyone recognises the need to get very skilled at working with LLMs and learn how to get the benefits. Also, everyone seems to have experiences of 1 person team / "lone wolf" being extremely productive, there is consensus on this. But structuring your company as 1000, 1 person teams would surely be chaotic? Imo you need effective team/communication structures in a larger org, in the LLM era, just as much as the Roman army did 2k years ago.
 
-Historically, similar transitions have followed a consistent trajectory: Extreme Programming introduced pairing and tight feedback loops, and CI/CD gradually became an industry standard. The direction has been consistent: faster feedback loops, reduced handoffs, increased ownership, and stronger engineering discipline. LLMs represent the next step change: capable developers can now operate across implementation, design exploration, testing, documentation, analysis, and refactoring. This does not remove the need for teams or software engineering practices but changes the shape of the smallest effective delivery unit. Traditional cross-functional teams aimed to reduce dependencies between specialised roles, but when individuals can operate broadly across the stack, those structures may become unnecessarily constraining. We need a structure that preserves flow while enabling scale, quality, and learning.
+Historically, similar transitions have followed a consistent trajectory: Extreme Programming introduced pairing and tight feedback loops, and CI/CD gradually became an industry standard. The direction has been consistent: faster feedback loops, reduced handoffs, increased ownership, and stronger engineering discipline. LLMs represent the next step change: capable developers can now operate across implementation, design exploration, testing, documentation, analysis, and refactoring. This does not remove the need for teams or software engineering practices but changes the shape of the smallest effective delivery unit. Traditional cross-functional teams aimed to reduce dependencies between specialised roles, but when individuals can operate broadly across the stack, those structures may become unnecessarily constraining. At scale, the question is what shape preserves flow while enabling scale, quality, and learning—this article offers one possible answer, not the answer.
 
 ## **The Core Unit: Product Development Pair**
 
