@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-title: Rescuing Legacy Software from Impending Doom (Agile Australia 2016)
+title: Rescuing Legacy Software from Impending Doom
+context: Agile Washington DC, Agile Australia
 ---
 Dealing with an ageing code base is one of the hardest challenges that software development teams face. Legacy code bases can slow teams to a crawl, and therefore it is critical to solve this on the road to agility. Software rewrites fail at alarming rates! Refactoring – a safer approach – has emerged as the de-facto technique to tackle this challenge.
 
