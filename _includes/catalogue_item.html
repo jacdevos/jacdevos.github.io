@@ -1,17 +1,5 @@
 <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
   <div class="catalogue-item-inner">
-    {% if post.image %}
-    {% capture post_image %}
-      {% if post.image contains '://' %}
-        {{ post.image }}
-      {% else %}
-        {{ post.image | prepend: site.baseurl }}
-      {% endif %}
-    {% endcapture %}
-    <div class="catalogue-item-image">
-      <img src="{{ post_image | strip }}" alt="{{ post.title }}" loading="lazy" />
-    </div>
-    {% endif %}
     <div class="catalogue-item-content">
       {% if include.sticky == 'true' %}
       <span class="catalogue-pinned">Pinned &middot;</span>
@@ -30,5 +18,18 @@
         {% endif %}
       </p>
     </div>
+
+    {% if post.image %}
+    {% capture post_image %}
+      {% if post.image contains '://' %}
+        {{ post.image }}
+      {% else %}
+        {{ post.image | prepend: site.baseurl }}
+      {% endif %}
+    {% endcapture %}
+    <div class="catalogue-item-image">
+      <img src="{{ post_image | strip }}" alt="{{ post.title }}" loading="lazy" />
+    </div>
+    {% endif %}
   </div>
 </a>

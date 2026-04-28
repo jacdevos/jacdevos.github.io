@@ -191,35 +191,28 @@ footer span {
   }
 }
 
-// Post listing image — above on mobile, side on desktop
+// Post listing items — 700px max, stacked always
+.catalogue-item {
+  max-width: 700px;
+}
+
 .catalogue-item-inner {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
 
   @media (min-width: 600px) {
-    flex-direction: row;
-    gap: 1.25rem;
+    gap: 0.75rem;
   }
 }
 
 .catalogue-item-image {
-  flex: 0 0 auto;
-
   img {
     width: 100%;
     height: auto;
     border-radius: 4px;
     display: block;
-  }
-
-  @media (min-width: 600px) {
-    flex: 0 0 240px;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
+    max-width: 100%;
   }
 }
 
