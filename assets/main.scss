@@ -214,18 +214,18 @@ footer span {
   margin-left: 0 !important;
 }
 
-// Cover image at top of each post
+// Cover image at top of each post — wide banner like original Mediator theme
 .post-cover {
-  background-position: center;
+  background-position: center 20%;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
-  height: 240px;
+  height: 180px;
   margin-bottom: 1.5rem;
   width: 100%;
 
   @media (min-width: 600px) {
-    height: 340px;
+    height: 280px;
   }
 }
 
