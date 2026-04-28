@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: "The origin of bug, loop and patch"
+image: /assets/article_images/talks/origin-of-bug-loop-patch.jpg
 tags:
 ---
 Bug, loop and patch - these words have been part of programmer lingo for decades. On my recent trip to the US east coast I stumbled across their origin:

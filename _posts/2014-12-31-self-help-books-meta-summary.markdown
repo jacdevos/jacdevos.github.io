@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /assets/article_images/talks/self-help-books-meta-summary.jpg
 title: "Self-help books meta-summary"
 tags:
 ---

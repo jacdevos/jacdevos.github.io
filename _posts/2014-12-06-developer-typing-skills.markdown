@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /assets/article_images/talks/developer-typing-skills.jpg
 title: "Is fast typing required for developers?"
 tags:
 ---

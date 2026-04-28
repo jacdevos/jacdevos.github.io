@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+image: /assets/article_images/talks/how-to-become-a-thought-leader.jpg
 title: How to become a thought leader in software
 ---
 _**"Nothing is more powerful than an idea whose time has come."  

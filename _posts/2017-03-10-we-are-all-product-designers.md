@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+image: /assets/article_images/talks/what-is-software-product-design.jpg
 title: What is software product design?
 context: DevConf Talk
 ---

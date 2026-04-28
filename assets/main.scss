@@ -214,6 +214,21 @@ footer span {
   margin-left: 0 !important;
 }
 
+// Cover image at top of each post
+.post-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  height: 240px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+
+  @media (min-width: 600px) {
+    height: 340px;
+  }
+}
+
 // Embedded content (YouTube, SlideShare, etc.) — subtle grey background so they're not blank white rectangles
 .post iframe {
   background: #f4f4f4;

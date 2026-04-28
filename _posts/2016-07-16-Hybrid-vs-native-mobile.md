@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+image: /assets/article_images/talks/hybrid-vs-native-mobile.jpg
 title: Hybrid vs native mobile tech stack
 context: JSinSA Talk
 ---

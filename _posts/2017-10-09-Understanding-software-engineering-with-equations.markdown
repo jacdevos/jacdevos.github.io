@@ -1,6 +1,7 @@
 ---
 published: true
 layout: post
+image: /assets/article_images/talks/understanding-software-engineering.jpg
 title: Understanding software engineering with equations
 context: Codemotion Berlin Talk
 ---
