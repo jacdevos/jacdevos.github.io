@@ -26,6 +26,11 @@ social:
 # Theme
 remote_theme: chesterhow/tale
 
+# Feed settings — use excerpts only (not full post HTML) in feed
+feed:
+  excerpt_only: true
+  posts_limit: 50
+
 # Build settings
 markdown:       kramdown
 highlighter:    rouge
