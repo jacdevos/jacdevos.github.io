@@ -30,7 +30,7 @@ remote_theme: chesterhow/tale
 markdown:       kramdown
 highlighter:    rouge
 permalink:      /:year-:month-:day/:title
-paginate:       5
+paginate:       50
 
 # Assets
 sass:
