@@ -1,0 +1,20 @@
+current directory: /Users/jacques/Desktop/jac-blog-tale-migration/vendor/bundle/ruby/4.0.0/gems/posix-spawn-0.3.15/ext
+/usr/local/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/jacques/Desktop/jac-blog-tale-migration/vendor/bundle/ruby/4.0.0/gems/posix-spawn-0.3.15/ext
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260428-72874-7jhqa sitelibdir\=./.gem.20260428-72874-7jhqa clean
+
+current directory: /Users/jacques/Desktop/jac-blog-tale-migration/vendor/bundle/ruby/4.0.0/gems/posix-spawn-0.3.15/ext
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260428-72874-7jhqa sitelibdir\=./.gem.20260428-72874-7jhqa
+compiling posix-spawn.c
+posix-spawn.c:226:27: error: incompatible function pointer types passing 'int (VALUE, VALUE, posix_spawn_file_actions_t *)' (aka 'int (unsigned long, unsigned long, void **)') to parameter of type 'int (*)(VALUE, VALUE, VALUE)' (aka 'int (*)(unsigned long, unsigned long, unsigned long)') [-Wincompatible-function-pointer-types]
+  226 |         rb_hash_foreach(options, posixspawn_file_actions_operations_iter, (VALUE)fops);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/usr/local/Cellar/ruby/4.0.3/include/ruby-4.0.0/ruby/internal/intern/hash.h:83:40: note: passing argument to parameter 'func' here
+   83 | void rb_hash_foreach(VALUE hash, int (*func)(VALUE key, VALUE val, VALUE arg), VALUE arg);
+      |                                        ^
+1 error generated.
+make: *** [posix-spawn.o] Error 1
+
+make failed, exit code 2

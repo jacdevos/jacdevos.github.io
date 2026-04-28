@@ -1,0 +1,1634 @@
+current directory: /Users/jacques/Desktop/jac-blog-tale-migration/vendor/bundle/ruby/4.0.0/gems/rdiscount-2.1.7/ext
+/usr/local/opt/ruby/bin/ruby extconf.rb
+checking for random()... yes
+checking for srandom()... yes
+checking for rand()... yes
+checking for srand()... yes
+checking size of unsigned long... 8
+checking size of unsigned int... 4
+checking size of unsigned int... 4
+creating Makefile
+
+current directory: /Users/jacques/Desktop/jac-blog-tale-migration/vendor/bundle/ruby/4.0.0/gems/rdiscount-2.1.7/ext
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260428-72874-eary9u sitelibdir\=./.gem.20260428-72874-eary9u clean
+
+current directory: /Users/jacques/Desktop/jac-blog-tale-migration/vendor/bundle/ruby/4.0.0/gems/rdiscount-2.1.7/ext
+make -j5 DESTDIR\= sitearchdir\=./.gem.20260428-72874-eary9u sitelibdir\=./.gem.20260428-72874-eary9u
+compiling Csio.c
+compiling amalloc.c
+compiling basename.c
+compiling css.c
+compiling docheader.c
+css.c:81:12: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+   81 |         written = fwrite(res, 1, size, f);
+      |                 ~ ^~~~~~~~~~~~~~~~~~~~~~~
+compiling dumptree.c
+compiling emmatch.c
+1 warning generated.
+compiling flags.c
+compiling generate.c
+compiling github_flavoured.c
+dumptree.c:23:29: warning: returning 'const char[11]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   23 |     case WHITESPACE: return "whitespace";
+      |                             ^~~~~~~~~~~~
+dumptree.c:24:29: warning: returning 'const char[5]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   24 |     case CODE      : return "code";
+      |                             ^~~~~~
+dumptree.c:25:29: warning: returning 'const char[6]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   25 |     case QUOTE     : return "quote";
+      |                             ^~~~~~~
+dumptree.c:26:29: warning: returning 'const char[7]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   26 |     case MARKUP    : return "markup";
+      |                             ^~~~~~~~
+dumptree.c:27:29: warning: returning 'const char[5]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   27 |     case HTML      : return "html";
+      |                             ^~~~~~
+dumptree.c:28:29: warning: returning 'const char[3]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   28 |     case DL        : return "dl";
+      |                             ^~~~
+dumptree.c:29:29: warning: returning 'const char[3]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   29 |     case UL        : return "ul";
+      |                             ^~~~
+dumptree.c:30:29: warning: returning 'const char[3]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   30 |     case OL        : return "ol";
+      |                             ^~~~
+dumptree.c:31:29: warning: returning 'const char[5]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   31 |     case LISTITEM  : return "item";
+      |                             ^~~~~~
+dumptree.c:32:29: warning: returning 'const char[7]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   32 |     case HDR       : return "header";
+      |                             ^~~~~~~~
+dumptree.c:33:29: warning: returning 'const char[3]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   33 |     case HR        : return "hr";
+      |                             ^~~~
+dumptree.c:34:29: warning: returning 'const char[6]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   34 |     case TABLE     : return "table";
+      |                             ^~~~~~~
+dumptree.c:35:29: warning: returning 'const char[7]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   35 |     case SOURCE    : return "source";
+      |                             ^~~~~~~~
+dumptree.c:36:29: warning: returning 'const char[6]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   36 |     case STYLE     : return "style";
+      |                             ^~~~~~~
+dumptree.c:37:29: warning: returning 'const char[14]' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   37 |     default        : return "mystery node!";
+      |                             ^~~~~~~~~~~~~~~
+dumptree.c:104:33: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  104 |     static char *Begin[] = { 0, "P", "center" };
+      |                                 ^~~
+dumptree.c:104:38: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  104 |     static char *Begin[] = { 0, "P", "center" };
+      |                                      ^~~~~~~~
+flags.c:10:27: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   10 |     { MKD_NOLemmatch.c:113:20: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  113I |     case 2: if ( e = empair(f,first,last,match=2) )
+      |                  ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+NKS,        "!LINemmatch.c:113:20: note: place parentheses around the assignment to silence this warning
+  113 |     case 2: if ( e = empair(f,first,last,match=2) )
+      |                    ^
+      |                  (                               )
+KSemmatch.c:113:20: note: use '==' to turn this assignment into an equality comparison
+  113 |     case 2: if ( e = empair(f,first,last,match=2) )
+      |                    ^
+      |                    ==
+" },
+      |                           ^~~~~~~~
+flags.c:11:27: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   11 |     { MKD_NOIMAGE,        "!IMAGE" },
+      |                           ^~~~~~~~
+flags.c:12:27: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   12 |     { MKD_NOPANTS,        "!PANTS" },
+      |                           ^~~~~~~~
+flags.c:13:27: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   13 |     { MKD_NOHTML,         "!HTML" },
+      |                           ^~~~~~~
+flags.c:14:27: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   14 |     { MKD_STRICT,         "STRICT" },
+      |                           ^~~~~~~~
+flags.c:15:27: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   15 |     { MKD_TAGTEXT,        "TAGTEXT" },
+      |                           ^~~~~~~~~
+flags.c:16:27: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   16 |     { MKD_NO_EXT,         "!EXT" },
+      |                           ^~~~~~
+flags.c:17:27: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   17 |     { MKD_CDATA,          "CDATA" },
+      |                           ^~~~~~~
+flags.c:18:27: warning: initializing 'char *' with an expression of type 'const char[13]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   18 |     { MKD_NOSUPERSCRIPT,  "!SUPERSCRIPT" },
+      |                           ^~~~~~~~~~~~~~
+flags.c:19:27: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   19 |     { MKD_NORELAXED,      "!RELAXED" },
+      |                           ^~~~~~~~~~
+flags.c:20:27: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   20 |     { MKD_NOTABLES,       "!TABLES" },
+      |                           ^~~~~~~~~
+flags.c:21:27: warning: initializing 'char *' with an expression of type 'const char[15]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   21 |     { MKD_NOSTRIKETHROUGH,"!STRIKETHROUGH" },
+      |                           ^~~~~~~~~~~~~~~~
+flags.c:22:27: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   22 |     { MKD_TOC,            "TOC" },
+      |                           ^~~~~
+flags.c:23:27: warning: initializing 'char *' with an expression of type 'const char[13]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   23 |     { MKD_1_COMPAT,       "MKD_1_COMPAT" },
+      |                           ^~~~~~~~~~~~~~
+flags.c:24:27: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   24 |     { MKD_AUTOLINK,       "AUTOLINK" },
+      |                           ^~~~~~~~~~
+flags.c:25:27: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   25 |     { MKD_SAFELINK,       "SAFELINK" },
+      |                           ^~~~~~~~~~
+flags.c:26:27: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   26 |     { MKD_NOHEADER,       "!HEADER" },
+      |                           ^~~~~~~~~
+flags.c:27:27: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   27 |     { MKD_TABSTOP,        "TABSTOP" },
+      |                           ^~~~~~~~~
+flags.c:28:27: warning: initializing 'char *' with an expression of type 'const char[10]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   28 |     { MKD_NODIVQUOTE,     "!DIVQUOTE" },
+      |                           ^~~~~~~~~~~
+flags.c:29:27: warning: initializing 'char *' with an expression of type 'const char[11]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   29 |     { MKD_NOALPHALIST,    "!ALPHALIST" },
+      |                           ^~~~~~~~~~~~
+flags.c:30:27: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   30 |     { MKD_NODLIST,        "!DLIST" },
+      |                           ^~~~~~~~
+flags.c:31:27: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   31 |     { MKD_EXTRA_FOOTNOTE, "FOOTNOTE" },
+      |                           ^~~~~~~~~~
+flags.c:32:27: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   32 |     { MKD_NOSTYLE,        "!STYLE" },
+      |                           ^~~~~~~~
+flags.c:49:11: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+   49 |         if ( not = (*name == '!') ) {
+      |              ~~~~^~~~~~~~~~~~~~~~
+flags.c:49:11: note: place parentheses around the assignment to silence this warning
+   49 |         if ( not = (*name == '!') ) {
+      |                  ^
+      |              (                   )
+flags.c:49:11: note: use '==' to turn this assignment into an equality comparison
+   49 |         if ( not = (*name == '!') ) {
+      |                  ^
+      |                  ==
+flags.c:46:17: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   46 |     for (i=0; i < NR(flagnames); i++) {
+      |               ~ ^ ~~~~~~~~~~~~~
+generate.c:258:14: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  258 |             Qstring("&amp;", f);
+      |                     ^~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:260:14: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  260 |             Qstring("&lt;", f);
+      |                     ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:262:14: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  262 |             Qstring("%22", f);
+      |                     ^~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:266:14: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  266 |             Qstring("  ", f);
+      |                     ^~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:268:17: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  268 |             Qprintf(f, "%%%02X", c);
+      |                        ^~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:341:28: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  341 |                 S(ref->title) = (e-title)-2;
+      |                               ~ ~~~~~~~~~^~
+generate.c:488:17: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  488 |     _aprotocol( "https:" ), 
+      |                 ^~~~~~~~
+generate.c:487:25: note: expanded from macro '_aprotocol'
+  487 | #define _aprotocol(x)   { x, (sizeof x)-1 }
+      |                           ^
+generate.c:489:17: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  489 |     _aprotocol( "http:" ), 
+      |                 ^~~~~~~
+generate.c:487:25: note: expanded from macro '_aprotocol'
+  487 | #define _aprotocol(x)   { x, (sizeof x)-1 }
+      |                           ^
+generate.c:490:17: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  490 |     _aprotocol( "news:" ),
+      |                 ^~~~~~~
+generate.c:487:25: note: expanded from macro '_aprotocol'
+  487 | #define _aprotocol(x)   { x, (sizeof x)-1 }
+      |                           ^
+generate.c:491:17: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  491 |     _aprotocol( "ftp:" ), 
+      |                 ^~~~~~
+generate.c:487:25: note: expanded from macro '_aprotocol'
+  487 | #define _aprotocol(x)   { x, (sizeof x)-1 }
+      |                           ^
+generate.c:503:29: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  503 |     for (i=0, p=protocol; i < NRPROTOCOLS; i++, p++)
+      |                           ~ ^ ~~~~~~~~~~~
+generate.c:527:35: warning: initializing 'char *' with an expression of type 'const char[11]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  527 | static linkytype imaget = { 0, 0, "<img src=\"", "\"",
+      |                                   ^~~~~~~~~~~~~
+generate.c:527:50: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  527 | static linkytype imaget = { 0, 0, "<img src=\"", "\"",
+      |                                                  ^~~~
+generate.c:528:12: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  528 |                              1, " alt=\"", "\" />", MKD_NOIMAGE|MKD_TAGTEXT, IS_URL };
+      |                                 ^~~~~~~~~
+generate.c:528:23: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  528 |                              1, " alt=\"", "\" />", MKD_NOIMAGE|MKD_TAGTEXT, IS_URL };
+      |                                            ^~~~~~~
+generate.c:529:35: warning: initializing 'char *' with an expression of type 'const char[10]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  529 | static linkytype linkt  = { 0, 0, "<a href=\"", "\"",
+      |                                   ^~~~~~~~~~~~
+generate.c:529:49: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  529 | static linkytype linkt  = { 0, 0, "<a href=\"", "\"",
+      |                                                 ^~~~
+generate.c:530:33: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  530 |                              0, ">", "</a>", MKD_NOLINKS, IS_URL };
+      |                                 ^~~
+generate.c:530:38: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  530 |                              0, ">", "</a>", MKD_NOLINKS, IS_URL };
+      |                                      ^~~~~~
+generate.c:540:7: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  540 |     { "id:", 3, "<span id=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |       ^~~~~
+generate.c:540:17: warning: initializing 'char *' with an expression of type 'const char[11]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  540 |     { "id:", 3, "<span id=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                 ^~~~~~~~~~~~~
+generate.c:540:32: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  540 |     { "id:", 3, "<span id=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                ^~~~
+generate.c:540:41: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  540 |     { "id:", 3, "<span id=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                         ^~~
+generate.c:540:46: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  540 |     { "id:", 3, "<span id=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                              ^~~~~~~~~
+generate.c:541:7: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  541 |     { "raw:", 4, 0, 0, 0, 0, 0, MKD_NOHTML, 0 },
+      |       ^~~~~~
+generate.c:542:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  542 |     { "lang:", 5, "<span lang=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |       ^~~~~~~
+generate.c:542:19: warning: initializing 'char *' with an expression of type 'const char[13]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  542 |     { "lang:", 5, "<span lang=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                   ^~~~~~~~~~~~~~~
+generate.c:542:36: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  542 |     { "lang:", 5, "<span lang=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                    ^~~~
+generate.c:542:45: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  542 |     { "lang:", 5, "<span lang=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                             ^~~
+generate.c:542:50: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  542 |     { "lang:", 5, "<span lang=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                                  ^~~~~~~~~
+generate.c:543:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  543 |     { "abbr:", 5, "<abbr title=\"", "\"", 0, ">", "</abbr>", 0, 0 },
+      |       ^~~~~~~
+generate.c:543:19: warning: initializing 'char *' with an expression of type 'const char[14]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  543 |     { "abbr:", 5, "<abbr title=\"", "\"", 0, ">", "</abbr>", 0, 0 },
+      |                   ^~~~~~~~~~~~~~~~
+generate.c:543:37: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  543 |     { "abbr:", 5, "<abbr title=\"", "\"", 0, ">", "</abbr>", 0, 0 },
+      |                                     ^~~~
+generate.c:543:46: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  543 |     { "abbr:", 5, "<abbr title=\"", "\"", 0, ">", "</abbr>", 0, 0 },
+      |                                              ^~~
+generate.c:543:51: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  543 |     { "abbr:", 5, "<abbr title=\"", "\"", 0, ">", "</abbr>", 0, 0 },
+      |                                                   ^~~~~~~~~
+generate.c:544:7: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  544 |     { "class:", 6, "<span class=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |       ^~~~~~~~
+generate.c:544:20: warning: initializing 'char *' with an expression of type 'const char[14]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  544 |     { "class:", 6, "<span class=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                    ^~~~~~~~~~~~~~~~
+generate.c:544:38: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  544 |     { "class:", 6, "<span class=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                      ^~~~
+generate.c:544:47: warning: initializing 'char *' with an expression of type 'const char[2]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  544 |     { "class:", 6, "<span class=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                               ^~~
+generate.c:544:52: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  544 |     { "class:", 6, "<span class=\"", "\"", 0, ">", "</span>", 0, 0 },
+      |                                                    ^~~~~~~~~
+generate.c:557:30: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  557 |     for ( i=0, r=specials; i < NR(specials); i++,r++ ) {
+      |                            ~ ^ ~~~~~~~~~~~~
+generate.c:579:19: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+  579 |             puturl(edit, strlen(edit), f, 0);
+      |             ~~~~~~       ^~~~~~~~~~~~
+generate.c:605:12: warning: returning 'const char *' from a function with result type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  605 |     return p->ref_prefix ? p->ref_prefix : "fn";
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:602:1: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C2x [-Wdeprecated-non-prototype]
+  602 | p_or_nothing(p)
+      | ^
+generate.c:622:13: warning: passing 'const char[64]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  622 |         Qprintf(f, "<sup id=\"%sref:%d\"><a href=\"#%s:%d\" rel=\"footnote\">%d</a></sup>",
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:640:19: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  640 |     else if ( tag = pseudo(ref->link) ) {
+      |               ~~~~^~~~~~~~~~~~~~~~~~~
+generate.c:640:19: note: place parentheses around the assignment to silence this warning
+  640 |     else if ( tag = pseudo(ref->link) ) {
+      |                   ^
+      |               (                      )
+generate.c:640:19: note: use '==' to turn this assignment into an equality comparison
+  640 |     else if ( tag = pseudo(ref->link) ) {
+      |                   ^
+      |                   ==
+generate.c:663:35: warning: passing 'const char[13]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  663 |             if ( ref->height ) Qprintf(f," height=\"%d\"", ref->height);
+      |                                          ^~~~~~~~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:664:35: warning: passing 'const char[12]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  664 |             if ( ref->width ) Qprintf(f, " width=\"%d\"", ref->width);
+      |                                          ^~~~~~~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+25generate.c:668:14: warning: passing 'const char[9]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   warnings668 |  generated.
+            Qstring(" title=\"", f);
+      |                     ^~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:734:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  734 |                 if ( ref = bsearch(&key, T(*f->footnotes), S(*f->footnotes),
+      |                      ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  735 |                                           sizeof key, (stfu)__mkd_footsort) ) {
+      |                                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:734:12: note: place parentheses around the assignment to silence this warning
+  734 |                 if ( ref = bsearch(&key, T(*f->footnotes), S(*f->footnotes),
+      |                          ^
+      |                      (
+  735 |                                           sizeof key, (stfu)__mkd_footsort) ) {
+      |                                                                            )
+generate.c:734:12: note: use '==' to turn this assignment into an equality comparison
+  734 |                 if ( ref = bsearch(&key, T(*f->footnotes), S(*f->footnotes),
+      |                          ^
+      |                          ==
+generate.c:762:25: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  762 |     case '&':   Qstring("&amp;", f); break;
+      |                         ^~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:763:25: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  763 |     case '>':   Qstring("&gt;", f); break;
+      |                         ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:764:25: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  764 |     case '<':   Qstring("&lt;", f); break;
+      |                         ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:777:10: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  777 |         Qstring("&#", f);
+      |                 ^~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:778:13: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  778 |         Qprintf(f, COINTOSS() ? "x%02x;" : "%02d;", *((unsigned char*)(s++)) );
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./config.h:22:20: note: expanded from macro 'COINTOSS'
+   22 | #define COINTOSS() (random()&1)
+      |                    ^
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:841:14: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  841 |             Qstring("  ", f);
+      |                     ^~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:854:13: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  854 |     Qstring("<del>", f);
+      |             ^~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:856:13: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  856 |     Qstring("</del>", f);
+      |             ^~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:871:13: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  871 |     Qstring("<code>", f);
+      |             ^~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:873:13: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  873 |     Qstring("</code>", f);
+      |             ^~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:950:10: warning: passing 'const char[10]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  950 |         Qstring("<a href=\"", f);
+      |                 ^~~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:953:13: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  953 |             mangle("mailto:", 7, f);
+      |                    ^~~~~~~~~
+generate.c:774:14: note: passing argument to parameter 's' here
+  774 | mangle(char *s, int len, MMIOT *f)
+      |              ^
+generate.c:956:10: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  956 |         Qstring("\">", f);
+      |                 ^~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:958:10: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  958 |         Qstring("</a>", f);
+      |                 ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:965:10: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  965 |         Qstring("</a>", f);
+      |                 ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1072:17: warning: passing 'const char[9]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1072 |             Qprintf(f, "&r%cquo;", typeofquote);
+      |                        ^~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1078:13: warning: passing 'const char[9]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1078 |         Qprintf(f, "&l%cquo;", typeofquote);
+      |                    ^~~~~~~~~~
+generate.ccompiling html5.c
+:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1098:18: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+ 1098 |     if ( !(len = strlen(s)) )
+      |                ~ ^~~~~~~~~
+generate.c:1120:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1120 |     { '\'', "'s|",      "rsquo",  0 },
+      |             ^~~~~
+generate.c:1120:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1120 |     { '\'', "'s|",      "rsquo",  0 },
+      |                         ^~~~~~~
+generate.c:1121:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1121 |     { '\'', "'t|",      "rsquo",  0 },
+      |             ^~~~~
+generate.c:1121:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1121 |     { '\'', "'t|",      "rsquo",  0 },
+      |                         ^~~~~~~
+generate.c:1122:13: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1122 |     { '\'', "'re|",     "rsquo",  0 },
+      |             ^~~~~~
+generate.c:1122:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1122 |     { '\'', "'re|",     "rsquo",  0 },
+      |                         ^~~~~~~
+generate.c:1123:13: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1123 |     { '\'', "'ll|",     "rsquo",  0 },
+      |             ^~~~~~
+generate.c:1123:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1123 |     { '\'', "'ll|",     "rsquo",  0 },
+      |                         ^~~~~~~
+generate.c:1124:13: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1124 |     { '\'', "'ve|",     "rsquo",  0 },
+      |             ^~~~~~
+generate.c:1124:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1124 |     { '\'', "'ve|",     "rsquo",  0 },
+      |                         ^~~~~~~
+generate.c:1125:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1125 |     { '\'', "'m|",      "rsquo",  0 },
+      |             ^~~~~
+generate.c:1125:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1125 |     { '\'', "'m|",      "rsquo",  0 },
+      |                         ^~~~~~~
+generate.c:1126:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1126 |     { '\'', "'d|",      "rsquo",  0 },
+      |             ^~~~~
+generate.c:1126:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1126 |     { '\'', "'d|",      "rsquo",  0 },
+      |                         ^~~~~~~
+generate.c:1127:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1127 |     { '-',  "---",      "mdash",  2 },
+      |             ^~~~~
+generate.c:1127:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1127 |     { '-',  "---",      "mdash",  2 },
+      |                         ^~~~~~~
+generate.c:1128:13: warning: initializing 'char *' with an expression of type 'const char[3]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1128 |     { '-',  "--",       "ndash",  1 },
+      |             ^~~~
+generate.c:1128:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1128 |     { '-',  "--",       "ndash",  1 },
+      |                         ^~~~~~~
+generate.c:1129:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1129 |     { '.',  "...",      "hellip", 2 },
+      |             ^~~~~
+generate.c:1129:25: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1129 |     { '.',  "...",      "hellip", 2 },
+      |                         ^~~~~~~~
+generate.c:1130:13: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1130 |     { '.',  ". . .",    "hellip", 4 },
+      |             ^~~~~~~
+generate.c:1130:25: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1130 |     { '.',  ". . .",    "hellip", 4 },
+      |                         ^~~~~~~~
+generate.c:1131:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1131 |     { '(',  "(c)",      "copy",   2 },
+      |             ^~~~~
+generate.c:1131:25: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1131 |     { '(',  "(c)",      "copy",   2 },
+      |                         ^~~~~~
+generate.c:1132:13: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1132 |     { '(',  "(r)",      "reg",    2 },
+      |             ^~~~~
+generate.c:1132:25: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1132 |     { '(',  "(r)",      "reg",    2 },
+      |                         ^~~~~
+generate.c:1133:13: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1133 |     17 warnings generated.
+{ '(',  "(tm)",     "trade",  3 },
+      |             ^~~~~~
+generate.c:1133:25: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1133 |     { '(',  "(tm)",     "trade",  3 },
+      |                         ^~~~~~~
+generate.c:1134:13: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1134 |     { '3',  "|3/4|",    "frac34", 2 },
+      |             ^~~~~~~
+generate.c:1134:25: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1134 |     { '3',  "|3/4|",    "frac34", 2 },
+      |                         ^~~~~~~~
+generate.c:1135:13: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1135 |     { '3',  "|3/4ths|", "frac34", 2 },
+      |             ^~~~~~~~~~
+generate.c:1135:25: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1135 |     { '3',  "|3/4ths|", "frac34", 2 },
+      |                         ^~~~~~~~
+generate.c:1136:13: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1136 |     { '1',  "|1/2|",    "frac12", 2 },
+      |             ^~~~~~~
+generate.c:1136:25: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1136 |     { '1',  "|1/2|",    "frac12", 2 },
+      |                         ^~~~~~~~
+generate.c:1137:13: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1137 |     { '1',  "|1/4|",    "frac14", 2 },
+      |             ^~~~~~~
+generate.c:1137:25: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1137 |     { '1',  "|1/4|",    "frac14", 2 },
+      |                         ^~~~~~~~
+generate.c:1138:13: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1138 |     { '1',  "|1/4th|",  "frac14", 2 },
+      |             ^~~~~~~~~
+generate.c:1138:25: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1138 |     { '1',  "|1/4th|",  "frac14", 2 },
+      |                         ^~~~~~~~
+generate.c:1139:13: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1139 |     { '&',  "&#0;",      0,       3 },
+      |             ^~~~~~
+generate.c:1157:14: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1157 |                 Qprintf(f, "&%s;", smarties[i].entity);
+      |                            ^~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1179:16: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1179 |                             Qstring("&ldquo;", f);
+      |                                     ^~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1181:16: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1181 |                             Qstring("&rdquo;", f);
+      |                                     ^~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1154:18: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+ 1154 |     for ( i=0; i < NRSMART; i++)
+      |                ~ ^ ~~~~~~~
+generate.c:1246:22: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1246 |         case 3:     Qstring(tag_text(f) ? "  " : "<br/>", f);
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:1222:21: note: expanded from macro 'tag_text'
+ 1222 | #define tag_text(f)     (f->flags & MKD_TAGTEXT)
+      |                         ^
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1250:12: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1250 |                         Qstring("&gt;", f);
+      |                                 ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1256:12: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1256 |                         Qstring("&quot;", f);
+      |                                 ^~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1264:16: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1264 |                             Qstring("![", f);
+      |                                     ^~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1301:12: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1301 |                         Qstring("<sup>",f);
+      |                                 ^~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1302:35: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1302 |                         ___mkd_reparse(sup, len, 0, f, "()");
+      |                                                        ^~~~
+generate.c:190:64: note: passing argument to parameter 'esc' here
+  190 | ___mkd_reparse(char *bfr, int size, int flags, MMIOT *f, char *esc)
+      |                                                                ^
+generate.c:1303:12: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1303 |                         Qstring("</sup>", f);
+      |                                 ^~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1340:27: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1340 |                     case '&':   Qstring("&amp;", f);
+      |                                         ^~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1344:17: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1344 |                                     Qstring("&lt;", f);
+      |                                             ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1385:12: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1385 |                         Qstring("&lt;", f);
+      |                                 ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1393:12: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1393 |                         Qstring("&amp;", f);
+      |                                 ^~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1412:5: warning: 'WITH_ID_ANCHOR' is not defined, evaluates to 0 [-Wundef]
+ 1412 | #if WITH_ID_ANCHOR
+      |     ^
+generate.c:1424:10: warning: passing 'const char[10]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1424 |         Qstring("<a name=\"", f);
+      |                 ^~~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1428:10: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1428 |         Qstring("\"></a>\n", f);
+      |                 ^~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+compiling markdown.c
+generate.c:1430:16: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1430 |     Qprintf(f, "<h%d>", pp->hnumber);
+      |                ^~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1434:16: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1434 |     Qprintf(f, "</h%d>", pp->hnumber);
+      |                ^~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1440:31: warning: initializing 'char *' with an expression of type 'const char[1]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1440 | static char* alignments[] = { "", " style=\"text-align:center;\"",
+      |                               ^~
+generate.c:1440:35: warning: initializing 'char *' with an expression of type 'const char[28]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1440 | static char* alignments[] = { "", " style=\"text-align:center;\"",
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:1441:7: warning: initializing 'char *' with an expression of type 'const char[26]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1441 |                                   " style=\"text-align:left;\"",
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:1442:7: warning: initializing 'char *' with an expression of type 'const char[27]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1442 |                                   " style=\"text-align:right;\"" };
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:1458:13: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1458 |     Qstring("<tr>\n", f);
+      |             ^~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1470:13: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1470 |         Qprintf(f, "<%s%s>",
+      |                    ^~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1473:52: warning: passing 'const char[2]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1473 |         ___mkd_reparse(T(p->text)+first, idx-first, 0, f, "|");
+      |                                                           ^~~
+generate.c:190:64: note: passing argument to parameter 'esc' here
+  190 | ___mkd_reparse(char *bfr, int size, int flags, MMIOT *f, char *esc)
+      |                                                                ^
+generate.c:1474:13: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1474 |         Qprintf(f, "</%s>\n", block);
+      |                    ^~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1480:17: warning: passing 'const char[11]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1480 |             Qprintf(f, "<%s></%s>\n", block, block);
+      |                        ^~~~~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1483:13: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1483 |     Qstring("</tr>\n", f);
+      |             ^~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1535:13: warning: passing 'const char[9]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1535 |     Qstring("<table>\n", f);
+      |             ^~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1536:13: warning: passing 'const char[9]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1536 |     Qstring("<thead>\n", f);
+      |             ^~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1537:24: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1537 |     hcols = splat(hdr, "th", align, 0, f);
+      |                        ^~~~
+generate.c:1447:22: note: passing argument to parameter 'block' here
+ 1447 | splat(Line *p, char *block, Istring align, int force, MMIOT *f)
+      |                      ^
+generate.c:1538:13: warning: passing 'const char[10]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1538 |     Qstring("</thead>\n", f);
+      |             ^~~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1546:13: warning: passing 'const char[9]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1546 |     Qstring("<tbody>\n", f);
+      |             ^~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1548:14: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1548 |         splat(body, "td", align, 1, f);
+      |                     ^~~~
+generate.c:1447:22: note: passing argument to parameter 'block' here
+ 1447 | splat(Line *p, char *block, Istring align, int force, MMIOT *f)
+      |                      ^
+generate.c:1549:13: warning: passing 'const char[10]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1549 |     Qstring("</tbody>\n", f);
+      |             ^~~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1550:13: warning: passing 'const char[10]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1550 |     Qstring("</table>\n", f);
+      |             ^~~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1561:30: warning: initializing 'char *' with an expression of type 'const char[1]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1561 |     static char *Begin[] = { "", "<p>", "<p style=\"text-align:center;\">"  };
+      |                              ^~
+generate.c:1561:34: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1561 |     static char *Begin[] = { "", "<p>", "<p style=\"text-align:center;\">"  };
+      |                                  ^~~~~
+generate.c:1561:41: warning: initializing 'char *' with an expression of type 'const char[31]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1561 |     static char *Begin[] = { "", "<p>", "<p style=\"text-align:center;\">"  };
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:1562:30: warning: initializing 'char *' with an expression of type 'const char[1]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1562 |     static char *End[]   = { "", "</p>","</p>" };
+      |                              ^~
+generate.c:1562:34: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1562 |     static char *End[]   = { "", "</p>","</p>" };
+      |                                  ^~~~~~
+generate.c:1562:41: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1562 |     static char *End[]   = { "", "</p>","</p>" };
+      |                                         ^~~~~~
+generate.c:1570:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1570 |                 push("\003\n", 2, f);
+      |                      ^~~~~~~~
+generate.c:34:12: note: passing argument to parameter 'bfr' here
+   34 | push(char *bfr, int size, MMIOT *f)
+      |            ^
+generate.c:1576:12: warning: passing 'const char[2]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1576 |                     push("\n", 1, f);
+      |                          ^~~~
+generate.c:34:12: note: passing argument to parameter 'bfr' here
+   34 | push(char *bfr, int size, MMIOT *f)
+      |            ^
+generate.c:1593:13: warning: passing 'const char[11]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1593 |     Qstring("<pre><code", f);
+      |             ^~~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1595:15: warning: passing 'const char[9]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1595 |       Qstring(" class=\"", f);
+      |               ^~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1597:15: warning: passing 'const char[2]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1597 |       Qstring("\"", f);
+      |               ^~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1599:13: warning: passing 'const char[2]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1599 |     Qstring(">", f);
+      |             ^~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1611:13: warning: passing 'const char[14]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1611 |     Qstring("</code></pre>", f);
+      |             ^~~~~~~~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1638:13: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1638 |         Qprintf(f, arguments ? "<%s %s>" : "<%s>", block, arguments);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1643:10: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1643 |         Qstring("\n\n", f);
+      |                 ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1647:14: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1647 |          Qprintf(f, "</%s>", block);
+      |                     ^~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1658:10: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1658 |         Qstring("<dl>\n", f);
+      |                 ^~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1662:11: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1662 |                 Qstring("<dt>", f);
+      |                         ^~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1664:11: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1664 |                 Qstring("</dt>\n", f);
+      |                         ^~~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1667:23: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1667 |             htmlify(p->down, "dd", p->ident, f);
+      |                              ^~~~
+generate.c:1634:29: note: passing argument to parameter 'block' here
+ 1634 | htmlify(Paragraph *p, char *block, char *arguments, MMIOT *f)
+      |                             ^
+generate.c:1671:10: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1671 |         Qstring("</dl>", f);
+      |                 ^~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1680:13: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1680 |         Qprintf(f, "<%cl", (typ==UL)?'u':'o');
+      |                    ^~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1682:17: warning: passing 'const char[10]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1682 |             Qprintf(f, " type=\"a\"");
+      |                        ^~~~~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1683:13: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1683 |         Qprintf(f, ">\n");
+      |                    ^~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1686:23: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1686 |             htmlify(p->down, "li", p->ident, f);
+      |                              ^~~~
+generate.c:1634:29: note: passing argument to parameter 'block' here
+ 1634 | htmlify(Paragraph *p, char *block, char *arguments, MMIOT *f)
+      |                             ^
+generate.c:1690:13: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1690 |         Qprintf(f, "</%cl>\n", (typ==UL)?'u':'o');
+      |                    ^~~~~~~~~~
+generate.c:159:25: note: passing argument to parameter 'fmt' here
+  159 | Qprintf(MMIOT *f, char *fmt, ...)
+      |                         ^
+generate.c:1716:19: warning: passing 'const char *' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1716 |         htmlify(p->down, p->ident ? "div" : "blockquote", p->ident, f);
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+generate.c:1634:29: note: passing argument to parameter 'block' here
+ 1634 | htmlify(Paragraph *p, char *block, char *arguments, MMIOT *f)
+      |                             ^
+generate.c:1730:10: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1730 |         Qstring("<hr />", f);
+      |                 ^~~~~~~~
+generate.c:139:15: note: passing argument to parameter 's' here
+  139 | Qstring(char *s, MMIOT *f)
+      |               ^
+generate.c:1764:23: warning: passing 'const char[37]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1764 |     Csprintf(&m->out, "\n<div class=\"footnotes\">\n<hr/>\n<ol>\n");
+      |                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./cstring.h:73:38: note: passing argument to parameter here
+   73 | extern int Csprintf(Cstring *, char *, ...);
+      |                                      ^
+generate.c:1770:21: warning: passing 'const char[20]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1770 |                 Csprintf(&m->out, "<li id=\"%s:%d\">\n<p>",
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~
+./cstring.h:73:38: note: passing argument to parameter here
+   73 | extern int Csprintf(Cstring *, char *, ...);
+      |                                      ^
+generate.c:1773:21: warning: passing 'const char[47]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1773 |                 Csprintf(&m->out, "<a href=\"#%sref:%d\" rev=\"footnote\">&#8617;</a>",
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./cstring.h:73:38: note: passing argument to parameter here
+   73 | extern int Csprintf(Cstring *, char *, ...);
+      |                                      ^
+generate.c:1775:21: warning: passing 'const char[11]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1775 |                 Csprintf(&m->out, "</p></li>\n");
+      |                                   ^~~~~~~~~~~~~
+./cstring.h:73:38: note: passing argument to parameter here
+   73 | extern int Csprintf(Cstring *, char *, ...);
+      |                                      ^
+generate.c:1779:23: warning: passing 'const char[14]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+ 1779 |     Csprintf(&m->out, "</ol>\n</div>\n");
+      |                       ^~~~~~~~~~~~~~~~~
+./cstring.h:73:38: note: passing argument to parameter here
+   73 | extern int Csprintf(Cstring *, char *, ...);
+      |                                      ^
+html5.c:13:20: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   13 |     mkd_define_tag("ASIDE", 0);
+      |                    ^~~~~~~
+./tags.h:17:27: note: passing argument to parameter here
+   17 | void mkd_define_tag(char *, int);
+      |                           ^
+html5.c:14:20: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   14 |     mkd_define_tag("FOOTER", 0);
+      |                    ^~~~~~~~
+./tags.h:17:27: note: passing argument to parameter here
+   17 | void mkd_define_tag(char *, int);
+      |                           ^
+html5.c:15:20: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   15 |     mkd_define_tag("HEADER", 0);
+      |                    ^~~~~~~~
+./tags.h:17:27: note: passing argument to parameter here
+   17 | void mkd_define_tag(char *, int);
+      |                           ^
+html5.c:16:20: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   16 |     mkd_define_tag("HGROUP", 0);
+      |                    ^~~~~~~~
+./tags.h:17:27: note: passing argument to parameter here
+   17 | void mkd_define_tag(char *, int);
+      |                           ^
+html5.c:17:20: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   17 |     mkd_define_tag("NAV", 0);
+      |                    ^~~~~
+./tags.h:17:27: note: passing argument to parameter here
+   17 | void mkd_define_tag(char *, int);
+      |                           ^
+html5.c:18:20: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   18 |     mkd_define_tag("SECTION", 0);
+      |                    ^~~~~~~~~
+./tags.h:17:27: note: passing argument to parameter here
+   17 | void mkd_define_tag(char *, int);
+      |                           ^
+html5.c:19:20: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   19 |     mkd_define_tag("ARTICLE", 0);
+      |                    ^~~~~~~~~
+./tags.h:17:27: note: passing argument to parameter here
+   17 | void mkd_define_tag(char *, int);
+      |                           ^
+7 warnings generated.
+1 warning generated.
+compiling mkdio.c
+compiling mktags.c
+compiling pgm_options.c
+markdown.c:107:30: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  107 | static struct kw comment = { "!--", 3, 0 };
+      |                              ^~~~~
+markdown.c:255:11: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  255 |         if ( end = strstr(T(t->text), "-->") ) {
+      |              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+markdown.c:255:11: note: place parentheses around the assignment to silence this warning
+  255 |         if ( end = strstr(T(t->text), "-->") ) {
+      |                  ^
+      |              (                              )
+markdown.c:255:11: note: use '==' to turn this assignment into an equality comparison
+  255 |         if ( end = strstr(T(t->text), "-->") ) {
+      |                  ^
+      |                  ==
+markdown.c:256:21: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+  256 |             splitline(t, 3 + (end - T(t->text)) );
+      |             ~~~~~~~~~    ~~^~~~~~~~~~~~~~~~~~~~
+markdown.c:303:16: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  303 |                 if ( closing = (c == '/') ) c = flogetc(&f);
+      |                      ~~~~~~~~^~~~~~~~~~~~
+markdown.c:303:16: note: place parentheses around the assignment to silence this warning
+  303 |                 if ( closing = (c == '/') ) c = flogetc(&f);
+      |                              ^
+      |                      (                   )
+markdown.c:303:16: note: use '==' to turn this assignment into an equality comparison
+  303 |                 if ( closing = (c == '/') ) c = flogetc(&f);
+      |                              ^
+      |                              ==
+markdown.c:477:8: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  477 |         if ( x=is_extra_dt(t->next, clip) )
+      |              ~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+markdown.c:477:8: note: place parentheses around the assignment to silence this warning
+  477 |         if ( x=is_extra_dt(t->next, clip) )
+      |               ^
+      |              (                           )
+markdown.c:477:8: note: use '==' to turn this assignment into an equality comparison
+  477 |         if ( x=is_extra_dt(t->next, clip) )
+      |               ^
+      |               ==
+markdown.c:491:14: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  491 |     if ( ret = is_discount_dt(t,clip) )
+      |          ~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+markdown.c:491:14: note: place parentheses around the assignment to silence this warning
+  491 |     if ( ret = is_discount_dt(t,clip) )
+      |              ^
+      |          (                           )
+markdown.c:491:14: note: use '==' to turn this assignment into an equality comparison
+  491 |     if ( ret = is_discount_dt(t,clip) )
+      |              ^
+      |              ==
+markdown.c:809:8: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  809 |         char *prefix = "class";
+      |               ^        ~~~~~~~
+markdown.c:817:12: warning: assigning to 'char *' from 'const char[3]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+  817 |             prefix="id";
+      |                   ^~~~~
+markdown.c:819:16: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  819 |         if ( p->ident = malloc(4+strlen(prefix)+S(q->text)) )
+      |              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+markdown.c:819:16: note: place parentheses around the assignment to silence this warning
+  819 |         if ( p->ident = malloc(4+strlen(prefix)+S(q->text)) )
+      |                       ^
+      |              (                                             )
+markdown.c:819:16: note: use '==' to turn this assignment into an equality comparison
+  819 |         if ( p->ident = malloc(4+strlen(prefix)+S(q->text)) )
+      |                       ^
+      |                       ==
+markdown.c:901:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  901 |         if ( para = (text != q->next) )
+      |              ~~~~~^~~~~~~~~~~~~~~~~~~
+markdown.c:901:12: note: place parentheses around the assignment to silence this warning
+  901 |         if ( para = (text != q->next) )
+      |                   ^
+      |              (                       )
+markdown.c:901:12: note: use '==' to turn this assignment into an equality comparison
+  901 |         if ( para = (text != q->next) )
+      |                   ^
+      |                   ==
+markdown.c:924:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  924 |         if ( para = (q != text) ) {
+      |              ~~~~~^~~~~~~~~~~~~
+markdown.c:924:12: note: place parentheses around the assignment to silence this warning
+  924 |         if ( para = (q != text) ) {
+      |                   ^
+      |              (                 )
+markdown.c:924:12: note: use '==' to turn this assignment into an equality comparison
+  924 |         if ( para = (q != text) ) {
+      |                   ^
+      |                   ==
+markdown.c:964:12: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  964 |         if ( para = (q != text) ) {
+      |              ~~~~~^~~~~~~~~~~~~
+markdown.c:964:12: note: place parentheses around the assignment to silence this warning
+  964 |         if ( para = (q != text) ) {
+      |                   ^
+      |              (                 )
+markdown.c:964:12: note: use '==' to turn this assignment into an equality comparison
+  964 |         if ( para = (q != text) ) {
+      |                   ^
+      |                   ==
+markdown.c:1256:23: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+ 1256 |         else if ( list_class = islist(ptr, &indent, f->flags, &list_type) ) {
+      |                   ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+markdown.c:1256:23: note: place parentheses around the assignment to silence this warning
+ 1256 |         else if ( list_class = islist(ptr, &indent, f->flags, &list_type) ) {
+      |                              ^
+      |                   (                                                      )
+markdown.c:1256:23: note: use '==' to turn this assignment into an equality comparison
+ 1256 |         else if ( list_class = islist(ptr, &indent, f->flags, &list_type) ) {
+      |                              ^
+      |                              ==
+mkdio.c:27:16: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+   27 |         if ( ret->ctx = calloc(sizeof(MMIOT), 1) ) {
+      |              ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+mkdio.c:27:16: note: place parentheses around the assignment to silence this warning
+   27 |         if ( ret->ctx = calloc(sizeof(MMIOT), 1) ) {
+      |                       ^
+      |              (                                  )
+mkdio.c:27:16: note: use '==' to turn this assignment into an equality comparison
+   27 |         if ( ret->ctx = calloc(sizeof(MMIOT), 1) ) {
+      |                       ^
+      |                       ==
+mktags.c:20:15: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
+   20 |     p->size = strlen(id);
+      |             ~ ^~~~~~~~~~
+mktags.c:44:1: error: type specifier missing, defaults to 'int'; ISO C99 and later do not support implicit int [-Wimplicit-int]
+   44 | main()
+      | ^
+      | int
+mktags.c:51:8: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   51 |     KW("STYLE");
+      |        ^~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:52:8: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   52 |     KW("SCRIPT");
+      |        ^~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:53:8: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   53 |     KW("ADDRESS");
+      |        ^~~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:54:8: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   54 |     KW("BDO");
+      |        ^~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:55:8: warning: passing 'const char[11]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   55 |     KW("BLOCKQUOTE");
+      |        ^~~~~~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:56:8: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   56 |     KW("CENTER");
+      |        ^~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:57:8: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   57 |     KW("DFN");
+      |        ^~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:58:8: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   58 |     KW("DIV");
+      |        ^~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:59:8: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   59 |     KW("OBJECT");
+      |        ^~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:60:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   60 |     KW("H1");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:61:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   61 |     KW("H2");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:62:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   62 |     KW("H3");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:63:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   63 |     KW("H4");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:64:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   64 |     KW("H5");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:65:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   65 |     KW("H6");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:66:8: warning: passing 'const char[8]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   66 |     KW("LISTING");
+      |        ^~~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:67:8: warning: passing 'const char[5]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   67 |     KW("NOBR");
+      |        ^~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:68:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   68 |     KW("UL");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:69:8: warning: passing 'const char[2]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   69 |     KW("P");
+      |        ^~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:70:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   70 |     KW("OL");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:71:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   71 |     KW("DL");
+      |        ^~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:72:8: warning: passing 'const char[10]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   72 |     KW("PLAINTEXT");
+      |        ^~~~~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:73:8: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   73 |     KW("PRE");
+      |        ^~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:74:8: warning: passing 'const char[6]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   74 |     KW("TABLE");
+      |        ^~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:75:8: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   75 |     KW("WBR");
+      |        ^~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:76:8: warning: passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   76 |     KW("XMP");
+      |        ^~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:77:8: warning: passing 'const char[3]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   77 |     SC("HR");
+      |        ^~~~
+mktags.c:49:30: note: expanded from macro 'SC'
+   49 | #define SC(x)   define_one_tag(x, 1)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+mktags.c:78:8: warning: passing 'const char[7]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   78 |     KW("IFRAME");
+      |        ^~~~~~~~
+mktags.c:48:30: note: expanded from macro 'KW'
+   48 | #define KW(x)   define_one_tag(x, 0)
+      |                                ^
+mktags.c:15:22: note: passing argument to parameter 'id' here
+   15 | define_one_tamkdio.c:266:14: warning: using the result of an assignment as a condition without parentheses [-Wparentheses]
+  266 | g  ( c hiafr  (* ilde,n  i=n tS (sfe.lofuctl)o s)e ){
+
+            | |                      ^         ~~~~^~~~~~~~~~
+
+mktags.c:79:mkdio.c8::266 :warning: 14passing 'const char[4]' to parameter of type 'char *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]:
+ note: place parentheses around the assignment to silence this warning
+   79 |    266 |     i f   (K Wl(e"nM A=P "S)(;f
+.      o| u       ^~~~~t
+) ) {mktags.c
+:      48| :             ^30
+:       | note:          (             )expanded from macro 'KW'
+
+   48 | #define KW(x)   definemkdio.c_:o266n:e14_:t anote: guse '==' to turn this assignment into an equality comparison(
+x, 0  )266
+ |        |                                 ^ 
+ if mktags.c:15:( len = S(f.out) ) {
+22: note: passing argument to parameter 'id' here      |              ^
+      |              ==
+
+   15 | define_one_tag(char *id, int selfclose)
+      |                      ^
+30 warnings and 1 error generated.
+make: *** [mktags.o] Error 1
+make: *** Waiting for unfinished jobs....
+pgm_options.c:20:5: warning: 'HAVE_LIBGEN_H' is not defined, evaluates to 0 [-Wundef]
+   20 | #if HAVE_LIBGEN_H
+      |     ^
+pgm_options.c:32:7: warning: initializing 'char *' with an expression of type 'const char[8]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   32 |     { "tabstop",       "default (4-space) tabstops", 0, 0, 1, MKD_TABSTOP  },
+      |       ^~~~~~~~~
+pgm_options.c:32:24: warning: initializing 'char *' with an expression of type 'const char[27]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   32 |     { "tabstop",       "default (4-space) tabstops", 0, 0, 1, MKD_TABSTOP  },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:33:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   33 |     { "image",         "images",                     1, 0, 1, MKD_NOIMAGE  },
+      |       ^~~~~~~
+pgm_options.c:33:24: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   33 |     { "image",         "images",                     1, 0, 1, MKD_NOIMAGE  },
+      |                        ^~~~~~~~
+pgm_options.c:34:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   34 |     { "links",         "links",                      1, 0, 1, MKD_NOLINKS  },
+      |       ^~~~~~~
+pgm_options.c:34:24: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   34 |     { "links",         "links",                      1, 0, 1, MKD_NOLINKS  },
+      |                        ^~~~~~~
+pgm_options.c:35:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   35 |     { "relax",         "emphasis inside words",      1, 1, 1, MKD_STRICT   },
+      |       ^~~~~~~
+pgm_options.c:35:24: warning: initializing 'char *' with an expression of type 'const char[22]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   35 |     { "relax",         "emphasis inside words",      1, 1, 1, MKD_STRICT   },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:36:7: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   36 |     { "strict",        "emphasis inside words",      0, 0, 1, MKD_STRICT   },
+      |       ^~~~~~~~
+pgm_options.c:36:24: warning: initializing 'char *' with an expression of type 'const char[22]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   36 |     { "strict",        "emphasis inside words",      0, 0, 1, MKD_STRICT   },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:37:7: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   37 |     { "tables",        "tables",                     1, 0, 1, MKD_NOTABLES },
+      |       ^~~~~~~~
+pgm_options.c:37:24: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   37 |     { "tables",        "tables",                     1, 0, 1, MKD_NOTABLES },
+      |                        ^~~~~~~~
+pgm_options.c:38:7: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   38 |     { "header",        "pandoc-style headers",       1, 0, 1, MKD_NOHEADER },
+      |       ^~~~~~~~
+pgm_options.c:38:24: warning: initializing 'char *' with an expression of type 'const char[21]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   38 |     { "header",        "pandoc-style headers",       1, 0, 1, MKD_NOHEADER },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:39:7: warning: initializing 'char *' with an expression of type 'const char[5]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   39 |     { "html",          "raw html",                   1, 0, 1, MKD_NOHTML   },
+      |       ^~~~~~
+pgm_options.c:39:24: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   39 |     { "html",          "raw html",                   1, 0, 1, MKD_NOHTML   },
+      |                        ^~~~~~~~~~
+pgm_options.c:40:7: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   40 |     { "ext",           "extended protocols",         1, 0, 1, MKD_NO_EXT   },
+      |       ^~~~~
+pgm_options.c:40:24: warning: initializing 'char *' with an expression of type 'const char[19]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   40 |     { "ext",           "extended protocols",         1, 0, 1, MKD_NO_EXT   },
+      |                        ^~~~~~~~~~~~~~~~~~~~
+pgm_options.c:41:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   41 |     { "cdata",         "generate cdata",             0, 0, 0, MKD_CDATA    },
+      |       ^~~~~~~
+pgm_options.c:41:24: warning: initializing 'char *' with an expression of type 'const char[15]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   41 |     { "cdata",         "generate cdata",             0, 0, 0, MKD_CDATA    },
+      |                        ^~~~~~~~~~~~~~~~
+pgm_options.c:42:7: warning: initializing 'char *' with an expression of type 'const char[7]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   42 |     { "smarty",        "smartypants",                1, 0, 1, MKD_NOPANTS  },
+      |       ^~~~~~~~
+pgm_options.c:42:24: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   42 |     { "smarty",        "smartypants",                1, 0, 1, MKD_NOPANTS  },
+      |                        ^~~~~~~~~~~~~
+pgm_options.c:43:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   43 |     { "pants",         "smartypants",                1, 1, 1, MKD_NOPANTS  },
+      |       ^~~~~~~
+pgm_options.c:43:24: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   43 |     { "pants",         "smartypants",                1, 1, 1, MKD_NOPANTS  },
+      |                        ^~~~~~~~~~~~~
+pgm_options.c:44:7: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   44 |     { "toc",           "tables of contents",         0, 0, 1, MKD_TOC      },
+      |       ^~~~~
+pgm_options.c:44:24: warning: initializing 'char *' with an expression of type 'const char[19]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   44 |     { "toc",           "tables of contents",         0, 0, 1, MKD_TOC      },
+      |                        ^~~~~~~~~~~~~~~~~~~~
+pgm_options.c:45:7: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   45 |     { "autolink",      "autolinking",                0, 0, 1, MKD_AUTOLINK },
+      |       ^~~~~~~~~~
+pgm_options.c:45:24: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   45 |     { "autolink",      "autolinking",                0, 0, 1, MKD_AUTOLINK },
+      |                        ^~~~~~~~~~~~~
+pgm_options.c:46:7: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   46 |     { "safelink",      "safe links",                 0, 0, 1, MKD_SAFELINK },
+      |       ^~~~~~~~~~
+pgm_options.c:46:24: warning: initializing 'char *' with an expression of type 'const char[11]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   46 |     { "safelink",      "safe links",                 0, 0, 1, MKD_SAFELINK },
+      |                        ^~~~~~~~~~~~
+pgm_options.c:47:7: warning: initializing 'char *' with an expression of type 'const char[14]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   47 |     { "strikethrough", "strikethrough",              1, 0, 1, MKD_NOSTRIKETHROUGH },
+      |       ^~~~~~~~~~~~~~~
+pgm_options.c:47:24: warning: initializing 'char *' with an expression of type 'const char[14]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   47 |     { "strikethrough", "strikethrough",              1, 0, 1, MKD_NOSTRIKETHROUGH },
+      |                        ^~~~~~~~~~~~~~~
+pgm_options.c:48:7: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   48 |     { "del",           "strikethrough",              1, 1, 1, MKD_NOSTRIKETHROUGH },
+      |       ^~~~~
+pgm_options.c:48:24: warning: initializing 'char *' with an expression of type 'const char[14]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   48 |     { "del",           "strikethrough",              1, 1, 1, MKD_NOSTRIKETHROUGH },
+      |                        ^~~~~~~~~~~~~~~
+pgm_options.c:49:7: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   49 |     { "superscript",   "superscript",                1, 0, 1, MKD_NOSUPERSCRIPT },
+      |       ^~~~~~~~~~~~~
+pgm_options.c:49:24: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   49 |     { "superscript",   "superscript",                1, 0, 1, MKD_NOSUPERSCRIPT },
+      |                        ^~~~~~~~~~~~~
+pgm_options.c:50:7: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   50 |     { "emphasis",      "emphasis inside words",      0, 0, 1, MKD_NORELAXED },
+      |       ^~~~~~~~~~
+pgm_options.c:50:24: warning: initializing 'char *' with an expression of type 'const char[22]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   50 |     { "emphasis",      "emphasis inside words",      0, 0, 1, MKD_NORELAXED },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:51:7: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   51 |     { "divquote",      ">%class% blockquotes",       1, 0, 1, MKD_NODIVQUOTE },
+      |       ^~~~~~~~~~
+pgm_options.c:51:24: warning: initializing 'char *' with an expression of type 'const char[21]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   51 |     { "divquote",      ">%class% blockquotes",       1, 0, 1, MKD_NODIVQUOTE },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:52:7: warning: initializing 'char *' with an expression of type 'const char[10]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   52 |     { "alphalist",     "alpha lists",                1, 0, 1, MKD_NOALPHALIST },
+      |       ^~~~~~~~~~~
+pgm_options.c:52:24: warning: initializing 'char *' with an expression of type 'const char[12]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   52 |     { "alphalist",     "alpha lists",                1, 0, 1, MKD_NOALPHALIST },
+      |                        ^~~~~~~~~~~~~
+pgm_options.c:53:7: warning: initializing 'char *' with an expression of type 'const char[15]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   53 |     { "definitionlist","definition lists",           1, 0, 1, MKD_NODLIST },
+      |       ^~~~~~~~~~~~~~~~
+pgm_options.c:53:24: warning: initializing 'char *' with an expression of type 'const char[17]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   53 |     { "definitionlist","definition lists",           1, 0, 1, MKD_NODLIST },
+      |                        ^~~~~~~~~~~~~~~~~~
+pgm_options.c:54:7: warning: initializing 'char *' with an expression of type 'const char[4]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   54 |     { "1.0",           "markdown 1.0 compatibility", 0, 0, 1, MKD_1_COMPAT },
+      |       ^~~~~
+pgm_options.c:54:24: warning: initializing 'char *' with an expression of type 'const char[27]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   54 |     { "1.0",           "markdown 1.0 compatibility", 0, 0, 1, MKD_1_COMPAT },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:55:7: warning: initializing 'char *' with an expression of type 'const char[10]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   55 |     { "footnotes",     "markdown extra footnotes",   0, 0, 1, MKD_EXTRA_FOOTNOTE },
+      |       ^~~~~~~~~~~
+pgm_options.c:55:24: warning: initializing 'char *' with an expression of type 'const char[25]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   55 |     { "footnotes",     "markdown extra footnotes",   0, 0, 1, MKD_EXTRA_FOOTNOTE },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:56:7: warning: initializing 'char *' with an expression of type 'const char[9]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   56 |     { "footnote",      "markdown extra footnotes",   0, 1, 1, MKD_EXTRA_FOOTNOTE },
+      |       ^~~~~~~~~~
+pgm_options.c:56:24: warning: initializing 'char *' with an expression of type 'const char[25]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   56 |     { "footnote",      "markdown extra footnotes",   0, 1, 1, MKD_EXTRA_FOOTNOTE },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:57:7: warning: initializing 'char *' with an expression of type 'const char[6]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   57 |     { "style",         "extract style blocks",       1, 0, 1, MKD_NOSTYLE },
+      |       ^~~~~~~
+pgm_options.c:57:24: warning: initializing 'char *' with an expression of type 'const char[21]' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+   57 |     { "style",         "extract style blocks",       1, 0, 1, MKD_NOSTYLE },
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+pgm_options.c:86:14: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   86 |         for (i=0; i < NR(opts); i++)
+      |                   ~ ^ ~~~~~~~~
+pgm_options.c:93:14: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+   93 |         for (i=0; i < NR(opts); i++)
+      |                   ~ ^ ~~~~~~~~
+pgm_options.c:121:15: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  121 |         for ( i=0; i < NR(opts); i++ )
+      |                    ~ ^ ~~~~~~~~
+pgm_options.c:125:9: warning: comparison of integers of different signs: 'int' and 'unsigned long' [-Wsign-compare]
+  125 |         if ( i < NR(opts) ) {
+      |              ~ ^ ~~~~~~~~
+57 warnings generated.
+2 warnings generated.
+13 warnings generated.
+178 warnings generated.
+
+make failed, exit code 2
