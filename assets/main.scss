@@ -221,11 +221,22 @@ footer span {
   background-size: cover;
   border-radius: 6px;
   height: 220px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 5px;
   width: 100%;
 
   @media (min-width: 600px) {
     height: 350px;
+  }
+}
+
+// Tighten gap between cover image and post title
+.post .post-title {
+  margin-top: 0;
+}
+
+@media (min-width: 600px) {
+  .post .post-title {
+    margin-top: 0;
   }
 }
 
