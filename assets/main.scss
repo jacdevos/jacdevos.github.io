@@ -19,6 +19,11 @@ html {
   font-size: 16px;
 }
 
+// Wider reading area — 900px instead of Tale's 800px
+.container, main, footer, .nav-container {
+  max-width: 900px;
+}
+
 // Slightly darker body text (Tale default is #555, this is rich dark grey not black)
 html, body {
   color: #3d3d3d;
@@ -190,12 +195,11 @@ footer span {
 .catalogue-item-inner {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 0.35rem;
 
   @media (min-width: 600px) {
     flex-direction: row;
     gap: 1.25rem;
-    align-items: stretch;
   }
 }
 
@@ -210,13 +214,11 @@ footer span {
   }
 
   @media (min-width: 600px) {
-    flex: 0 0 280px;
+    flex: 0 0 320px;
 
     img {
       width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 4px;
+      height: auto;
     }
   }
 }
