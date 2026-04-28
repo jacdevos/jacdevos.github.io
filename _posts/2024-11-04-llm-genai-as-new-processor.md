@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-title: LLMs as the new processor (Presented at Code Collective Conf, Nov 2024)
+title: LLMs as the new processor
+context: Code Collective Talk
 ---
 
 This talk introduced LLMs to software developers as a new kind of processor with remarkable capabilities, framed within the history of computing.

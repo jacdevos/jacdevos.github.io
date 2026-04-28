@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-title: Hybrid vs native mobile tech stack (JSinSA 2016 Talk)
+title: Hybrid vs native mobile tech stack
+context: JSinSA Talk
 ---
 Choosing the wrong mobile tech stack sets you up for a world of pain. But how do you select the right one from a plethora of current options? 
 

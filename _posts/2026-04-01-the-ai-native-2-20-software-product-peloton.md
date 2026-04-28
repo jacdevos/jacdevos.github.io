@@ -2,6 +2,7 @@
 published: true
 layout: post
 title: The AI-Native 2/20 Software Product Peloton
+context: Thought Experiment
 ---
 
 **TL;DR** **a thought experiment / guide for larger software product orgs (not a prescription):** a ~20 person team structure (aka Peloton)—about 7 **2-person-crews**, ~5 supporting specialists, and a product manager—**might** ease new bottlenecks from LLM efficiency. **Counts are illustrative**, not fixed slots. 

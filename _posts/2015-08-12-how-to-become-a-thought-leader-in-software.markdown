@@ -67,6 +67,6 @@ I don’t think we all have to strive to be celebrity authors, but realising tha
 
 Or you can just build stuff.
 
-{% include twitter_include.html %}
+
 
 _Thanks to Martin Cronje (a few of the ideas in this post was his), and Declan Whelan (who made sure good conversations happened and ideas spread)_

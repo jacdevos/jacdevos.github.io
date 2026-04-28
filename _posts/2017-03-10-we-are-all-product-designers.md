@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-title: What is software product design? (DevConf 2017)
+title: What is software product design?
+context: DevConf Talk
 ---
 Although software engineering has become crucial to our modern society, it is still a new and often misunderstood discipline.
 

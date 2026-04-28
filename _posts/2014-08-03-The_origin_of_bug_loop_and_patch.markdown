@@ -42,4 +42,3 @@ Tidbits I found interesting:
 
 The machine is on display at the Harvard University Science Center (where I took these photos). Hope you enjoyed this as much as I did.
 
-{% include twitter_include.html %}

@@ -33,4 +33,4 @@ Here are a few insights that struck me as reoccurring, as well as the books they
 *	Build and contribute to your professional network; it’s a more secure structure than a company. *The Tipping Point, Coffee, Lunch, Coffee, Never eat alone*
 *	The Internet and social media have opened up marketing for a bigger variety of products. *The Long Tail, Purple Cow*
 
-{% include twitter_include.html %}
+

@@ -26,4 +26,4 @@ This line of thinking can be taken much further than just typing. Anything in ou
 
 In summary: as a developer, *always find ways to reduce explicit, non-automatic tasks that draw your attention*. I, for one, will take my environment and skills like typing more seriously now.
 
-{% include twitter_include.html %}
+

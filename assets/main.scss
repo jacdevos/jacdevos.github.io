@@ -1,0 +1,221 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Load Inter — the most popular modern reading sans-serif
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+// Override all Tale theme fonts to Inter (sans-serif everywhere)
+$sans-serif: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+$serif-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+$serif-secondary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+
+@import 'tale';
+
+// ===== Custom overrides for Jac's blog =====
+
+// Bigger body font (Tale default is 14px/16px)
+html {
+  font-size: 18px;
+
+  @media (min-width: 600px) {
+    font-size: 20px;
+  }
+}
+
+// Slightly darker body text (Tale default is #555, this is rich dark grey not black)
+html, body {
+  color: #3d3d3d;
+  line-height: 1.7;
+}
+
+// Navigation — profile pic + title, with right-aligned social icons
+.nav-container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0;
+
+  .nav-social {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+    margin-top: 0;
+
+    .nav-social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 36px;
+      width: 36px;
+      border-radius: 50%;
+      border: 1.5px solid #ccc;
+      color: #999;
+      text-decoration: none;
+      transition: all 0.2s ease;
+
+      @media (min-width: 600px) {
+        height: 48px;
+        width: 48px;
+
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+
+      &:hover {
+        border-color: #888;
+        color: #666;
+        background: #f5f5f5;
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+// Mobile: stack, pic+title left-aligned, social icons centered below
+@media (max-width: 600px) {
+  .nav-container {
+    align-items: stretch;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  .nav-social {
+    align-self: center;
+    margin-left: 0 !important;
+    margin-top: 0.5rem;
+  }
+
+  .nav-title-wrapper {
+    align-self: flex-start;
+  }
+}
+
+// Desktop: fix Tale's absolute positioning
+@media (min-width: 600px) {
+  .nav-container {
+    text-align: left;
+  }
+}
+
+.nav {
+  &-title-wrapper {
+    align-items: center;
+    color: inherit;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+  }
+
+  &-profile-pic {
+    border-radius: 50%;
+    height: 63px;
+    margin: 0;
+    width: 63px;
+  }
+
+  &-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+  }
+
+  &-title {
+    color: $default-shade;
+    display: inline;
+    font-size: 1.5rem !important;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    margin: 0;
+    padding: 0 !important;
+
+    @media (min-width: 600px) {
+      font-size: 1.75rem !important;
+    }
+  }
+
+  &-subtitle {
+    color: $default-tint;
+    display: inline;
+    font-size: 1rem;
+    font-weight: normal;
+    letter-spacing: 0.3px;
+    margin: 0;
+    padding: 0 !important;
+
+    @media (min-width: 600px) {
+      font-size: 1.15rem;
+    }
+  }
+}
+
+// Post dates and metadata — all Inter
+.post-info,
+.catalogue-time {
+  letter-spacing: 0.3px;
+}
+
+// Footer — match post date style
+footer {
+  padding: 1.5rem 0;
+}
+
+footer span {
+  color: $default-tint;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
+// Pagination — all Inter
+.pagination {
+  letter-spacing: 0.3px;
+}
+
+// Post listing titles — compact
+.catalogue-title {
+  font-size: 1rem !important;
+  font-weight: 600;
+
+  @media (min-width: 600px) {
+    font-size: 1.2rem !important;
+  }
+}
+
+// Post meta — date + context on one line
+.post-meta {
+  font-size: 0.85rem;
+  color: $default-tint;
+  letter-spacing: 0.3px;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.post-context,
+.catalogue-context {
+  color: $default-tint;
+}
+
+// Individual article title — proportional, left-aligned
+.post-title {
+  font-size: 1.3rem !important;
+  margin-bottom: 0.3rem;
+  text-align: left;
+
+  @media (min-width: 600px) {
+    font-size: 1.4rem !important;
+  }
+}
+
+// Post divider line — left-aligned
+.post-line {
+  margin-left: 0 !important;
+}
+
+// Embedded content (YouTube, SlideShare, etc.) — subtle grey background so they're not blank white rectangles
+.post iframe {
+  background: #f4f4f4;
+  border-radius: 4px;
+}
