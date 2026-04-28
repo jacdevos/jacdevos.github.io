@@ -1,10 +1,6 @@
 ---
 layout: default
 ---
-{% capture image %}{% if page.image %}{% if page.image contains '://' %}{{ page.image }}{% else %}{{ page.image | prepend: site.baseurl }}{% endif %}{% endif %}{% endcapture %}
-{% if image and image != "" %}
-<div class="post-cover" style="background-image: url('{{ image | strip }}');"></div>
-{% endif %}
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>

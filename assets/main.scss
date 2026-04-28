@@ -256,21 +256,6 @@ footer span {
   margin-left: 0 !important;
 }
 
-// Cover image at top of each post — 16:9 like actual slides
-.post-cover {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 6px;
-  height: 220px;
-  margin-bottom: 10px;
-  width: 100%;
-
-  @media (min-width: 600px) {
-    height: 350px;
-  }
-}
-
 // Tighten gap between cover image and post title
 .post .post-title {
   margin-top: 0;
