@@ -108,9 +108,14 @@ html, body {
 
   &-profile-pic {
     border-radius: 50%;
-    height: 72px;
+    height: 63px;
     margin: 0;
-    width: 72px;
+    width: 63px;
+
+    @media (min-width: 600px) {
+      height: 72px;
+      width: 72px;
+    }
   }
 
   &-text {
