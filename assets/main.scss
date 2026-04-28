@@ -186,6 +186,43 @@ footer span {
   }
 }
 
+// Post listing image — above on mobile, side on desktop
+.catalogue-item-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+    gap: 1.25rem;
+  }
+}
+
+.catalogue-item-image {
+  flex: 0 0 auto;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+  }
+
+  @media (min-width: 600px) {
+    flex: 0 0 180px;
+
+    img {
+      width: 180px;
+      height: auto;
+    }
+  }
+}
+
+.catalogue-item-content {
+  flex: 1;
+  min-width: 0;
+}
+
 // Post meta — date + context on one line
 .post-meta {
   font-size: 0.85rem;
