@@ -29,7 +29,6 @@ remote_theme: chesterhow/tale
 
 # Feed settings
 feed:
-  excerpt_only: true
   posts_limit: 50
 
 # Build settings
