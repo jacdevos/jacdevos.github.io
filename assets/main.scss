@@ -210,13 +210,9 @@ footer span {
 
 // Post listing titles — compact
 .catalogue-title {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
   font-weight: 600;
   margin-bottom: 0.15rem;
-
-  @media (min-width: 600px) {
-    font-size: 1.2rem !important;
-  }
 }
 
 // Post listing items — 600px max, stacked always
