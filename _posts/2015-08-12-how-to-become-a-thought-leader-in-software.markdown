@@ -5,8 +5,8 @@ image: /assets/article_images/talks/how-to-become-a-thought-leader.jpg
 title: How to become a thought leader in software
 description: "Am I going to be bored or enlightened - I asked this before attending Agile 2015, my first international software development conference as a speaker"
 ---
-_**"Nothing is more powerful than an idea whose time has come."  
-- Victor Hugo**_
+> *"Nothing is more powerful than an idea whose time has come."*
+> — Victor Hugo
 
 “Am I going to be bored or enlightened?” was the question I asked before attending Agile 2015, my first international software development conference as a speaker. 
 
