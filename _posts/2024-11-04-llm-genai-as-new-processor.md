@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/llm-genai-as-new-processor.jpg
+image_width: 2048
+image_height: 1152
 title: LLMs as the new processor
 context: Code Collective Talk
 ---

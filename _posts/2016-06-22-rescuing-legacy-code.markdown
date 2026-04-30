@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/rescuing-legacy-software.jpg
+image_width: 2048
+image_height: 1280
 title: Rescuing Legacy Software from Impending Doom
 context: Agile Washington DC, Agile Australia
 ---

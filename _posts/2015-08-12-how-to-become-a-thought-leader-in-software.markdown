@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/how-to-become-a-thought-leader.jpg
+image_width: 1792
+image_height: 1024
 title: How to become a thought leader in software
 description: "Am I going to be bored or enlightened - I asked this before attending Agile 2015, my first international software development conference as a speaker"
 ---

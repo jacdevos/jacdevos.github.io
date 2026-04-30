@@ -28,7 +28,7 @@
       {% endif %}
     {% endcapture %}
     <div class="catalogue-item-image">
-      <img src="{{ post_image | strip }}" alt="{{ post.title }}" loading="lazy" />
+      <img src="{{ post_image | strip }}" alt="{{ post.title }}" loading="lazy" width="{{ post.image_width }}" height="{{ post.image_height }}" />
     </div>
     {% endif %}
   </div>

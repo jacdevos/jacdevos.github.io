@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/2026-04-01-the-ai-native-2-20-software-product-peloton/peloton-structure.png
+image_width: 1376
+image_height: 768
 title: The AI-Native 2/20 Software Product Peloton
 context: Thought Experiment
 ---

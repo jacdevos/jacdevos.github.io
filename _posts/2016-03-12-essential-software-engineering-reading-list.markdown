@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/essential-software-engineering-reading-list.jpg
+image_width: 1792
+image_height: 1024
 title: Essential software engineering reading list
 ---
 

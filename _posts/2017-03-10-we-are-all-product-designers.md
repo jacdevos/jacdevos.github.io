@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/what-is-software-product-design.jpg
+image_width: 2048
+image_height: 1280
 title: What is software product design?
 context: DevConf Talk
 ---

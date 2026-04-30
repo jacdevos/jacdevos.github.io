@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/understanding-software-engineering.jpg
+image_width: 2048
+image_height: 1280
 title: Understanding software engineering with equations
 context: Codemotion Berlin Talk
 ---

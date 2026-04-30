@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/software-best-practice-is-dead.jpg
+image_width: 1920
+image_height: 1080
 title: Software best practice is dead
 context: ASAS and SDN Netherlands Talk
 ---

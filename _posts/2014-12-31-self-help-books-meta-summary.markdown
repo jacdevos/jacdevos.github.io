@@ -1,6 +1,8 @@
 ---
 layout: post
 image: /assets/article_images/talks/self-help-books-meta-summary.jpg
+image_width: 1792
+image_height: 1024
 title: "Self-help books meta-summary"
 tags:
 ---

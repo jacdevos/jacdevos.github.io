@@ -2,6 +2,8 @@
 published: true
 layout: post
 image: /assets/article_images/talks/hybrid-vs-native-mobile.jpg
+image_width: 1280
+image_height: 720
 title: Hybrid vs native mobile tech stack
 context: JSinSA Talk
 ---
