@@ -83,7 +83,7 @@ Put together, the practical workflow becomes:
 3. **Agent Builds**
 4. **Agent Runs Tests**
 
-This is where BDD and AI fit together naturally: BDD gives the agent concrete examples up front, then executable tests keep the loop honest after the build.
+This is where BDD and AI fit together naturally: BDD plays at both ends of the flow. At step 1, it gives the agent concrete examples up front. At step 4, executable tests keep the loop honest after the build.
 
 With AI, this matters more because LLMs amplify spec quality. Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour.
 
