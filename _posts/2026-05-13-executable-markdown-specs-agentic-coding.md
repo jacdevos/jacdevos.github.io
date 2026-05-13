@@ -37,11 +37,11 @@ The emerging workflow is simple:
 
 Weak specs still produce weak outcomes. LLMs do not remove ambiguity. They often scale it.
 
-## 2. The industry is converging on “spec-first”
+## 2. The industry is experimenting with spec tools
 
 ![Tool-card image showing SpecKit, spec-driven development, structured prompts, and prompt to plan to build pipelines](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-2-spec-first-convergence.svg)
 
-The industry is already converging on “spec-first”.
+The industry is already experimenting with spec tools.
 
 You can see it in SpecKit-style workflows, spec-driven development tools, and structured prompt → plan → build pipelines.
 
