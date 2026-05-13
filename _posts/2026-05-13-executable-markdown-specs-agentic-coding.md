@@ -91,4 +91,4 @@ With AI, this matters more because LLMs amplify spec quality. Strong specs make 
 
 The final point:
 
-> **Markdown specs as executable tests solve an immediate and long-term spec feedback problem.**
+> **BDD helps solve the specification drift problem by turning examples into executable tests: the same specs guide the build and keep checking the behaviour over time.**
