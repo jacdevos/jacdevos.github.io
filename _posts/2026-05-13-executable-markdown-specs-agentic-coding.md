@@ -85,8 +85,6 @@ That directly solves the problems agentic development exposes:
 
 The important part is not BDD ceremony. It is the feedback loop.
 
-BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
-
 If the spec is continuously validated by the build, it does not silently rot.
 
 ## 4. Why this matters more with AI
@@ -96,6 +94,8 @@ If the spec is continuously validated by the build, it does not silently rot.
 LLMs amplify spec quality.
 
 Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour. Ambiguity gets amplified, not resolved.
+
+BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
 
 So the bottleneck moves.
 
