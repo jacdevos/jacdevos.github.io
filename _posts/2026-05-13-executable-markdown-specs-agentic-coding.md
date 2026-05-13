@@ -12,8 +12,6 @@ Agentic software is changing how we build.
 
 As agentic coding becomes more common, **how good your prompts specify the behaviour you want is a key to good agent dev outcomes**. The goal is longer autonomous execution loops: give an agent intent, let it plan, let it build, let it run checks, and keep going.
 
-The constraint is also obvious: **agents need precise intent**.
-
 The workflow many of us are moving toward is:
 
 > **Spec as prompt → Plan → Build → Automated tests → CI validates behaviour**
