@@ -61,11 +61,11 @@ Generating a plan from a spec is useful. Keeping the spec correct as the system 
 
 That problem remains unsolved at scale.
 
-## 3. The proven pattern already exists
+## 3. A proven practice already exists
 
-![Tool-card image showing Specification by Example, BDD, Cucumber, Gauge, Gherkin, and Markdown specs as executable contracts](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-3-executable-contracts.svg)
+![Specification by Example book cover](https://m.media-amazon.com/images/I/61K4UV59xyL._SY522_.jpg)
 
-The proven pattern already exists: **behaviour-driven, example-based specifications**.
+A proven practice already exists: **behaviour-driven, example-based specifications**.
 
 This is the core idea behind BDD and the [Specification by Example](https://gojko.net/books/specification-by-example/) book:
 
