@@ -39,27 +39,11 @@ Weak specs still produce weak outcomes. LLMs do not remove ambiguity. They often
 
 ## 2. The industry is experimenting with spec tools
 
-![Tool-card image showing SpecKit, spec-driven development, structured prompts, and prompt to plan to build pipelines](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-2-spec-first-convergence.svg)
+A good example is GitHub's [Spec Kit](https://github.com/github/spec-kit): an open-source toolkit for spec-driven development. It installs a `specify` CLI, sets up agent workflows, and gives agents structured commands like `/speckit.specify`, `/speckit.plan`, `/speckit.tasks`, and `/speckit.implement`.
 
-The industry is already experimenting with spec tools.
+That is useful. It makes the path from product scenario → spec → plan → tasks → implementation more explicit.
 
-You can see it in SpecKit-style workflows, spec-driven development tools, and structured prompt → plan → build pipelines.
-
-These approaches work best for:
-
-* greenfield setup
-* initial decomposition of features
-* turning a rough idea into a first plan
-
-But they still struggle with the harder part of software development:
-
-* iterative development
-* evolving systems
-* ongoing spec maintenance
-
-Generating a plan from a spec is useful. Keeping the spec correct as the system changes is the real problem.
-
-That problem remains unsolved at scale.
+But it still points at the same hard problem: generating a plan from a spec is useful; keeping the spec correct as the system changes is the long-term problem.
 
 ## 3. A proven practice already exists
 
