@@ -95,8 +95,6 @@ LLMs amplify spec quality.
 
 Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour. Ambiguity gets amplified, not resolved.
 
-BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
-
 So the bottleneck moves.
 
 It is no longer only about how quickly we can generate code. The bottleneck becomes the **quality and executability of the specification itself**.
@@ -121,6 +119,8 @@ Put together, the practical workflow becomes:
 4. **Agent Runs Tests**
 
 This is where BDD and AI fit together naturally.
+
+BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
 
 BDD is doing work at step 1 and step 4: it turns behaviour into examples up front, then turns those examples into tests that keep the loop honest. The spec gives the agent intent. The agent plans the work, builds the change, and runs tests to close the feedback loop. That is what makes the specification durable over time.
 
