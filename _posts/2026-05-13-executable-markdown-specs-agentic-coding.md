@@ -87,27 +87,7 @@ The important part is not BDD ceremony. It is the feedback loop.
 
 If the spec is continuously validated by the build, it does not silently rot.
 
-## 4. Why this matters more with AI
-
-![Diagram showing LLMs amplifying strong specifications into reliable autonomy and weak specifications into incorrect behaviour](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-4-ai-amplifies-spec-quality.svg)
-
-LLMs amplify spec quality.
-
-Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour. Ambiguity gets amplified, not resolved.
-
-So the bottleneck moves.
-
-It is no longer only about how quickly we can generate code. The bottleneck becomes the **quality and executability of the specification itself**.
-
-This is why CI-enforced specs matter.
-
-A Markdown document in a repo can still drift. A ticket can go stale. A Confluence page can become archaeological evidence.
-
-But an executable spec that runs in CI fails loudly.
-
-That loud failure is the point. It tells humans and agents that either the implementation is wrong, or the behaviour contract must be updated deliberately.
-
-## 5. BDD + AI = spec-driven development loop
+## 4. BDD + AI = spec-driven development loop
 
 ![Flow diagram showing Prompt with a Spec to Agent Plans to Agent Builds to Agent Runs Tests](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.svg)
 
@@ -121,6 +101,8 @@ Put together, the practical workflow becomes:
 This is where BDD and AI fit together naturally.
 
 BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
+
+With AI, this matters more because LLMs amplify spec quality. Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour. Ambiguity gets amplified, not resolved.
 
 BDD is doing work at step 1 and step 4: it turns behaviour into examples up front, then turns those examples into tests that keep the loop honest. The spec gives the agent intent. The agent plans the work, builds the change, and runs tests to close the feedback loop. That is what makes the specification durable over time.
 
