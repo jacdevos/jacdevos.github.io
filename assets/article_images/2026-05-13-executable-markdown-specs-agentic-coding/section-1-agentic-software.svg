@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
   <title id="title">Agentic software is changing how we build</title>
-  <desc id="desc">Claude Code, OpenCode, Cursor, Goose, and longer autonomous loops.</desc>
+  <desc id="desc">Claude Code, OpenCode, Codex, Cursor, Goose, and longer autonomous loops.</desc>
   <defs>
     <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0 L0 0 0 48" fill="none" stroke="#102033" stroke-width="1" opacity="0.48"/></pattern>
     <radialGradient id="halo" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/><stop offset="48%" stop-color="#34d399" stop-opacity="0.06"/><stop offset="100%" stop-color="#020617" stop-opacity="0"/></radialGradient>
@@ -26,11 +26,12 @@
   <circle class="halo" cx="700" cy="380" r="560"/>
   <text x="90" y="110" class="title">Agentic software is changing how we build</text>
   
-  <rect x="90" y="230" width="270" height="110" rx="28" class="card cyan"/><text x="225.0" y="296.0" text-anchor="middle" class="pillTextSmall">Claude Code</text>
-  <rect x="405" y="230" width="270" height="110" rx="28" class="card green"/><text x="540.0" y="296.0" text-anchor="middle" class="pillText">OpenCode</text>
-  <rect x="720" y="230" width="270" height="110" rx="28" class="card blue"/><text x="855.0" y="296.0" text-anchor="middle" class="pillText">Cursor</text>
-  <rect x="1035" y="230" width="270" height="110" rx="28" class="card violet"/><text x="1170.0" y="296.0" text-anchor="middle" class="pillText">Goose</text>
-  <path d="M220 420 C350 500 510 540 700 540 C890 540 1050 500 1180 420" class="line dash"/>
+  <rect x="75" y="230" width="230" height="110" rx="28" class="card cyan"/><text x="190" y="296" text-anchor="middle" class="pillTextSmall">Claude Code</text>
+  <rect x="330" y="230" width="230" height="110" rx="28" class="card green"/><text x="445" y="296" text-anchor="middle" class="pillTextSmall">OpenCode</text>
+  <rect x="585" y="230" width="230" height="110" rx="28" class="card amber"/><text x="700" y="296" text-anchor="middle" class="pillText">Codex</text>
+  <rect x="840" y="230" width="230" height="110" rx="28" class="card blue"/><text x="955" y="296" text-anchor="middle" class="pillText">Cursor</text>
+  <rect x="1095" y="230" width="230" height="110" rx="28" class="card violet"/><text x="1210" y="296" text-anchor="middle" class="pillText">Goose</text>
+  <path d="M190 420 C330 500 510 540 700 540 C890 540 1070 500 1210 420" class="line dash"/>
   <rect x="405" y="465" width="590" height="150" rx="34" class="card green"/>
   <text x="700" y="555" text-anchor="middle" class="pillText">Longer autonomous loops</text>
 

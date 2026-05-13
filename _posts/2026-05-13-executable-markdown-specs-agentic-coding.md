@@ -22,9 +22,9 @@ Weak specs lead to unreliable autonomy. Strong, executable specs make autonomy s
 
 ## 1. Agentic software is changing how we build
 
-![Tool-card image showing Claude Code, OpenCode, Cursor, and Goose around autonomous coding loops](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-1-agentic-software.svg)
+![Tool-card image showing Claude Code, OpenCode, Codex, Cursor, and Goose around autonomous coding loops](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-1-agentic-software.svg)
 
-Agentic coding is increasingly common. Tools like Claude Code, OpenCode, Cursor, and Goose point at the same direction: longer loops where the system can take intent and move from analysis into implementation.
+Agentic coding is increasingly common. Tools like Claude Code, OpenCode, Codex, Cursor, and Goose point at the same direction: longer loops where the system can take intent and move from analysis into implementation.
 
 But the key constraint remains intent.
 
