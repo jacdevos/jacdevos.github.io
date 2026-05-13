@@ -87,9 +87,7 @@ This is where BDD and AI fit together naturally: BDD plays at both ends of the f
 
 With AI, this matters more because LLMs amplify spec quality. Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour.
 
-[Gauge](https://gauge.org/) test framework fits this BDD model well because specs are Markdown-based, scenarios are human-readable and LLM-readable, executable scenarios are tied to code, Markdown lives naturally in the repo, and CI can enforce the behaviour continuously.
-
-Markdown itself becomes a superpower in LLM workflows. It is readable by humans, easy for LLMs to consume, reviewable in pull requests, and close enough to code to become part of the engineering system.
+[Gauge](https://gauge.org/) test framework fits this BDD model well because Markdown specs are readable by humans, easy for LLMs to consume, reviewable in pull requests, tied to executable code, and close enough to the repo and CI to become part of the engineering system.
 
 The final point:
 
