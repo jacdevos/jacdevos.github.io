@@ -87,7 +87,7 @@ This is where BDD and AI fit together naturally: BDD plays at both ends of the f
 
 With AI, this matters more because LLMs amplify spec quality. Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour.
 
-[Gauge](https://gauge.org/) fits this model well:
+[Gauge](https://gauge.org/) test framework fits this BDD model well:
 
 * specs are Markdown-based
 * scenarios are human-readable and LLM-readable
