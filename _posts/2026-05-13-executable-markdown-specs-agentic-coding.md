@@ -118,4 +118,4 @@ Markdown itself becomes a superpower in LLM workflows. It is readable by humans,
 
 The final point:
 
-> **The future is not only new spec-driven tools. It is executable Markdown specs enforced in CI.**
+> **Markdown specs as executable tests solve an immediate and long-term spec feedback problem.**
