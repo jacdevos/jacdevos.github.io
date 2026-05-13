@@ -67,7 +67,7 @@ That problem remains unsolved at scale.
 
 The proven pattern already exists: **behaviour-driven, example-based specifications**.
 
-This is the core idea behind BDD and Specification by Example:
+This is the core idea behind BDD and the [Specification by Example](https://gojko.net/books/specification-by-example/) book:
 
 * define behaviour as concrete examples
 * express scenarios of system behaviour
@@ -98,15 +98,11 @@ Put together, the practical workflow becomes:
 3. **Agent Builds**
 4. **Agent Runs Tests**
 
-This is where BDD and AI fit together naturally.
+This is where BDD and AI fit together naturally: BDD gives the agent concrete examples up front, then executable tests keep the loop honest after the build.
 
-BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
+With AI, this matters more because LLMs amplify spec quality. Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour.
 
-With AI, this matters more because LLMs amplify spec quality. Strong specs make autonomous execution more reliable. Weak specs create scalable incorrect behaviour. Ambiguity gets amplified, not resolved.
-
-BDD is doing work at step 1 and step 4: it turns behaviour into examples up front, then turns those examples into tests that keep the loop honest. The spec gives the agent intent. The agent plans the work, builds the change, and runs tests to close the feedback loop. That is what makes the specification durable over time.
-
-Gauge fits this model well:
+[Gauge](https://gauge.org/) fits this model well:
 
 * specs are Markdown-based
 * scenarios are human-readable and LLM-readable
