@@ -4,7 +4,7 @@ layout: post
 image: /assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-5-bdd-ai-loop.svg
 image_width: 1400
 image_height: 788
-title: Executable Markdown Specs Are the Control Surface for Agentic Coding
+title: BDD for Spec-driven Agentic Development
 context: Lightning Talk
 ---
 
