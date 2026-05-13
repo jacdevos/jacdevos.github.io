@@ -18,10 +18,6 @@ The workflow many of us are moving toward is:
 
 Weak specs lead to unreliable autonomy. Strong, executable specs make autonomy safer.
 
-That is why I think the practical future of spec-driven development is not only new tooling. It is also a proven software engineering pattern becoming much more important again:
-
-> **Executable Markdown specifications enforced in CI.**
-
 ## 1. Agentic software is changing how we build
 
 ![Tool-card image showing Claude Code, OpenCode, Cursor, and Goose around autonomous coding loops](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-1-agentic-software.svg)
