@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">Why this matters more with AI</title>
+  <desc id="desc">LLMs amplify strong specs and weak specs alike.</desc>
+  <defs>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0 L0 0 0 48" fill="none" stroke="#102033" stroke-width="1" opacity="0.48"/></pattern>
+    <radialGradient id="halo" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#22d3ee" stop-opacity="0.18"/><stop offset="48%" stop-color="#34d399" stop-opacity="0.06"/><stop offset="100%" stop-color="#020617" stop-opacity="0"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L11,4 z" fill="#22d3ee" opacity=".9"/></marker>
+    <marker id="arrowG" markerWidth="12" markerHeight="12" refX="9" refY="4" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,8 L11,4 z" fill="#34d399" opacity=".9"/></marker>
+  </defs>
+
+  <style>
+    .bg{fill:#020617}.grid{fill:url(#grid)}.halo{fill:url(#halo)}
+    .title{font:700 34px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill:#e5f4ff; letter-spacing:-.7px}
+    .subtitle{font:500 16px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill:#94a3b8}
+    .pillText{font:700 21px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill:#e2e8f0}
+    .small{font:600 13px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill:#94a3b8}
+    .micro{font:600 11px Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; fill:#64748b; letter-spacing:.8px;text-transform:uppercase}
+    .card{fill:#0f172a;stroke-width:1.7;filter:url(#glow)}
+    .cyan{stroke:#22d3ee}.green{stroke:#34d399}.blue{stroke:#38bdf8}.violet{stroke:#a78bfa}.amber{stroke:#fbbf24}.rose{stroke:#fb7185}.slate{stroke:#64748b}
+    .line{fill:none;stroke:#22d3ee;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:url(#glow);opacity:.9;marker-end:url(#arrow)}
+    .line2{fill:none;stroke:#34d399;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;filter:url(#glow);opacity:.85;marker-end:url(#arrowG)}
+    .dash{stroke-dasharray:9 8}.thin{fill:none;stroke-width:2.2;stroke-linecap:round;opacity:.7}.check{fill:none;stroke:#34d399;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;filter:url(#glow)}
+  </style>
+
+  <rect class="bg" width="1400" height="788"/>
+  <rect class="grid" width="1400" height="788"/>
+  <circle class="halo" cx="700" cy="380" r="560"/>
+  <text x="90" y="100" class="title">Why this matters more with AI</text>
+  <text x="92" y="132" class="subtitle">LLMs amplify strong specs and weak specs alike.</text>
+  
+  <text x="90" y="205" class="micro">AI AMPLIFIES SPEC QUALITY</text>
+  <rect x="555" y="235" width="290" height="150" rx="38" class="card blue"/>
+  <text x="700" y="300" text-anchor="middle" class="pillText">LLM</text>
+  <text x="700" y="337" text-anchor="middle" class="small">amplifier</text>
+  <rect x="105" y="260" width="330" height="110" rx="26" class="card green"/><text x="270" y="314" text-anchor="middle" class="pillText">Strong specs</text><text x="270" y="348" text-anchor="middle" class="small">reliable autonomy</text>
+  <rect x="965" y="260" width="330" height="110" rx="26" class="card rose"/><text x="1130" y="314" text-anchor="middle" class="pillText">Weak specs</text><text x="1130" y="348" text-anchor="middle" class="small">scalable incorrect behaviour</text>
+  <path d="M435 315 C490 315 510 315 555 315" class="line2"/>
+  <path d="M845 315 C890 315 910 315 965 315" class="line"/>
+  <rect x="365" y="505" width="670" height="105" rx="28" class="card amber"/>
+  <text x="700" y="555" text-anchor="middle" class="pillText">CI-enforced specs fail loudly</text>
+  <text x="700" y="590" text-anchor="middle" class="small">no silent spec drift</text>
+
+</svg>
