@@ -64,6 +64,14 @@ These examples become the basis for:
 
 This approach is what the book calls **Specification by Example** (SBE). It is the same family of practice behind BDD, Cucumber, and Gauge: make behaviour concrete enough that humans, agents, and CI can all work from the same examples.
 
+That directly solves a problem agentic development exposes:
+
+* **Ambiguity** -- examples make intent concrete.
+* **Misalignment** -- humans and agents can work from the same behaviour contract.
+* **Spec drift** -- the build fails when behaviour no longer matches the spec.
+
+The important part is that it isn't just a static document, it is the feedback loop. If the spec is continuously validated by the build, it does not silently rot.
+
 ## 4. BDD + AI = spec-driven development loop
 
 ![Flow diagram showing Prompt with a Spec to Agent Plans to Agent Builds to Agent Runs Tests](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.svg)
