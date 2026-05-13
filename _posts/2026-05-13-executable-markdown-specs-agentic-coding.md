@@ -45,31 +45,24 @@ That is useful. It makes the path from product scenario → spec → plan → ta
 
 But it still points at the same hard problem: generating a plan from a spec is useful; keeping the spec correct as the system changes is the long-term problem.
 
-## 3. A proven practice already exists
+## 3. Specification by example already exists
 
 ![Specification by Example book cover](https://m.media-amazon.com/images/I/61K4UV59xyL._SY522_.jpg)
 
-A proven practice already exists: **behaviour-driven, example-based specifications**.
+The main idea in the [Specification by Example](https://gojko.net/books/specification-by-example/) book is simple: instead of writing traditional requirement documents like “the system should calculate discounts correctly”, teams define concrete examples:
 
-This is the core idea behind BDD and the [Specification by Example](https://gojko.net/books/specification-by-example/) book:
+> “When a customer buys 3 items, they get 10% off”
+>
+> “When they buy 10 items, they get 20% off”
 
-* define behaviour as concrete examples
-* express scenarios of system behaviour
-* execute them as part of CI
+These examples become the basis for:
 
-The key idea is simple:
+* requirements
+* automated acceptance tests
+* development guidance
+* documentation
 
-> **Specifications are not documents. They are executable behaviour contracts.**
-
-That directly solves the problems agentic development exposes:
-
-* **Ambiguity** — examples make intent concrete.
-* **Misalignment** — humans and agents can work from the same behaviour contract.
-* **Spec drift** — the build fails when behaviour no longer matches the spec.
-
-The important part is not BDD ceremony. It is the feedback loop.
-
-If the spec is continuously validated by the build, it does not silently rot.
+This approach is what the book calls **Specification by Example** (SBE). It is the same family of practice behind BDD, Cucumber, and Gauge: make behaviour concrete enough that humans, agents, and CI can all work from the same examples.
 
 ## 4. BDD + AI = spec-driven development loop
 
