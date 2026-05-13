@@ -35,8 +35,6 @@ The emerging workflow is simple:
 3. **Agent Builds**
 4. **Agent Runs Tests**
 
-BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
-
 Weak specs still produce weak outcomes. LLMs do not remove ambiguity. They often scale it.
 
 ## 2. The industry is converging on “spec-first”
@@ -86,6 +84,8 @@ That directly solves the problems agentic development exposes:
 * **Spec drift** — the build fails when behaviour no longer matches the spec.
 
 The important part is not BDD ceremony. It is the feedback loop.
+
+BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
 
 If the spec is continuously validated by the build, it does not silently rot.
 
