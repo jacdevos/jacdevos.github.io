@@ -1,12 +1,14 @@
 ---
 published: true
 layout: post
-image: /assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-5-bdd-ai-loop.svg
+image: /assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.svg
 image_width: 1400
 image_height: 788
 title: BDD for Spec-driven Agentic Development
 context: Lightning Talk
 ---
+
+![Flow diagram showing Spec as prompt to Agent Plan to Agent Build to Run Automated Tests](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.svg)
 
 Agentic software is changing how we build.
 
@@ -14,7 +16,7 @@ As agentic coding becomes more common, **how good your prompts specify the behav
 
 The workflow many of us are moving toward is:
 
-> **Spec as prompt → Plan → Build → Automated tests**
+> **Spec as prompt → Agent Plan → Agent Build → Run Automated Tests**
 
 Weak specs lead to unreliable autonomy. Strong, executable specs make autonomy safer.
 
@@ -29,11 +31,11 @@ But the key constraint remains intent.
 The emerging workflow is simple:
 
 1. **Spec as prompt**
-2. **Plan**
-3. **Build**
-4. **Automated tests**
+2. **Agent Plan**
+3. **Agent Build**
+4. **Run Automated Tests**
 
-That fourth step matters. Without automated tests, the loop depends too much on human review. With tests, the agent has a feedback signal it can use while working.
+BDD plays at both ends of this loop: examples help specify the behaviour in step 1, and automated tests provide the feedback in step 4. That feedback loop is what makes it durable and valuable over a long period.
 
 Weak specs still produce weak outcomes. LLMs do not remove ambiguity. They often scale it.
 
@@ -109,18 +111,18 @@ That loud failure is the point. It tells humans and agents that either the imple
 
 ## 5. BDD + AI = spec-driven development loop
 
-![Loop diagram showing Spec as prompt to Plan to Build to Automated tests](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/section-5-bdd-ai-loop.svg)
+![Flow diagram showing Spec as prompt to Agent Plan to Agent Build to Run Automated Tests](/assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.svg)
 
 Put together, the practical workflow becomes:
 
 1. **Spec as prompt**
-2. **Plan**
-3. **Build**
-4. **Automated tests**
+2. **Agent Plan**
+3. **Agent Build**
+4. **Run Automated Tests**
 
 This is where BDD and AI fit together naturally.
 
-The spec gives the agent intent. The plan gives it structure. The build changes the system. Automated tests validate the behaviour contract over time.
+BDD is doing work at step 1 and step 4: it turns behaviour into examples up front, then turns those examples into tests that keep the loop honest. The spec gives the agent intent. The agent plan gives it structure. The agent build changes the system. Running automated tests closes the feedback loop. That is what makes the specification durable over time.
 
 Gauge fits this model well:
 
