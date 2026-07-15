@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">Agent "loops" are process triggers</title>
+  <desc id="desc">Scheduled and triggered lanes. Loops shown as schedule or event triggers; skills shown with the article definition: reusable task instructions and context.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131f"/>
+      <stop offset="1" stop-color="#0b2230"/>
+    </linearGradient>
+    <marker id="ac" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#67e8f9"/>
+    </marker>
+    <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#34d399"/>
+    </marker>
+    <marker id="am" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#94a3b8"/>
+    </marker>
+    <style>.t { font-family: Inter, Arial, sans-serif; text-anchor: middle; }</style>
+  </defs>
+
+  <rect width="1400" height="788" fill="url(#bg)"/>
+  <circle cx="1240" cy="70" r="210" fill="#0e7490" opacity=".06"/>
+  <circle cx="140" cy="740" r="230" fill="#10b981" opacity=".05"/>
+
+  <text class="t" x="700" y="56" fill="#f8fafc" font-size="48" font-weight="700">Agent "loops" are process triggers</text>
+
+  <!-- ========== SCHEDULED ========== -->
+  <text x="48" y="135" fill="#34d399" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2.5">SCHEDULED</text>
+
+  <g transform="translate(130, 220)">
+    <circle r="46" fill="#0d2932" stroke="#34d399" stroke-width="3"/>
+    <circle r="26" fill="none" stroke="#6ee7b7" stroke-width="2.5"/>
+    <line x1="0" y1="0" x2="0" y2="-14" stroke="#6ee7b7" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="11" y2="6" stroke="#6ee7b7" stroke-width="2.5" stroke-linecap="round"/>
+    <text class="t" x="0" y="82" fill="#f8fafc" font-size="26" font-weight="700">Daily scan</text>
+    <text class="t" x="0" y="118" fill="#34d399" font-size="22" font-weight="600">
+      <tspan x="0" dy="0">loop</tspan>
+      <tspan x="0" dy="26">(schedule trigger)</tspan>
+    </text>
+  </g>
+
+  <path d="M176 220 H275" fill="none" stroke="#34d399" stroke-width="3" marker-end="url(#ag)"/>
+
+  <g transform="translate(275, 135)">
+    <rect width="280" height="170" rx="14" fill="#102737" stroke="#3b5265" stroke-width="2.5"/>
+    <text class="t" x="150" y="58" fill="#f8fafc" font-size="26" font-weight="700">Security scan</text>
+    <text class="t" x="150" y="108" fill="#34d399" font-size="22" font-weight="600">
+      <tspan x="150" dy="0">skill</tspan>
+      <tspan x="150" dy="30">(instructions)</tspan>
+    </text>
+  </g>
+
+  <path d="M555 220 H700" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#am)"/>
+
+  <g transform="translate(760, 220)">
+    <circle r="46" fill="#0d2936" stroke="#e2e8f0" stroke-width="7"/>
+    <text class="t" x="0" y="82" fill="#f8fafc" font-size="26" font-weight="700">End</text>
+  </g>
+
+  <!-- ========== TRIGGERED ========== -->
+  <text x="48" y="460" fill="#22d3ee" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="2.5">TRIGGERED</text>
+
+  <!-- Requirements ready -->
+  <g transform="translate(95, 560)">
+    <circle r="46" fill="#0d2936" stroke="#22d3ee" stroke-width="3"/>
+    <rect x="-16" y="-10" width="32" height="18" rx="2" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+    <path d="M-16 -10 L0 2 L16 -10" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+    <text class="t" x="0" y="80" fill="#f8fafc" font-size="26" font-weight="700">
+      <tspan x="0" dy="0">Requirements</tspan>
+      <tspan x="0" dy="30">ready</tspan>
+    </text>
+    <text class="t" x="0" y="146" fill="#22d3ee" font-size="22" font-weight="600">
+      <tspan x="0" dy="0">loop</tspan>
+      <tspan x="0" dy="26">(event trigger)</tspan>
+    </text>
+  </g>
+
+  <path d="M141 560 H205" fill="none" stroke="#67e8f9" stroke-width="3" marker-end="url(#ac)"/>
+
+  <!-- Plan feature -->
+  <g transform="translate(205, 475)">
+    <rect width="180" height="170" rx="14" fill="#102737" stroke="#3b5265" stroke-width="2.5"/>
+    <text class="t" x="90" y="48" fill="#f8fafc" font-size="26" font-weight="700">
+      <tspan x="90" dy="0">Plan</tspan>
+      <tspan x="90" dy="32">feature</tspan>
+    </text>
+    <text class="t" x="90" y="122" fill="#34d399" font-size="22" font-weight="600">
+      <tspan x="90" dy="0">skill</tspan>
+      <tspan x="90" dy="30">(instructions)</tspan>
+    </text>
+  </g>
+
+  <path d="M385 560 H445" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#am)"/>
+
+  <!-- Planning completed -->
+  <g transform="translate(500, 560)">
+    <circle r="46" fill="#0d2936" stroke="#22d3ee" stroke-width="3"/>
+    <circle r="34" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <rect x="-15" y="-9" width="30" height="17" rx="2" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+    <path d="M-15 -9 L0 2 L15 -9" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+    <text class="t" x="0" y="80" fill="#f8fafc" font-size="26" font-weight="700">
+      <tspan x="0" dy="0">Planning</tspan>
+      <tspan x="0" dy="30">completed</tspan>
+    </text>
+    <text class="t" x="0" y="146" fill="#22d3ee" font-size="22" font-weight="600">
+      <tspan x="0" dy="0">loop</tspan>
+      <tspan x="0" dy="26">(event trigger)</tspan>
+    </text>
+  </g>
+
+  <path d="M546 560 H610" fill="none" stroke="#67e8f9" stroke-width="3" marker-end="url(#ac)"/>
+
+  <!-- Develop feature -->
+  <g transform="translate(610, 475)">
+    <rect width="180" height="170" rx="14" fill="#102737" stroke="#3b5265" stroke-width="2.5"/>
+    <text class="t" x="90" y="48" fill="#f8fafc" font-size="26" font-weight="700">
+      <tspan x="90" dy="0">Develop</tspan>
+      <tspan x="90" dy="32">feature</tspan>
+    </text>
+    <text class="t" x="90" y="122" fill="#34d399" font-size="22" font-weight="600">
+      <tspan x="90" dy="0">skill</tspan>
+      <tspan x="90" dy="30">(instructions)</tspan>
+    </text>
+  </g>
+
+  <path d="M790 560 H855" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#am)"/>
+
+  <!-- Development completed -->
+  <g transform="translate(910, 560)">
+    <circle r="46" fill="#0d2936" stroke="#22d3ee" stroke-width="3"/>
+    <circle r="34" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <rect x="-15" y="-9" width="30" height="17" rx="2" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+    <path d="M-15 -9 L0 2 L15 -9" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+    <text class="t" x="0" y="80" fill="#f8fafc" font-size="26" font-weight="700">
+      <tspan x="0" dy="0">Development</tspan>
+      <tspan x="0" dy="30">completed</tspan>
+    </text>
+    <text class="t" x="0" y="146" fill="#22d3ee" font-size="22" font-weight="600">
+      <tspan x="0" dy="0">loop</tspan>
+      <tspan x="0" dy="26">(event trigger)</tspan>
+    </text>
+  </g>
+
+  <path d="M956 560 H1020" fill="none" stroke="#67e8f9" stroke-width="3" marker-end="url(#ac)"/>
+
+  <!-- Review feature -->
+  <g transform="translate(1020, 475)">
+    <rect width="180" height="170" rx="14" fill="#102737" stroke="#3b5265" stroke-width="2.5"/>
+    <text class="t" x="90" y="48" fill="#f8fafc" font-size="26" font-weight="700">
+      <tspan x="90" dy="0">Review</tspan>
+      <tspan x="90" dy="32">feature</tspan>
+    </text>
+    <text class="t" x="90" y="122" fill="#34d399" font-size="22" font-weight="600">
+      <tspan x="90" dy="0">skill</tspan>
+      <tspan x="90" dy="30">(instructions)</tspan>
+    </text>
+  </g>
+
+  <path d="M1200 560 H1280" fill="none" stroke="#94a3b8" stroke-width="3" marker-end="url(#am)"/>
+
+  <g transform="translate(1335, 560)">
+    <circle r="46" fill="#0d2936" stroke="#e2e8f0" stroke-width="7"/>
+    <text class="t" x="0" y="82" fill="#f8fafc" font-size="26" font-weight="700">End</text>
+  </g>
+</svg>
