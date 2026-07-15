@@ -1,20 +1,19 @@
 ---
 name: write-article
 description: >-
-  Collaboratively writes a planned Jekyll blog article one section at a time,
-  creating the post structure and pausing for the author's review and explicit
-  approval after every section. Use when an article plan is ready to become a
-  draft and the author wants to control the writing section by section.
+  Collaboratively turns an approved article plan into a plain Markdown draft,
+  writing one section at a time and pausing for the author's explicit approval
+  after every section. Use when an article plan is ready to become a draft.
 disable-model-invocation: true
 ---
 
 # Write Article
 
-Turn an approved article plan into a finished Jekyll post with the author. Follow `structure-spec.md` for the article itself. This skill defines only the collaborative writing process.
+Turn an approved article plan into a finished plain Markdown draft with the author. Focus only on the article's content; leave Jekyll packaging and local verification to `publish-and-test-article`.
 
 ## Prepare
 
-1. Read `structure-spec.md`.
+1. Read `article-writing-spec.md`.
 2. Read the approved article plan and the material it references. If the plan is not clear from the conversation or workspace, ask the author for it.
 3. Read the voice references required by the specification.
 4. Privately distil a writing brief from the plan: the reader, intended outcome, central idea, evidence boundaries, and useful voice cues.
@@ -24,12 +23,15 @@ Turn an approved article plan into a finished Jekyll post with the author. Follo
 
 After the working title is approved:
 
-1. Determine the date, slug, and context from the plan or ask only for what cannot be inferred.
-2. Create the post file and front matter as specified in `structure-spec.md`.
-3. Add an empty section structure based on the plan and the specification's flexible spine.
-4. Show the structure to the author and revise it until they approve it.
+1. Infer a short kebab-case working slug from the title.
+2. Create `_drafts/<slug>.md`.
+3. Add the approved working title as a single `#` heading.
+4. Add an empty section structure based on the plan and the specification's flexible spine.
+5. Show the structure to the author and revise it until they approve it.
 
 Do not add draft prose while creating the structure.
+
+The draft must remain plain Markdown. Do not add YAML front matter, a publication date, Jekyll tags or includes, site asset paths, image metadata, a permalink, or other publishing details.
 
 ## Write one section at a time
 
@@ -37,7 +39,7 @@ For each section:
 
 1. Privately define the section's job, key point, supporting material, and relationship to previously approved sections and the planned next section.
 2. If essential information is missing, ask one focused question instead of filling the gap with generic prose or invented detail.
-3. Write only that section in the post file, using the plan as source material and `structure-spec.md` as the writing standard.
+3. Write only that section in the draft file, using the plan as source material and `article-writing-spec.md` as the writing standard.
 4. Do two editing passes before presenting it: first for substance and continuity, then for prose and voice, using the specification's criteria.
 5. Present the section and ask the author directly whether they approve it or want changes.
 6. Apply specific feedback to the current section. If the intent is unclear, ask rather than guessing.
@@ -46,13 +48,14 @@ For each section:
 
 Do not draft a later section while waiting for approval. Do not rewrite an approved section unless the author asks, or first explain why a necessary correction affects it.
 
-Follow the drafting order recommended by `structure-spec.md`. The initial title is a working title: revisit it with the author when the specification calls for the final title.
+Follow the drafting order recommended by `article-writing-spec.md`. The initial title is a working title: revisit it with the author when the specification calls for the final title.
 
 ## Complete the article
 
-1. Once the text and final title are approved, propose an image concept following `structure-spec.md`.
-2. Create the image only after the author approves the concept, then ask them to review the result.
-3. Add the approved image and its real metadata to the post.
-4. Review the complete article for flow and correctness. Obtain approval before changing previously approved prose.
-5. Check the completed post against `structure-spec.md`.
-6. Report the post path and any unresolved issues. Use the publishing skill for preview and publication work when requested.
+1. Revisit the working title, then write the TL;DR and conclusion at the points recommended by `article-writing-spec.md`.
+2. Review the complete article for flow and correctness. Obtain approval before changing previously approved prose.
+3. Check the completed draft against `article-writing-spec.md`.
+4. Report the draft path, unresolved content questions, and any visual concepts or publication needs worth carrying forward.
+5. Ask: “Would you like me to publish and test this article locally?”
+
+Only hand off to `publish-and-test-article` after the author agrees.

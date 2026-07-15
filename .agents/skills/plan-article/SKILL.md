@@ -3,7 +3,7 @@ name: plan-article
 description: >-
   Interviews the author to uncover and develop an article idea, researches
   relevant background, tests the idea for gaps, and builds a rich article plan
-  using the site's structure specification. Use when the user wants to explore,
+  using the article writing specification. Use when the user wants to explore,
   interrogate, or plan a blog article before drafting it.
 disable-model-invocation: true
 ---
@@ -15,7 +15,7 @@ Develop the author's thinking before writing prose. The result is a rich, review
 ## Start
 
 1. Switch to Plan mode and remain read-only.
-2. Read `structure-spec.md`.
+2. Read `article-writing-spec.md`.
 3. Treat its spine as a coverage guide, not a questionnaire or rigid outline.
 4. Begin with one broad invitation, such as: “Tell me about the idea and the problem you think it solves.”
 
@@ -136,4 +136,6 @@ When the author agrees that enough material has been gathered, produce a detaile
 - **Useful material:** stories, metaphors, quotes, terms, examples, and possible visuals
 - **Writing compass:** voice notes, claims requiring verification, and ideas that belong in separate posts
 
-Keep the plan expansive enough to preserve valuable thinking. Do not turn it into article prose. End by asking the author to review, correct, and add to the plan. Only hand off to a drafting skill when the author explicitly says the plan is ready.
+Keep the plan expansive enough to preserve valuable thinking. Do not turn it into article prose. Ask the author to review, correct, and add to the plan.
+
+When the author explicitly approves the plan, ask: “Would you like me to write the draft now?” Only hand off to `write-article` after they agree.
