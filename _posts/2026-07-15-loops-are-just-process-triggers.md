@@ -20,11 +20,9 @@ The rapidly evolving ideas and terminology around “loop engineering” can be 
 
 [Addy Osmani describes](https://addyosmani.com/blog/loop-engineering/) the practice of what Boris calls “writing loops” as “loop engineering”. Addy breaks that system into automations, worktrees, skills, plugins and connectors, sub-agents, and memory.
 
-All of this can seem new and confusing.
-
 ## A process automation lens
 
-What makes this especially exciting is that we can understand these new capabilities through familiar ideas from process and workflow automation in organisations:
+All of this can seem new and confusing at first. The exciting part is that we can cut through that by viewing these new capabilities through familiar ideas from process and workflow automation in organisations:
 
 - Which process tasks do we want to automate?
 - What should trigger each process task?
