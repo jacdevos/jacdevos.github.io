@@ -1,18 +1,18 @@
 ---
-name: publish-blog
+name: publish-article
 description: >-
   Wires supplied content into a Jekyll post (_posts file, front matter, assets,
   optional includes) and previews it locally. Use when publishing or updating
   post packaging — not when writing the article or talk content itself.
 ---
 
-# Publish Blog
+# Publish Article
 
 Wire supplied content into the site and verify it. Packaging only — do not invent the piece.
 
 Canonical example: `_posts/2017-03-10-we-are-all-product-designers.md`
 
-If the server is not running, use `setup-dev-environment` first.
+Use `test-article` for the local build, preview, screenshots, and article review.
 
 ## Checklist
 
@@ -75,4 +75,4 @@ Excerpt on the homepage = first ~30 words of content (unless `excerpt_separator`
 
 ## Verify
 
-Confirm the build succeeds, open the post URL and the homepage card, optionally refresh `.screenshots/`. Summarize what was wired; do not commit unless asked.
+Hand off to `test-article` for full local verification. Summarize what was wired; do not commit unless asked.
