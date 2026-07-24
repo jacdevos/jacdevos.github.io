@@ -76,3 +76,5 @@ An open web, useful AI, and successful businesses can coexist. So why not?
 Why not reclaim social life on the open web through private and group messaging, public posts, identity, profiles, and feeds shaped by trust, and use AI built on the Internet’s knowledge without once again losing control of our personal data?
 
 Businesses can thrive on this foundation without any one platform controlling how society connects, learns, and shares information.
+
+*Catalogue photo: [Matthew Osborn](https://unsplash.com/photos/kD5u9TkMCUs) on Unsplash.*
