@@ -12,6 +12,10 @@ context: Essay
 
 I believe the web works best when it is open and people control it. Businesses can prosper without trapping people in one ecosystem. Open protocols and portability can let services and AI providers compete while people keep their privacy, safety, and choice.
 
+![Children playing a soccer match outdoors](/assets/article_images/2026-07-24-the-web-should-serve-people-not-platforms/kids-soccer.jpg)
+
+*Photo: [Matthew Osborn](https://unsplash.com/photos/kD5u9TkMCUs) on Unsplash.*
+
 ## Why this matters now
 
 The web has delivered enormous social benefits, but much of online life now runs through closed platforms. These platforms can amplify manipulation, addictive behaviour, misinformation, harassment, isolation, and polarised public debate.
@@ -76,5 +80,3 @@ An open web, useful AI, and successful businesses can coexist. So why not?
 Why not reclaim social life on the open web through private and group messaging, public posts, identity, profiles, and feeds shaped by trust, and use AI built on the Internet’s knowledge without once again losing control of our personal data?
 
 Businesses can thrive on this foundation without any one platform controlling how society connects, learns, and shares information.
-
-*Catalogue photo: [Matthew Osborn](https://unsplash.com/photos/kD5u9TkMCUs) on Unsplash.*
