@@ -10,7 +10,7 @@ context: Essay
 
 ## TL;DR
 
-I believe the web works best when people, not platforms, control their identity, relationships, data, and attention, and choose the sources they trust. Open protocols and practical portability can let services and AI providers compete without trapping people in one ecosystem. Businesses can still prosper while giving people privacy, safety, and real choice.
+I believe the web works best when it is open and people control it. Businesses can prosper without trapping people in one ecosystem. Open protocols and portability can let services and AI providers compete while people keep their privacy, safety, and choice.
 
 ## Why this matters now
 
