@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-image: /assets/article_images/2026-07-24-the-web-should-serve-people-not-platforms/kids-soccer.jpg
+image: /assets/article_images/2026-01-05-the-web-should-serve-people-not-platforms/kids-soccer.jpg
 image_width: 1400
 image_height: 788
 title: Why not a web that serves people?
@@ -12,7 +12,7 @@ context: Essay
 
 I believe the web works best when it is open and people control it. Businesses can prosper without trapping people in one ecosystem. Open protocols and portability can let services and AI providers compete while people keep their privacy, safety, and choice.
 
-![Children playing a soccer match outdoors](/assets/article_images/2026-07-24-the-web-should-serve-people-not-platforms/kids-soccer.jpg)
+![Children playing a soccer match outdoors](/assets/article_images/2026-01-05-the-web-should-serve-people-not-platforms/kids-soccer.jpg)
 
 *Photo: [Matthew Osborn](https://unsplash.com/photos/kD5u9TkMCUs) on Unsplash.*
 
