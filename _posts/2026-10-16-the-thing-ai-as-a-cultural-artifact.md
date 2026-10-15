@@ -23,19 +23,19 @@ That is a wonderful way into the conversation we're having about LLMs.
 
 ## What makes an LLM seem intelligent?
 
-After decades of AI research, researchers found architectures and training methods that could learn from information at extraordinary scale. Transformers were a crucial breakthrough. But the remarkable result is not simply that somebody invented a clever algorithm that contains intelligence.
+After decades of AI research, a crucial breakthrough was finding architectures and training methods that could learn remarkably general patterns from data. Transformers helped make that possible. But nobody simply wrote an algorithm containing all the answers or programmed intelligence into it.
 
-It is that a model can learn remarkably general representations from vast amounts of material—language, code, explanations, arguments, stories, discoveries—and then *use* what it has learned. Ask it a question and it can explain, connect ideas, solve problems, and generate an answer in a form we understand.
+The striking discovery was **scaling**. As researchers trained larger models with more data and computing power, the models became more capable—sometimes in ways that surprised even their creators. Small language models could do interesting things, but the usefulness of modern LLMs grew dramatically as the scale increased. Scaling is not just about storing more facts: model capacity, training, data quality and subsequent refinement all matter.
 
-Scale matters enormously. A relatively small language model can display some impressive abilities, but training larger models on more and better data, with more computation, has repeatedly unlocked much more useful capabilities. The scaling behaviour, and the abilities that arise from it, have been among the great surprises of modern AI research. We understand important parts of the process, but not every detail of how these capabilities develop.
+And what were these systems learning from at that scale? Enormous collections of human-created material, much of it drawn from the internet: explanations, arguments, stories, instructions, code, discoveries and everyday conversations. Not literally every page of the internet, and not a perfect copy of what people wrote. Models learn statistical representations from selected data, and later training—including human feedback and reinforcement learning—helps shape their behaviour.
 
-These models are not literal copies of the internet. They do not preserve every document or every fact. Their training draws on large, selected mixtures of internet text and other sources, and further training—including feedback and reinforcement learning—can sharpen their behaviour. Still, the foundational point is hard to miss: **much of what makes them useful comes from learning from an immense body of human-created material.**
+But the essential insight is this: **the models' impressive capabilities are learned from that vast body of human activity, rather than explicitly written into a genius algorithm.**
 
 ## Whose knowledge is it?
 
-Think about what is on the internet. It is not just the work of AI researchers or technologists. It is what countless connected people have written, explained, argued, built, taught, and shared. It is an imperfect and uneven record, of course; not everyone has been equally represented. But it is a vast expression of human culture.
+Think about what is on the internet. It is not chiefly a body of work produced for AI by researchers or technologists. It is what countless connected people have written, explained, argued, built, taught, and shared. It is an imperfect and uneven record, of course; not everyone has been equally represented. But it is a vast expression of human culture.
 
-That is the material from which an LLM learns.
+**We, the people, created much of the material that makes these models capable.** That is the heart of the cultural artifact argument: the technology matters, but the learned substance comes from human civilisation.
 
 And the model does something genuinely new with it. It doesn't merely offer a search box over a library. It can respond to what we ask, combine what it has learned, and apply it to unfamiliar problems. It makes a great deal of human knowledge and patterns of thought available through conversation.
 
