@@ -2,63 +2,25 @@
 layout: post
 title: "The Thing: AI as a Cultural Artifact"
 date: 2026-10-16
-description: "Why Terry Pratchett's Truckers (1989) offers a useful way to think about large language models."
+description: "What Terry Pratchett's Truckers (1989) tells us about the intelligence we've built from our own culture."
 ---
 
-People are afraid of AI. Not just people outside technology: even some of the people building it speak publicly about what it might become. And there are real reasons to take the risks of powerful technology seriously.
+People are afraid of AI. Even some of the people building it warn about what it might become. Powerful technologies carry real risks, but fear alone isn't a useful mental model. To understand large language models, it helps to ask: **where does their apparent intelligence come from?**
 
-But fear is not a particularly useful mental model. Before deciding what to make of large language models, we should ask a simpler question: **what are they actually made of?**
+Terry Pratchett offered a surprisingly good analogy in *Truckers* (1989).
 
-An unlikely place to begin is a children's novel from 1989.
+In the story, tiny people called Nomes carry a mysterious black box called **the Thing**. It has been passed down for generations as a treasured cultural artifact. They don't understand it—until it begins to talk. The Thing is a computer holding knowledge from their own civilisation's forgotten past. What seems almost alien is, in fact, theirs.
 
-## The Thing
+Modern LLMs can feel similarly mysterious. But we didn't discover a magical, inherently intelligent algorithm. We found ways for machines to learn remarkably general patterns from enormous amounts of information. And the surprise was **scale**: as models learned from more material, they became dramatically more capable.
 
-In Terry Pratchett's *Truckers* (1989), the first book in the *Bromeliad Trilogy*, tiny people called Nomes carry a small black box known as **the Thing**. It has been handed down through generations, treasured as a cultural artifact even though its owners no longer understand it.
+Where did that material come from? Largely from the internet: the writing, explanations, arguments, discoveries, code, stories and everyday contributions of people from all walks of life. Not literally the entire internet, and not a perfect copy of our knowledge. The architecture and training matter too. But the point is that the algorithm doesn't arrive with intelligence already inside it. **It learns from what we, collectively, have created.**
 
-Then, one day, it starts talking.
+And it doesn't merely retrieve information. It can combine what it has learned, respond to our questions, and help us solve new problems in ordinary language.
 
-The Thing is a computer connected to the Nomes' forgotten technological past. It can answer questions and help them make sense of the world. What seems strange, perhaps even supernatural, is not alien at all. It belongs to their own civilisation.
+**LLMs are a way of capturing and interacting with patterns of our collective intelligence. That makes them cultural artifacts—not alien visitors.**
 
-That is a wonderful way into the conversation we're having about LLMs.
+That doesn't make them harmless or always right. It gives us a better starting point for understanding both their promise and their risks.
 
-## What makes an LLM seem intelligent?
+**My recommendation:** read *Truckers* with your family. If you have kids, read it with them. Talk about the Thing, why the Nomes feared or revered it, and what it really was.
 
-After decades of AI research, a crucial breakthrough was finding architectures and training methods that could learn remarkably general patterns from data. Transformers helped make that possible. But nobody simply wrote an algorithm containing all the answers or programmed intelligence into it.
-
-The striking discovery was **scaling**: as these models learned from more and more human-created material, their abilities became dramatically more useful, sometimes in ways that surprised their creators. The full technical story also involves model size, training and data quality. But the point here is simpler: a mechanism that seemed limited at smaller scales became remarkable when it could draw on an enormous breadth of human knowledge.
-
-And what were these systems learning from at that scale? Enormous collections of human-created material, much of it drawn from the internet: explanations, arguments, stories, instructions, code, discoveries and everyday conversations. Not literally every page of the internet, and not a perfect copy of what people wrote. Models learn statistical representations from selected data, and later training—including human feedback and reinforcement learning—helps shape their behaviour.
-
-But the essential insight is this: **the algorithm is not a little genius containing intelligence of its own. It is a mechanism for learning from, capturing patterns in, and making use of our collective intelligence.** That is a useful mental model, even though a trained model is not a literal storehouse of human minds or knowledge.
-
-## Whose knowledge is it?
-
-Think about what is on the internet. It is not chiefly a body of work produced for AI by researchers or technologists. It is what countless connected people have written, explained, argued, built, taught, and shared. It is an imperfect and uneven record, of course; not everyone has been equally represented. But it is a vast expression of human culture.
-
-**We, the people, supplied much of the knowledge and thinking that these models can draw on.** That is the heart of the cultural artifact argument: the technology matters, but the learned substance comes from human civilisation.
-
-And the model does something genuinely new with it. It doesn't merely offer a search box over a library. It can respond to what we ask, combine what it has learned, and apply it to unfamiliar problems. It makes a great deal of human knowledge and patterns of thought available through conversation.
-
-That can look like a mysterious intelligence appearing out of nowhere. Yet it did not emerge from nowhere.
-
-**It emerged from us.**
-
-This doesn't make LLMs infallible, harmless, or simply human minds in digital form. They can be wrong, reflect the distortions in their training data, and be used in dangerous ways. Their capabilities are real, and so are their limitations. But understanding where those capabilities come from gives us a better starting point than imagining an alien intelligence.
-
-## A cultural artifact that talks back
-
-The Nomes' relationship with the Thing is striking because they have inherited a technology whose origins they barely understand. It seems to know far more than they do. But its knowledge is part of their own story.
-
-We know more about how LLMs are made than the Nomes knew about the Thing. Still, we can find their behaviour surprising enough to forget what they were built from.
-
-Books, libraries, and the internet have long preserved and shared human knowledge. Now we have created something different: a cultural artifact that can converse with us, work with what it has learned, and help us think.
-
-That doesn't settle every question about AI. It does change the way we begin asking them.
-
-## Read *Truckers* together
-
-I would recommend *Truckers* (1989) to anyone curious about this—not only people working in technology. It's a funny, imaginative adventure for older children and adults, and a wonderful book to read with your family.
-
-Then talk about the Thing. Why did the Nomes find it so mysterious? What did it really contain? And how different is our relationship with LLMs?
-
-*Truckers* is followed by *Diggers* and *Wings* in Terry Pratchett's *Bromeliad Trilogy*.
+And perhaps we should learn to see our own Thing the same way: **embrace it as a cultural artifact—something made from us, to be understood and used thoughtfully.**
