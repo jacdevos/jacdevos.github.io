@@ -25,17 +25,17 @@ That is a wonderful way into the conversation we're having about LLMs.
 
 After decades of AI research, a crucial breakthrough was finding architectures and training methods that could learn remarkably general patterns from data. Transformers helped make that possible. But nobody simply wrote an algorithm containing all the answers or programmed intelligence into it.
 
-The striking discovery was **scaling**. As researchers trained larger models with more data and computing power, the models became more capable—sometimes in ways that surprised even their creators. Small language models could do interesting things, but the usefulness of modern LLMs grew dramatically as the scale increased. Scaling is not just about storing more facts: model capacity, training, data quality and subsequent refinement all matter.
+The striking discovery was **scaling**: as these models learned from more and more human-created material, their abilities became dramatically more useful, sometimes in ways that surprised their creators. The full technical story also involves model size, training and data quality. But the point here is simpler: a mechanism that seemed limited at smaller scales became remarkable when it could draw on an enormous breadth of human knowledge.
 
 And what were these systems learning from at that scale? Enormous collections of human-created material, much of it drawn from the internet: explanations, arguments, stories, instructions, code, discoveries and everyday conversations. Not literally every page of the internet, and not a perfect copy of what people wrote. Models learn statistical representations from selected data, and later training—including human feedback and reinforcement learning—helps shape their behaviour.
 
-But the essential insight is this: **the models' impressive capabilities are learned from that vast body of human activity, rather than explicitly written into a genius algorithm.**
+But the essential insight is this: **the algorithm is not a little genius containing intelligence of its own. It is a mechanism for learning from, capturing patterns in, and making use of our collective intelligence.** That is a useful mental model, even though a trained model is not a literal storehouse of human minds or knowledge.
 
 ## Whose knowledge is it?
 
 Think about what is on the internet. It is not chiefly a body of work produced for AI by researchers or technologists. It is what countless connected people have written, explained, argued, built, taught, and shared. It is an imperfect and uneven record, of course; not everyone has been equally represented. But it is a vast expression of human culture.
 
-**We, the people, created much of the material that makes these models capable.** That is the heart of the cultural artifact argument: the technology matters, but the learned substance comes from human civilisation.
+**We, the people, supplied much of the knowledge and thinking that these models can draw on.** That is the heart of the cultural artifact argument: the technology matters, but the learned substance comes from human civilisation.
 
 And the model does something genuinely new with it. It doesn't merely offer a search box over a library. It can respond to what we ask, combine what it has learned, and apply it to unfamiliar problems. It makes a great deal of human knowledge and patterns of thought available through conversation.
 
