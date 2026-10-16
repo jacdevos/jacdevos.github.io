@@ -8,7 +8,10 @@ date: 2026-10-16
 description: "What Terry Pratchett's Truckers (1989) tells us about AI and our collective knowledge."
 ---
 
-<img src="/assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers_cover_crop_credited.png" alt="Nomes from Terry Pratchett's Truckers, illustrated by Josh Kirby" width="468" height="290" style="max-width: 100%; height: auto;">
+<figure style="margin: 0 0 1.5rem;">
+  <img src="/assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers-josh-kirby.jpg" alt="Nomes hauling a banana among ropes and cotton reels in Josh Kirby's artwork for Truckers" width="1024" height="708" style="display: block; width: 100%; height: auto; margin: 0;">
+  <figcaption style="font-size: 0.8rem; line-height: 1.5; margin-top: 0.4rem;">Truckers by Terry Pratchett · Cover art by Josh Kirby</figcaption>
+</figure>
 
 People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a clearer way to think about what AI actually is.
 
