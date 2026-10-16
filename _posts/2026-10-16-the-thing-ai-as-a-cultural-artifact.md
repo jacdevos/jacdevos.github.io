@@ -9,9 +9,7 @@ description: "What Terry Pratchett's Truckers (1989) tells us about AI and our c
 
 People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a better mental model of what AI actually is.
 
-In Terry Pratchett's *Truckers* (1989), tiny people called Nomes carry a mysterious black box called **the Thing**, handed down through generations. They treasure it without understanding it. For years, it remains silent.
-
-Then they arrive at a department store. Near its electrical supply, the Thing suddenly comes to life and speaks. It tells them about their ancestors and a forgotten civilisation capable of space travel.
+In Terry Pratchett's *Truckers* (1989), tiny people called Nomes treasure a mysterious black box called **the Thing**, handed down through generations but never understood. It remains silent for years until they reach a department store, where the electrical supply brings it to life. It speaks of their ancestors and a forgotten civilisation capable of space travel.
 
 But the Thing does more than reveal their past. It answers their questions, helps them solve problems, and guides them through unfamiliar challenges.
 
