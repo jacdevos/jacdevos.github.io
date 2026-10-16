@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Don't fear The Thing: AI is our cultural artifact"
+permalink: /2026-10-16/ai-cultural-artifact
 date: 2026-10-16
 description: "What Terry Pratchett's Truckers (1989) tells us about AI and our collective knowledge."
 ---
