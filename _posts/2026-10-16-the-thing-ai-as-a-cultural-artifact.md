@@ -9,7 +9,9 @@ description: "What Terry Pratchett's Truckers (1989) tells us about AI and our c
 ---
 
 <figure style="margin: 0 0 1.5rem;">
-  <img src="/assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers-josh-kirby.jpg" alt="Nomes hauling a banana among ropes and cotton reels in Josh Kirby's artwork for Truckers" width="1024" height="708" style="display: block; width: 100%; height: auto; margin: 0;">
+  <div style="position: relative; overflow: hidden; aspect-ratio: 1014 / 686;">
+    <img src="/assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers-josh-kirby.jpg" alt="Nomes hauling a banana among ropes and cotton reels in Josh Kirby's artwork for Truckers" width="1024" height="708" style="position: absolute; top: -0.728863%; left: -0.493097%; display: block; width: 100.986193%; max-width: none; height: auto; margin: 0;">
+  </div>
   <figcaption style="font-size: 0.8rem; line-height: 1.5; margin-top: 0.4rem;">Truckers by Terry Pratchett · Cover art by Josh Kirby</figcaption>
 </figure>
 
