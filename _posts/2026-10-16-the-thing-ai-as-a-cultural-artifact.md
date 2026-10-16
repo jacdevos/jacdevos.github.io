@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Don't Fear the Thing: AI Is Our Cultural Artifact"
+title: "Don't Fear The Thing: AI Is Our Cultural Artifact"
 date: 2026-10-16
 description: "What Terry Pratchett's Truckers (1989) tells us about AI and our collective knowledge."
 ---
@@ -9,11 +9,11 @@ description: "What Terry Pratchett's Truckers (1989) tells us about AI and our c
 
 People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a better mental model of what AI actually is.
 
-In Terry Pratchett's *Truckers* (1989), tiny people called Nomes treasure a mysterious black box called **the Thing**, handed down through generations but never understood. It remains silent for years until they reach a department store, where the electrical supply brings it to life. It speaks of their ancestors and a forgotten civilisation capable of space travel.
+In Terry Pratchett's *Truckers* (1989), tiny people called Nomes treasure a mysterious black box called **The Thing**, handed down through generations but never understood. It remains silent for years until they reach a department store, where the electrical supply brings it to life. It speaks of their ancestors and a forgotten civilisation capable of space travel.
 
-But the Thing does more than reveal their past. It answers their questions, helps them solve problems, and guides them through unfamiliar challenges.
+But The Thing does more than reveal their past. It answers their questions, helps them solve problems, and guides them through unfamiliar challenges.
 
-What seemed alien was their own civilisation's accumulated knowledge, helping ordinary people navigate their world.
+What seemed alien was their own civilisation's accumulated knowledge, helping *ordinary people* navigate their world.
 
 AI can feel just as mysterious. But the breakthrough was discovering a general-purpose way to capture knowledge in LLMs and make it usable in many different ways (Transformers, 2017).
 
