@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-image: /assets/article_images/2026-07-15-loops-are-just-process-triggers/process-triggers.svg
+image: /assets/article_images/2026-07-15-loops-are-just-process-triggers/process-triggers.png
+catalogue_image: /assets/article_images/2026-07-15-loops-are-just-process-triggers/process-triggers.svg
 image_width: 1400
 image_height: 788
 title: '“Loop engineering” is process automation with agents'

@@ -60,3 +60,10 @@ exclude:
   - README.md
   - LICENCE
   - vendor
+
+# Sharing image fallback; individual posts override this with their own image.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/jacdevos300x300.png

@@ -19,12 +19,13 @@
       </p>
     </div>
 
-    {% if post.image %}
+    {% assign catalogue_image = post.catalogue_image | default: post.image %}
+    {% if catalogue_image and post.catalogue_image != false %}
     {% capture post_image %}
-      {% if post.image contains '://' %}
-        {{ post.image }}
+      {% if catalogue_image contains '://' %}
+        {{ catalogue_image }}
       {% else %}
-        {{ post.image | prepend: site.baseurl }}
+        {{ catalogue_image | prepend: site.baseurl }}
       {% endif %}
     {% endcapture %}
     <div class="catalogue-item-image">

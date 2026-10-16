@@ -1,7 +1,8 @@
 ---
 published: true
 layout: post
-image: /assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.svg
+image: /assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.png
+catalogue_image: /assets/article_images/2026-05-13-executable-markdown-specs-agentic-coding/agentic-development-flow.svg
 image_width: 1400
 image_height: 788
 title: BDD for Spec-driven Agentic Development

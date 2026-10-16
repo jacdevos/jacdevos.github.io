@@ -1,5 +1,7 @@
 ---
 layout: post
+image: /assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers_cover_crop_credited.png
+catalogue_image: false
 title: "Don't fear The Thing: AI is our cultural artifact"
 permalink: /2026-10-16/ai-cultural-artifact
 date: 2026-10-16
