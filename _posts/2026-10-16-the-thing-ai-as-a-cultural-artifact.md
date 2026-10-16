@@ -7,15 +7,15 @@ description: "What Terry Pratchett's Truckers (1989) tells us about AI and our c
 
 <img src="/assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers_cover_crop_credited.png" alt="Nomes from Terry Pratchett's Truckers, illustrated by Josh Kirby" width="468" height="290" style="max-width: 100%; height: auto;">
 
-People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a better mental model of what AI actually is.
+People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a clearer way to think about what AI actually is.
 
 In Terry Pratchett's *Truckers* (1989), tiny people called Nomes treasure a mysterious black box called **The Thing**, handed down through generations but never understood. It remains silent for years until they reach a department store, where the electrical supply brings it to life. It speaks of their ancestors and a forgotten civilisation capable of space travel.
 
 But The Thing does more than reveal their past. It helps them make sense of their world and find a way forward. What seemed alien was their own civilisation's accumulated knowledge, helping *ordinary people* navigate their world.
 
-Our current AI can feel just as mysterious. But the breakthrough was discovering a general-purpose way to capture knowledge in LLMs and make it usable in many different ways (Transformers, 2017). Remarkably, the more knowledge these Transformers absorbed, the more intelligent it became.
+Our current AI can feel just as mysterious. But the breakthrough was discovering a way to capture knowledge and make it usable in many different ways (LLM Transformers, 2017). Remarkably, the more knowledge it absorbed, the more intelligent it became.
 
-So the real leap came when we trained them on an enormous portion of the internet, knowledge created by people from all walks of life. It's our collective knowledge that forms the foundation of AI's intelligence.
+So the real leap came when we trained it on an enormous portion of the internet, knowledge created by people from all walks of life. It's our collective knowledge that forms the foundation of AI's intelligence.
 
 And increasingly, open-weight models make this technology available for us to own.
 
