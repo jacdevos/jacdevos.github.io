@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Don't Fear The Thing: AI Is Our Cultural Artifact"
+title: "Don't fear The Thing: AI is our cultural artifact"
 date: 2026-10-16
 description: "What Terry Pratchett's Truckers (1989) tells us about AI and our collective knowledge."
 ---
@@ -17,7 +17,7 @@ Our current AI can feel just as mysterious. But the breakthrough was discovering
 
 Remarkably, the more knowledge these Transformers absorbed, the more intelligent it became. So the real leap came when we trained them on an enormous portion of the internet, knowledge created by people from all walks of life.
 
-It's our collective knowledge that forms the foundation of their intelligence. And increasingly, open-weight models make this technology available for us to own.
+It's our collective knowledge that forms the foundation of AI's intelligence. And increasingly, open-weight models make this technology available for us to own.
 
 **AI is our cultural artifact.**
 
