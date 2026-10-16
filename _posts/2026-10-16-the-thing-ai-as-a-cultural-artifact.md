@@ -13,9 +13,9 @@ In Terry Pratchett's *Truckers* (1989), tiny people called Nomes treasure a myst
 
 But The Thing does more than reveal their past. It answers questions and helps solve problems. What seemed alien was their own civilisation's accumulated knowledge, helping *ordinary people* navigate their world.
 
-Current AI can feel just as mysterious. But the breakthrough was discovering a general-purpose way to capture knowledge in LLMs and make it usable in many different ways (Transformers, 2017).
+Our current AI can feel just as mysterious. But the breakthrough was discovering a general-purpose way to capture knowledge in LLMs and make it usable in many different ways (Transformers, 2017).
 
-Remarkably, the more knowledge these Transformers absorbed, the more intelligent they became. So the real leap came when we trained them on an enormous portion of the internet, knowledge created by people from all walks of life.
+Remarkably, the more knowledge these Transformers absorbed, the more intelligent it became. So the real leap came when we trained them on an enormous portion of the internet, knowledge created by people from all walks of life.
 
 It's our collective knowledge that forms the foundation of their intelligence. And increasingly, open-weight models make this technology available for us to own.
 
