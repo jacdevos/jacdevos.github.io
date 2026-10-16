@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Don't Fear the Thing: LLMs Are Our Cultural Artifact"
+date: 2026-10-16
+description: "What Terry Pratchett's Truckers (1989) tells us about LLMs and our collective knowledge."
+---
+
+People are afraid of LLMs—even the people training them. There are real risks with new, powerful technologies, but we need a better mental model of what they actually are.
+
+In Terry Pratchett's *Truckers* (1989), tiny people called Nomes carry a mysterious black box called **the Thing**, handed down through generations. They treasure it without understanding it. For years, it remains silent.
+
+Then they arrive at a department store. Near its electrical supply, the Thing suddenly comes to life and speaks. It tells them about their ancestors and a forgotten civilisation capable of space travel.
+
+But the Thing does more than reveal their past. It answers their questions, helps them solve problems, and guides them through unfamiliar challenges.
+
+What seemed alien was their own civilisation's accumulated knowledge, helping ordinary people navigate their world.
+
+LLMs can feel just as mysterious. But the breakthrough was discovering a general-purpose way to capture knowledge and make it usable in many different ways (Transformers, 2017).
+
+And remarkably, the more knowledge these transformers absorbed, the more intelligent they became.
+
+The real leap came when we trained them on an enormous portion of the internet—knowledge created by people from all walks of life.
+
+It's our collective knowledge that forms the foundation of their intelligence. And increasingly, open-weight models make this technology available for us to own.
+
+**LLMs are our cultural artifact.**
+
+P.S. Read Terry Pratchett's *Truckers*, especially if you have kids.
