@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LLMs is Our Cultural Artifact"
+title: "Don't Fear the Thing: LLMs Are Our Cultural Artifact"
 date: 2026-10-16
 description: "What Terry Pratchett's Truckers (1989) tells us about LLMs and our collective knowledge."
 ---
