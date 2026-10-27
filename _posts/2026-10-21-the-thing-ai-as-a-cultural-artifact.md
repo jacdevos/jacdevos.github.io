@@ -5,7 +5,7 @@ catalogue_image_include: truckers-illustration.html
 excerpt: "People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a clearer way to think about what AI actually is."
 title: "Don't fear The Thing: AI is our cultural artifact"
 permalink: /2026-10-16/ai-cultural-artifact
-date: 2026-10-16
+date: 2026-10-21
 description: "What Terry Pratchett's Truckers (1989) tells us about AI and our collective knowledge."
 ---
 
