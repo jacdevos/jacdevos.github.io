@@ -1,19 +1,15 @@
 ---
 layout: post
 image: /assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers_cover_crop_credited.png
-catalogue_image: false
+catalogue_image_include: truckers-illustration.html
+excerpt: "People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a clearer way to think about what AI actually is."
 title: "Don't fear The Thing: AI is our cultural artifact"
 permalink: /2026-10-16/ai-cultural-artifact
 date: 2026-10-16
 description: "What Terry Pratchett's Truckers (1989) tells us about AI and our collective knowledge."
 ---
 
-<figure style="margin: 0 0 1.5rem;">
-  <div style="position: relative; overflow: hidden; aspect-ratio: 1014 / 686;">
-    <img src="/assets/article_images/2026-10-16-the-thing-ai-as-a-cultural-artifact/truckers-josh-kirby.jpg" alt="Nomes hauling a banana among ropes and cotton reels in Josh Kirby's artwork for Truckers" width="1024" height="708" style="position: absolute; top: -0.728863%; left: -0.493097%; display: block; width: 100.986193%; max-width: none; height: auto; margin: 0;">
-  </div>
-  <figcaption style="font-size: 0.8rem; line-height: 1.5; margin-top: 0.4rem;">Truckers by Terry Pratchett · Cover art by Josh Kirby</figcaption>
-</figure>
+{% include truckers-illustration.html %}
 
 People are afraid of AI, even the people training it. There are real risks with new, powerful technologies, but we need a clearer way to think about what AI actually is.
 

@@ -13,6 +13,8 @@
       <p>
         {% if post.excerpt_separator %}
           {{ post.excerpt | strip_html }}
+        {% elsif post.catalogue_image_include %}
+          {{ post.excerpt | strip_html | truncatewords: 30 }}
         {% else %}
           {{ post.content | strip_html | truncatewords: 30 }}
         {% endif %}
@@ -20,7 +22,11 @@
     </div>
 
     {% assign catalogue_image = post.catalogue_image | default: post.image %}
-    {% if catalogue_image and post.catalogue_image != false %}
+    {% if post.catalogue_image_include %}
+    <div class="catalogue-item-image">
+      {% include {{ post.catalogue_image_include }} %}
+    </div>
+    {% elsif catalogue_image and post.catalogue_image != false %}
     {% capture post_image %}
       {% if catalogue_image contains '://' %}
         {{ catalogue_image }}

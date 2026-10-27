@@ -11,6 +11,12 @@ layout: default
     {% endif %}
   </div>
 
+  {% unless content contains '<img' %}
+    {% if page.image and page.image != '/assets/images/jacdevos300x300.png' %}
+      <img src="{{ page.image | relative_url }}" alt="{{ page.title | escape }}" {% if page.image_width %}width="{{ page.image_width }}"{% endif %} {% if page.image_height %}height="{{ page.image_height }}"{% endif %} style="display: block; max-width: 100%; height: auto;">
+    {% endif %}
+  {% endunless %}
+
   {{ content }}
 </div>
 

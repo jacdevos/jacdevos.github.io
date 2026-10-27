@@ -9,6 +9,8 @@ title: '“Loop engineering” is process automation with agents'
 context: Essay
 ---
 
+![Schedule and development process lanes showing loops as triggers and skills as task definitions](/assets/article_images/2026-07-15-loops-are-just-process-triggers/process-triggers.svg)
+
 ## TL;DR
 
 “Loop engineering” brings a shift beyond prompting agents one turn at a time, but behind the new term, there seem to be simple and familiar process automation principles at play. I think of “loop engineering” simply as process automation with agents. A loop is just a scheduled task trigger, and a skill is just reusable instructions to perform a task.
@@ -37,8 +39,6 @@ From that perspective:
 The ideas behind process automation are not new. What is new is the way it is implemented: using agent development harnesses such as Claude Code, Codex, Cursor, and OpenCode, together with a variety of new practices.
 
 ## Examples
-
-![Schedule and development process lanes showing loops as triggers and skills as task definitions](/assets/article_images/2026-07-15-loops-are-just-process-triggers/process-triggers.svg)
 
 ### Scheduled automation
 
