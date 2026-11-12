@@ -47,3 +47,5 @@ Let’s look at how the lifecycle evolved to understand it.
 3. **Tooling: Build end-to-end pipelines**
 
    Today’s tooling is split between agentic development environments (ADEs) and traditional CI/CD tools. I’d like to see them joined in one pipeline that carries a change from specification through delivery in a disciplined way.
+
+[Download the PowerPoint slides](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-in-the-agentic-era.pptx)
