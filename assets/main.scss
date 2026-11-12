@@ -339,3 +339,17 @@ footer span {
 .post .responsive-embed.slideshare {
   padding-bottom: 62.5%;
 }
+
+// Let the SDLC slide images use the phone width while keeping the text column intact.
+@media (max-width: 599px) {
+  .post .sdlc-slide {
+    width: calc(100vw - 1rem);
+    margin-left: calc(50% - 50vw + 0.5rem);
+  }
+
+  .post .sdlc-slide img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}

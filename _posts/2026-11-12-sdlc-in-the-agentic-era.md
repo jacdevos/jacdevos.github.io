@@ -3,7 +3,6 @@ published: true
 layout: post
 permalink: /2026-11-12/sdlc-in-the-agentic-era
 image: /assets/article_images/2026-11-12-sdlc-in-the-agentic-era/cover.jpg
-catalogue_image: /assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png
 image_width: 1600
 image_height: 1000
 title: Evolution of the Software Development Lifecycle (SDLC)
@@ -27,12 +26,15 @@ Let’s look at how the lifecycle evolved to understand it.
 <!--more-->
 
 [![SDLC v1 (pre-2000). Waterfall with handovers. Planning, requirements and spec were seen as upfront design. Development, testing and deployment were treated as manual manufacturing.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v1.png)](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v1.png)
+{: .sdlc-slide}
 
 [![SDLC v2 (2002–2025). Iterative development with CI/CD. Development and testing are part of iterative engineering design. Repeatable automation handles deployment. Use what you learn to revise the design.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v2.png)](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v2.png)
+{: .sdlc-slide}
 
 [![SDLC v3 (2026+). AI-assisted iterative development. The same six stages appear in two lanes. AI automates repeatable engineering work in the pipeline and collaborates in the iterative design process.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png)](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png)
+{: .sdlc-slide}
 
-## What can we learn from this change?
+## What can we learn from this for 2027?
 
 1. **Automation: Move from CI/CD to CE**
 
