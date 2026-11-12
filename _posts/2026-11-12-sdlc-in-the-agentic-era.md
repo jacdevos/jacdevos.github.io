@@ -1,36 +1,49 @@
 ---
 published: true
 layout: post
-image: /assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png
+permalink: /2026-11-12/sdlc-in-the-agentic-era
+image: /assets/article_images/2026-11-12-sdlc-in-the-agentic-era/cover.jpg
+catalogue_image: /assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png
 image_width: 1600
 image_height: 1000
-title: The SDLC in the agentic era
+title: Evolution of the Software Development Lifecycle (SDLC)
 context: Essay
+excerpt_separator: "<!--more-->"
+excerpt: In 2026, software engineering is undergoing its most dramatic change yet. So how does this change the disciplined software engineering process?
 ---
 
-AI can automate more of the repeatable engineering work across the software development lifecycle. It can also help us try a design, test it and revise it. How does that change disciplined software engineering? Let’s look at how the lifecycle evolved.
+*Into the Agentic Era*
 
-[![SDLC v3 shows the same six stages in two lanes, an automated repeatable pipeline and an iterative design process.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png)](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png)
+![Cover slide over a black-and-white photograph of Ford’s Highland Park assembly line, circa 1913. Photograph from the Library of Congress.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/cover.jpg)
 
-## SDLC v1 (pre-2000) · Waterfall with handovers
+## SDLC in the Agentic Era
 
-In the waterfall view, planning, requirements and specification were seen as engineering design. The design was done up front and handed over. Development and testing were treated like manual manufacturing.
+In 2026, software engineering is undergoing its most dramatic change yet.
 
-Working code kept exposing details that the specification hadn’t settled. Writing it and testing it helped us discover the real complexity, the constraints and the flaws in how the solution fit the problem. The code itself was a design artefact. [Jack W. Reeves, *What Is Software Design?*](https://www.developerdotstar.com/mag/articles/reeves_design.html)
+So how does this change the disciplined software engineering process?
 
-## SDLC v2 (2002–2025) · Iterative development with CI/CD
+Let’s look at how the lifecycle evolved to understand it.
 
-Once you see development and testing as part of engineering design, the process looks different. You build something, see how it behaves and use what you learn to revise the design. CI/CD takes care of the repeatable work of building, running automated checks and delivering the software.
+<!--more-->
 
-## SDLC v3 (2026+) · AI-assisted iterative development
+[![SDLC v1 (pre-2000). Waterfall with handovers. Planning, requirements and spec were seen as upfront design. Development, testing and deployment were treated as manual manufacturing.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v1.png)](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v1.png)
 
-The same stages now have two lanes. Both run through planning, requirements, specification, development, testing and deployment.
+[![SDLC v2 (2002–2025). Iterative development with CI/CD. Development and testing are part of iterative engineering design. Repeatable automation handles deployment. Use what you learn to revise the design.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v2.png)](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v2.png)
 
-- **Automation** runs repeatable work through a pipeline. An agent can generate and review code. The pipeline can build it, run checks and deploy it. Some of those steps produce variable results, and others are more deterministic.
-- **Design** is the iterative work of deciding what to try and learning from it. An agent can help explore an option. We might choose a test environment and an audience, let the pipeline deploy to that target, then use what we learn to revise the design.
+[![SDLC v3 (2026+). AI-assisted iterative development. The same six stages appear in two lanes. AI automates repeatable engineering work in the pipeline and collaborates in the iterative design process.](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png)](/assets/article_images/2026-11-12-sdlc-in-the-agentic-era/sdlc-v3.png)
 
 ## What can we learn from this change?
 
-1. **Automation. Move from CI/CD to Continuous Engineering (CE).** Use AI to automate repeatable engineering work throughout the lifecycle that CI/CD alone could not automate before.
-2. **Design. Use the extra room to iterate.** AI makes it easier to try, test and revise a design. As in earlier versions of the SDLC, a focus on automation and handovers can obscure the design loop.
-3. **Tooling. Build end-to-end pipelines.** Today’s tooling is split between agentic development environments and traditional CI/CD tools. I’d like to see them joined in one pipeline that carries a change from specification through delivery in a disciplined way.
+1. **Automation: Move from CI/CD to CE**
+
+   CE is Continuous Engineering.
+
+   Use AI to automate repeatable work throughout the lifecycle that CI/CD alone could not automate before.
+
+2. **Design: Use the extra room to iterate**
+
+   AI makes it easier to try, test and revise a design. As in earlier versions of the SDLC, a focus on automation and handovers can obscure the design loop.
+
+3. **Tooling: Build end-to-end pipelines**
+
+   Today’s tooling is split between agentic development environments (ADEs) and traditional CI/CD tools. I’d like to see them joined in one pipeline that carries a change from specification through delivery in a disciplined way.
